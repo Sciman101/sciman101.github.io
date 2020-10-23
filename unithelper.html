@@ -76,21 +76,21 @@
 	<hr>
 	<h2>Attack</h2>
 	<div>Range: <select onchange='recalculate()' id='range'>
-		<option value=0>Melee</option>
-		<option value=1>Medium</option>
-		<option value=2>Long</option>
-		<option value=2>Artillery</option>
-		<option value=4>Super</option>
+		<option value=0>Melee (Adjacent)</option>
+		<option value=1>Medium (0-1 tile)</option>
+		<option value=2>Long (0-2 tiles)</option>
+		<option value=2>Artillery (3-4 tiles)</option>
+		<option value=4>Super (0-4 tiles)</option>
 	</select></div>
 	<div>Damage: <span id='dmg'>0</span>hp <button onclick='incrementDmg(-10)'>-</button><button onclick='incrementDmg(10)'>+</button></div>
 	<hr>
 	<h2>Ability</h2>
 	<div>Ability Range: <select onchange='recalculate()' id='abrange'>
-		<option value=0>Melee</option>
-		<option value=1>Medium</option>
-		<option value=2>Long</option>
-		<option value=2>Artillery</option>
-		<option value=4>Super</option>
+		<option value=0>Melee (Adjacent)</option>
+		<option value=1>Medium (0-1 tile)</option>
+		<option value=2>Long (0-2 tiles)</option>
+		<option value=2>Artillery (3-4 tiles)</option>
+		<option value=4>Super (0-4 tiles)</option>
 	</select></div>
 	<div>Additional ability cost: <span id='ability'>0</span> <button onclick='incrementAbility(-1)'>-</button><button onclick='incrementAbility(1)'>+</button></div>
 	
@@ -104,7 +104,7 @@
 		<li>Abilities with a percent chance to work receive a percentage multiple to their cost (i.e. 25% chance to work means 25% chance ability cost)</li>
 		<hr>
 		<b>Homebrew Rules</b>
-		<li>Abilities which modify terrain cost 1gp per terrain altered, plus any additional cost the terrain may incur (i.e. effect terrain)</li>
+		<li>Abilities which modify terrain cost 1rp per terrain altered, plus any additional cost the terrain may incur (i.e. effect terrain)</li>
 		<li>Abilities which generate rp cost 3rp per 1rp made. This is typically only effective with passive abilities, and sets their base cost to 3</li>
 	</ul>
 	<hr>
