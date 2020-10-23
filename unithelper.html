@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Infinitron Unit Cost Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	
+	<style>
+		body {
+			font-family: 'Consolas';
+		}
+	</style>
+    
+</head>
+<body class='theme-default'>
+
+	<script>
+		let hp = 20;
+		let spd = 1;
+		let dmg = 0;
+		let ability = 0;
+		window.onload = (event) => {
+		
+		}
+		
+		function incrementHealth(delta) {
+			hp += delta;
+			if (hp <= 0) hp = 20;
+			document.getElementById('hp').innerHTML = hp;
+			recalculate();
+		}
+		function incrementSpeed(delta) {
+			spd += delta;
+			if (spd <= 0) spd = 0;
+			document.getElementById('spd').innerHTML = spd;
+			recalculate();
+		}
+		function incrementDmg(delta) {
+			dmg += delta;
+			if (dmg <= 0) dmg = 0;
+			document.getElementById('dmg').innerHTML = dmg;
+			recalculate();
+		}
+		function incrementAbility(delta) {
+			ability += delta;
+			if (ability <= 0) ability = 0;
+			document.getElementById('ability').innerHTML = ability;
+			recalculate();
+		}
+		
+		// Recalculate cost
+		function recalculate() {
+			let cost = 0;
+			// Add speed
+			if (spd == 0) cost = -2;
+			else cost += spd-1;
+			// Add health
+			cost += (hp/20)-1;
+			
+			// Add attack
+			cost += dmg/10;
+			cost += parseInt(document.getElementById('range').value);
+			
+			// Ability
+			cost += ability;
+			cost += parseInt(document.getElementById('abrange').value);
+			
+			document.getElementById('cost').innerHTML = cost;
+		}
+    </script>
+    
+	<h1>Unit Cost: <span id='cost'>0</span></h1>
+	
+	<div>Health: <span id='hp'>20</span>hp <button onclick='incrementHealth(-20)'>-</button><button onclick='incrementHealth(20)'>+</button></div>
+	<div>Movement: <span id='spd'>1</span> <button onclick='incrementSpeed(-1)'>-</button><button onclick='incrementSpeed(1)'>+</button></div>
+	<hr>
+	<h2>Attack</h2>
+	<div>Range: <select onchange='recalculate()' id='range'>
+		<option value=0>Melee</option>
+		<option value=1>Medium</option>
+		<option value=2>Long</option>
+		<option value=2>Artillery</option>
+		<option value=4>Super</option>
+	</select></div>
+	<div>Damage: <span id='dmg'>0</span>hp <button onclick='incrementDmg(-10)'>-</button><button onclick='incrementDmg(10)'>+</button></div>
+	<hr>
+	<h2>Ability</h2>
+	<div>Ability Range: <select onchange='recalculate()' id='abrange'>
+		<option value=0>Melee</option>
+		<option value=1>Medium</option>
+		<option value=2>Long</option>
+		<option value=2>Artillery</option>
+		<option value=4>Super</option>
+	</select></div>
+	<div>Additional ability cost: <span id='ability'>0</span> <button onclick='incrementAbility(-1)'>-</button><button onclick='incrementAbility(1)'>+</button></div>
+	
+	<h3>Ability scoring reminders:</h3>
+	<ul>
+		<li>Anything that modifies health (damage, healing) costs 1rp per 20hp</li>
+		<li>Passive abilities may only target self and cost 1 point by default</li>
+		<li>Abilities locked to certain label terrain cost half</li>
+		<li>Loading/Unloading via transport abilities costs an action, but is 0rp</li>
+		<li>Abilities with a delayed reaction decrease cost by 1rp per turn</li>
+		<li>Abilities with a percent chance to work receive a percentage multiple to their cost (i.e. 25% chance to work means 25% chance ability cost)</li>
+		<hr>
+		<b>Homebrew Rules</b>
+		<li>Abilities which modify terrain cost 1gp per terrain altered, plus any additional cost the terrain may incur (i.e. effect terrain)</li>
+		<li>Abilities which generate rp cost 3rp per 1rp made. This is typically only effective with passive abilities, and sets their base cost to 3</li>
+	</ul>
+	<hr>
+	<div>Made for use with the game <a href='http://thesiteformerlyknownas.zachtronicsindustries.com/infinitron/'>Infinitron</a> by Zach Barth.</div>
+	
+</body>
+</html>
