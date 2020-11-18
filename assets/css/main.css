@@ -22,7 +22,7 @@ body {
   background-attachment: fixed;
   background-size: 15%;
 
-  font-family: Consolas;
+  font-family: 'Alatsi';
   color: var(--text-color);
 }
 
@@ -127,10 +127,10 @@ a:hover {
 .connections-list a {
   border-radius: 16px;
   padding:2px;
+  padding-left: 5px;
   margin: 4px;
+  box-shadow: 0 0 4px black;
   color:white;
-  box-shadow: 0 0 2px black;
-  background-color: white;
 }
 .connections-list a:hover {
   text-decoration: none;
@@ -138,7 +138,7 @@ a:hover {
 .connection-label {
   font-family: Consolas;
   font-weight: normal;
-  color: var(--text-color);
+  color: white;
 
   display: inline-block;
   max-width: 0;
@@ -192,12 +192,16 @@ article h1 {
 article h2 {
   font-weight: bold;
   font-size: 32px;
+  margin-top: 16px;
+  margin-bottom: 10px;
 }
 
 article p {
   border-radius: 4px;
   padding: 8px;
   margin: 4px;
+  line-height: 1.4;
+  font-size: 1.25em;
 }
 
 article p:nth-child(odd) {
@@ -225,6 +229,7 @@ article img {
 
 .expandable .toggle {
   cursor: pointer;
+  user-select: none;
   text-align: left;
   margin: 0;
   color: grey;

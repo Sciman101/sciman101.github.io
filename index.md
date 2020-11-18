@@ -1,36 +1,14 @@
 ---
 layout: default
 title: About
+description: Yali Izzo's personal site
 ---
-# Site under construction!
+# About
 
-This page is powered by [Jekyll](https://jekyllrb.com).
+Hey, thanks for stopping by! I'm **Yali** - New England based programmer, artist, and game developer (and, for the time being, student). I specialize in making what I like to think of as interesting, self-contained ideas with a lot of character. The kinds of things someone might give you a kind of sideways, mildly concerned glance for. That's me!
 
-This is a test
+This site serves as a way to link together a bunch of my social accounts, show off my work, and host little web-based experiments I need a place to put.
 
-Another paragraph
+There's not much here right now, I'm still in the process of putting everything together.
 
-Every other pararaph is highlighted with a slightly darker grey color to help improve visibility
-
-### Code block
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-You can also have ``inline code.``
-
-## My Characters
-{% include expandable.html title="Iekika" content="
-## The future-seeing imp
-Iekika acts first, thinks later. She's an intelligent person, but a lot of the time she ignores that intelligence in favor of playing out her next idea, which tends to be poorly thought out and risky. She's nothing if not an improviser, though, and can usually work her way out of any situation she or someone else causes with only a few scratches. She's incredibly athletic, generally the most active member of the friend group, and nearly always moving – whether that's destroying a training dummy out back, pacing around, or just tapping her foot. Her ability to improvise and act does come with the downside that she's terrible at planning ahead and considering the future, which was never a huge issue until she lost her ability to literally see the future. She has a deep desire to have 'her thing' - whether that be her place in society, her role in the friend group, her hobby, etc etc, she never feels content just wandering.
-
----
-**Psychic Abilities**
-- Future Vision - Iekika used to be able to see the future up until the next new moon, with events becoming cloudier the further in the future they were. She lost this when she got in an accident and bonked her head something fierce. It still comes back time to time when she experiences strong psychic energies, through magic, emotion, or other means.
-- Low Level Telepathy - Iekika can skim the surface-level thoughts of other intelligent creatures, and broadcast her own thoughts to them
-- Empathy - Iekika broadcasts whatever emotion she's feeling to people around her at a reduced amount, and she feels the emotions of people around her, again at a reduced amount
-- Glamour - Iekika can put out a phychic field that causes people to perceive her as how they'd expect her to look. For instance, if someone had was meeting her for the first time in a primarily human occupied city, they might expect her to be a human and would perceive her as such. Doing this requires some level of concentration on Iekika's part, though" %}
-{% include expandable.html title="Amber" content="Character Description Here" %}
-{% include expandable.html title="Uma" content="Character Description Here" %}
-{% include expandable.html title="Darue" content="Character Description Here" %}
+This site was made using [Jekyll](https://jekyllrb.com/) and is hosted with [GitHub Pages](https://pages.github.com/). The source is available [here](https://github.com/Sciman101/sciman101.github.io) on my GitHub.

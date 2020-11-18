@@ -9,9 +9,12 @@
   <meta name="theme-color" content="#750bff">
 
   <meta name="author" content="Yali Izzo">
-  <meta name="description" content="Placeholder description">
+  <meta name="description" content="{{ page.description }}">
 
 
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet"> 
   <!-- Stylesheet -->
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
   <!-- Add icon library -->
@@ -43,7 +46,7 @@
             <!-- <div class='halfcirc'></div> -->
             <div class='connections-list'>
               {% for item in site.data.connections %}
-              <a class="{{ item.fa-icon }}" target="_blank" style="color: {{ item.color }};" href='{{ item.url }}'>
+              <a class="{{ item.fa-icon }}" target="_blank" style="background-color: {{ item.color }}" href='{{ item.url }}'>
                 <span class='connection-label'>
                   {{ item.name }}
                 </span>

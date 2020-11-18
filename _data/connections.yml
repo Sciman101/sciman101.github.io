@@ -15,5 +15,5 @@
 
 - name: Email
   url: mailto:Sciman1011@Gmail.com
-  color: black
+  color: "rgb(117, 11, 255)"
   fa-icon: fas fa-envelope
