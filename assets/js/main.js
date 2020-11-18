@@ -1,8 +1,8 @@
 // Array of possible splash messages
 const splash = [
   "Hello, World!",
-  "9 out of 10 doctors reccomend",
-  "1 out of 10 doctors do not reccomend",
+  "9 out of 10 doctors recommend",
+  "1 out of 10 doctors do not recommend",
   "Mk. II",
   "May contain nuts",
   "Trans rights!",
