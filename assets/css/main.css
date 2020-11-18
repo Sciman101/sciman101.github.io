@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: rgb(20, 20, 20);
+}
+
 html,
 body {
   margin: 0;
@@ -19,7 +23,7 @@ body {
   background-size: 15%;
 
   font-family: Consolas;
-  color: rgb(20, 20, 20);
+  color: var(--text-color);
 }
 
 /* The column in the middle that holds everything */
@@ -35,14 +39,19 @@ body {
 #header {
   background: white;
   box-shadow: 0 0 8px 0px black;
-  border-radius: 64em;
+  border-radius: 64em 8em 8em 64em;
 
+  width: 100%;
+  
   height: 128px;
+  max-height: 128px;
   margin-top: 24px;
+  margin-left: -16px;
 
   position: relative;
   z-index: 10;
 }
+#header td {padding: 0;}
 
 /* Icon */
 #header .icon {
@@ -54,15 +63,15 @@ body {
   top: 0;
   bottom: 0;
   margin: auto;
-  margin-left: 16px;
+  margin-left: 12px;
 
   transform: scale(1);
-  transition: 0.1s;
+  transition: transform 0.1s ease-out;
 }
 
 #header .icon:hover {
   transform: scale(1.1);
-  transition: 0.1s;
+  transition: transform 0.1s ease-out;
 }
 
 #header .icon:active {
@@ -75,37 +84,18 @@ body {
   display: inline-block;
   position: relative;
   margin-left: 128px;
-  max-width: 50%;
+  height: 100%;
 }
-
 #name-title {
   font-size: 2em;
 }
-
 #name-subtitle {
   font-size: 1.5em;
 }
-
 #splash {
+  font-size: 1em;
   color: darkgray;
-}
-
-/* Social links */
-.halfcirc {
-  height: 128px;
-  width: 72px;
-  float: right;
-  shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%, 75% 85%, 100% 50%, 75% 15%);
-  shape-margin: 8px;
-}
-.connections {
-  float: right;
-  text-align: right;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-.connections-list {
-  display: inline;
+  text-overflow: unset;
 }
 
 /* Normal Links */
@@ -116,6 +106,49 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* Social links */
+.halfcirc {
+  display: inline-block;
+  height: 128px;
+  width: 64px;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%, 100% 50%);
+}
+.connections {
+  float: right;
+  text-align: right;
+  vertical-align: middle;
+}
+.connections-list {
+  display: inline;
+  line-height: 1.5;
+}
+.connections-list a {
+  border-radius: 16px;
+  padding:2px;
+  margin: 4px;
+  color:white;
+  box-shadow: 0 0 2px black;
+  background-color: white;
+}
+.connections-list a:hover {
+  text-decoration: none;
+}
+.connection-label {
+  font-family: Consolas;
+  font-weight: normal;
+  color: var(--text-color);
+
+  display: inline-block;
+  max-width: 0;
+  overflow:hidden;
+
+  transition: max-width 0.4s ease-out;
+}
+.connections-list a:hover .connection-label {
+  max-width: 64px;
+  transition: max-width 0.3s ease-out;
 }
 
 code {

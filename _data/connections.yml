@@ -1,0 +1,19 @@
+- name: Twitter
+  url: https://twitter.com/sciman101
+  fa-icon: fab fa-twitter
+  color: "#1da1f2"
+
+- name: itch.io
+  url: https://sciman101.itch.io
+  fa-icon: fab fa-itch-io
+  color: "#fa5c5c"
+
+- name: GitHub
+  url: https://github.com/sciman101
+  fa-icon: fab fa-github
+  color: "#171515"
+
+- name: Email
+  url: mailto:Sciman1011@Gmail.com
+  color: black
+  fa-icon: fas fa-envelope
