@@ -1,0 +1,198 @@
+@import "monokai.css";
+
+/* Univeral stuff */ 
+* {
+  box-sizing: border-box;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image:url('../img/bg.png');
+  background-attachment: fixed;
+  background-size:15%;
+
+  font-family: Consolas;
+  color: rgb(20, 20, 20);
+}
+
+/* The column in the middle that holds everything */
+#main {
+  height: 100%;
+  width: 100%;
+  max-width: min(750px,90vw);
+
+  margin: 0 auto 32px auto;
+}
+
+/* Header stuff */
+#header {
+  background: white;
+  box-shadow: 0 0 8px 0px black;
+  border-radius: 64em;
+
+  height: 128px;
+  margin-top: 24px;
+
+  position: relative;
+  z-index: 10;
+}
+/* Icon */ 
+#header .icon {
+  border-radius: 100%;
+  box-shadow: inset 0 0 128px 128px black;
+
+  float:left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 16px;
+
+  transform: scale(1);
+  transition: 0.1s;
+}
+#header .icon:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+#header .icon:active {
+  transform: scale(0.9);
+  transition: 0.05s;
+}
+
+/* Header title/splash */
+.name {
+  display: inline-block;
+  position: relative;
+  margin-left: 128px;
+  max-width: 50%;
+}
+#name-title {
+  font-size: 2em;
+}
+#name-subtitle {
+  font-size: 1.5em;
+}
+#splash {
+  color: darkgray;
+}
+
+/* Social links */
+.links {
+  float:right;
+  text-align: right;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+.links p {
+  display: inline;
+}
+.halfcirc {
+  height: 128px;
+  width: 72px;
+  float: right;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%, 75% 85%, 100% 50%, 75% 15%);
+  shape-margin: 8px;
+}
+
+/* Links */
+a {
+  color: rgb(117, 11, 255);
+  text-decoration: none;
+  padding: 1px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgb(96, 44, 109);
+  padding: 3px;
+  color: white;
+  box-shadow: inset 0 0 2px black;
+}
+
+/* Article stuff */
+article {
+  position: relative;
+
+  top: -32px;
+
+  width:100%;
+
+  padding: 12px;
+
+  background: lightgrey;
+
+  box-shadow: 0 0 8px 0px black;
+
+  border-radius:1%;
+}
+/* Article title */
+article h1 {
+  color: rgb(134, 102, 177);
+  font-weight: bold;
+  font-size: 48px;
+  text-shadow: 3px 3px black;
+  text-align: center;
+}
+article h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+article p {
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px;
+}
+article p:nth-child(odd) {
+  background-color: rgb(189, 189, 189);
+}
+
+article img {
+  display:block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+/* Expandable region */
+.expandable {
+  border-radius: 16px;
+  background-color: darkgray;
+  background-size:cover;
+  box-shadow: inset 0 0 6px black;
+
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.expandable .toggle {
+  cursor: pointer;
+  text-align: left;
+  margin: 0;
+  color:grey;
+}
+.active, .expandable .toggle:hover {
+  color: white;
+}
+.expandable-content {
+  overflow: hidden;
+  max-height: 0;
+
+  margin-left: 8px;
+
+  transition: max-height 0.2s ease-out;
+}
+
+article .footer {
+  margin-top:32px;
+  text-align: center;
+  color: darkgray;
+}
