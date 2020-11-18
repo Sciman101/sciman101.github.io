@@ -1,19 +1,22 @@
-@import "monokai.css";
+@import "highlighter.css";
 
-/* Univeral stuff */ 
+/* Univeral stuff */
 * {
   box-sizing: border-box;
 }
-html,body {
+
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
 }
+
 body {
-  background-image:url('../img/bg.png');
+  background-image: url('../img/bg.png');
   background-attachment: fixed;
-  background-size:15%;
+  background-size: 15%;
 
   font-family: Consolas;
   color: rgb(20, 20, 20);
@@ -23,7 +26,7 @@ body {
 #main {
   height: 100%;
   width: 100%;
-  max-width: min(750px,90vw);
+  max-width: min(750px, 90vw);
 
   margin: 0 auto 32px auto;
 }
@@ -40,12 +43,13 @@ body {
   position: relative;
   z-index: 10;
 }
-/* Icon */ 
+
+/* Icon */
 #header .icon {
   border-radius: 100%;
   box-shadow: inset 0 0 128px 128px black;
 
-  float:left;
+  float: left;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -55,10 +59,12 @@ body {
   transform: scale(1);
   transition: 0.1s;
 }
+
 #header .icon:hover {
   transform: scale(1.1);
   transition: 0.1s;
 }
+
 #header .icon:active {
   transform: scale(0.9);
   transition: 0.05s;
@@ -71,26 +77,20 @@ body {
   margin-left: 128px;
   max-width: 50%;
 }
+
 #name-title {
   font-size: 2em;
 }
+
 #name-subtitle {
   font-size: 1.5em;
 }
+
 #splash {
   color: darkgray;
 }
 
 /* Social links */
-.links {
-  float:right;
-  text-align: right;
-  margin-top:8px;
-  margin-bottom:8px;
-}
-.links p {
-  display: inline;
-}
 .halfcirc {
   height: 128px;
   width: 72px;
@@ -98,8 +98,17 @@ body {
   shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%, 75% 85%, 100% 50%, 75% 15%);
   shape-margin: 8px;
 }
+.connections {
+  float: right;
+  text-align: right;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.connections-list {
+  display: inline;
+}
 
-/* Links */
+/* Normal Links */
 a {
   color: rgb(117, 11, 255);
   text-decoration: none;
@@ -111,11 +120,14 @@ a:hover {
 
 code {
   display: inline-block;
-  border-radius: 4px;
-  background-color: rgb(96, 44, 109);
   padding: 3px;
+
+  border-radius: 4px;
+  background-color: rgb(36, 15, 41);
   color: white;
-  box-shadow: inset 0 0 2px black;
+  box-shadow: inset 0 0 2px white;
+
+  max-width: 100%;
 }
 
 /* Article stuff */
@@ -124,7 +136,7 @@ article {
 
   top: -32px;
 
-  width:100%;
+  width: 100%;
 
   padding: 12px;
 
@@ -132,8 +144,9 @@ article {
 
   box-shadow: 0 0 8px 0px black;
 
-  border-radius:1%;
+  border-radius: 1%;
 }
+
 /* Article title */
 article h1 {
   color: rgb(134, 102, 177);
@@ -142,21 +155,24 @@ article h1 {
   text-shadow: 3px 3px black;
   text-align: center;
 }
+
 article h2 {
   font-weight: bold;
   font-size: 32px;
 }
+
 article p {
   border-radius: 4px;
   padding: 8px;
   margin: 4px;
 }
+
 article p:nth-child(odd) {
   background-color: rgb(189, 189, 189);
 }
 
 article img {
-  display:block;
+  display: block;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -167,21 +183,25 @@ article img {
 .expandable {
   border-radius: 16px;
   background-color: darkgray;
-  background-size:cover;
+  background-size: cover;
   box-shadow: inset 0 0 6px black;
 
   padding: 8px;
   margin-bottom: 16px;
 }
+
 .expandable .toggle {
   cursor: pointer;
   text-align: left;
   margin: 0;
-  color:grey;
+  color: grey;
 }
-.active, .expandable .toggle:hover {
+
+.active,
+.expandable .toggle:hover {
   color: white;
 }
+
 .expandable-content {
   overflow: hidden;
   max-height: 0;
@@ -192,7 +212,7 @@ article img {
 }
 
 article .footer {
-  margin-top:32px;
+  margin-top: 32px;
   text-align: center;
   color: darkgray;
 }
