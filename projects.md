@@ -10,7 +10,7 @@ title: Projects
 Tussle Punks is a local multiplayer platform fighter based on [a bunch of characters](/characters.html) I made. Each character has a completely unique moveset, with the goal of having each character feel almost like they came from a totally different platformer game, but for them to still work together as a cohesive whole. It's my most ambitious project to date - which is probably why I've been working on it for 2 years.
 
 Download:<br>
-[itch.io](sciman101.itch.io/tussle-punks)
+[itch.io](https://sciman101.itch.io/tussle-punks)
 
 
 ## Raccoon Revenge
