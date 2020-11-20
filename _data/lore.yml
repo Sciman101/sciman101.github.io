@@ -13,12 +13,6 @@
 
   Iekika spent her whole life living among other imps, training to be a deadly hunter, and refining her rare gift of future vision - which, wasn't quite as exciting to her as the fighting stuff. Then, she was one day struck with a violent vision of an incoming storm, which threatened to wipe out their home. She alerted the others, before setting off to the neighboring islands to warn them - but was caught in the storm, knocked overboard before passing out from hitting her head underwater. She came to stranded on the mainland - being looked over by [a weird, two-eyed woman with a mechanical arm](#Amber), and suddenly missing her future vision. After accidentally clobbering the human out of surprise and taking some time to adjust, she's trying her best to accomodate to life among these weird binocular creatures. Their food is good, at least."
 
-- name: Species - Imps
-  is_lore: true
-  bgcolor: "#767d8e"
-  subtitle: The Unknown Islanders
-  content: ""
-
 - name: Amber
   bgcolor: "#dbc45e"
   subtitle: Armed and Dangerous
@@ -39,12 +33,6 @@
   stat-custom: "SIZE: HUGE"
   content: "???"
 
-- name: "Species - Gal&#39;Sha"
-  is_lore: true
-  bgcolor: "#767d8e"
-  subtitle: Symbiotic Slimes
-  content: ""
-
 - name: Darue
   bgcolor: "#b3db5e"
   subtitle: Wallflower
@@ -54,12 +42,6 @@
   stat-heart: 4
   stat-custom: "MAX ARM STRETCH: 300%"
   content: "???"
-
-- name: "Species - Plantoids"
-  is_lore: true
-  bgcolor: "#767d8e"
-  subtitle: Lush Cave Dwellers
-  content: ""
 
 - name: Aparna
   bgcolor: "#db5e6c"
@@ -81,12 +63,6 @@
   stat-custom: "DEALS: UNBEATABLE"
   content: "???"
 
-- name: "Species - Kobolds"
-  is_lore: true
-  bgcolor: "#767d8e"
-  subtitle: Failed Experiment
-  content: ""
-
 - name: J.N.F.R.
   bgcolor: "#e1f4f4"
   subtitle: ravecast.tv/stream/jnfrofficial
@@ -96,3 +72,33 @@
   stat-heart: 4
   stat-custom: "GHz: 6.9"
   content: "???"
+
+- name: "Species - Humans"
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: Presumably, you!
+  content: ""
+
+- name: Species - Imps
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: The Unknown Islanders
+  content: ""
+
+- name: "Species - Gal&#39;Sha"
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: Symbiotic Slimes
+  content: ""
+
+- name: "Species - Plantoids"
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: Lush Cave Dwellers
+  content: ""
+
+- name: "Species - Kobolds"
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: Failed Experiment
+  content: ""
