@@ -30,14 +30,13 @@
     <table id='header'>
       <tr>
         <!-- Icon -->
-        <td><img class='icon' alt='Site icon' src='https://img.itch.zone/aW1nLzIzNjAwNTQucG5n/100x100%23/X0XNcT.png'
-            onclick='randomizeSplash()'></td>
+        <td><a title='Home' href='/'><img class='icon' alt='Site icon' src='https://img.itch.zone/aW1nLzIzNjAwNTQucG5n/100x100%23/X0XNcT.png'></a></td>
         <!-- Everything in the name area -->
         <td>
           <div class='name'>
             <div id='name-title'>Yali Izzo</div>
             <div id='name-subtitle'>Artist and Gamedev</div>
-            <div id='splash'></div>
+            <div id='splash' title='Click for a new splash' onclick='randomizeSplash()'></div>
           </div>
         </td>
         <!-- Connections -->
@@ -61,10 +60,12 @@
 
     <!-- The actual page content -->
     <article>
+      <!-- Add navigation -->
+      {% include navigation.html %}
       {{ content }}
       <div class='footer'>
         Made with <a href='https://jekyllrb.com/'>Jekyll</a> and <a href='https://pages.github.com/'>GitHub Pages</a>.
-        <a href='/'>Yali Izzo</a> 2020
+        <a href='/'>Yali Izzo</a>, 2020
       </div>
     </article>
   </div>

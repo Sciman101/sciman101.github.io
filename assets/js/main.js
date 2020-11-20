@@ -87,7 +87,7 @@ document.body.onload = function() {
   randomizeSplash();
 
   // Add onclick handlers for all expandable regions
-  const coll = document.getElementsByClassName("toggle");
+  const coll = document.getElementsByClassName("expandable-toggle");
   for (let i = 0; i < coll.length; i++) {
     // Add click listener
     coll[i].addEventListener("click", function() {

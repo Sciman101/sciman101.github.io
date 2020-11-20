@@ -1,0 +1,27 @@
+- name: torcado
+  role: Programmer & Gamedev
+  link: https://torcado.com
+
+- name: Koda
+  role: Programmer
+  link: https://twitter.com/koda_pop
+
+- name: CoconutFella
+  role: Artist
+  link: https://twitter.com/CoconutFella
+
+- name: Nick Kaman
+  role: Gamedev & Artist
+  link: https://twitter.com/SmashyNick
+
+- name: Ronja
+  role: Shader Witch
+  link: https://www.ronja-tutorials.com/
+
+- name: LCS
+  role: Musician
+  link: https://soundcloud.com/lordcakespy
+
+- name: IncPlusPlus
+  role: Programmer
+  link: https://github.com/IncPlusPlus/

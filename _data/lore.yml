@@ -1,0 +1,98 @@
+- name: Iekika
+  is_lore: false
+  img: assets/img/chars/iekika.png
+  bgcolor: "#6669af"
+  subtitle: Hyperactive former prophet
+  stat-body: 5
+  stat-mind: 2
+  stat-heart: 4
+  stat-custom: "SPEARS: 1/1"
+  content: "Iekika is an [imp](#Species - Imps) - a one-eyed, two-mouthed, psychic creature from Paradise Isles. She acts first, thinks later - an intelligent person, but a lot of the time she ignores that intelligence in favor of playing out her next impulsive idea. She's nothing if not an improviser, though, and can usually work her way out of any situation someone - usually herself - causes, with only a few scratches. She's crazy athletic, almost always the most active member of her social circle, and nearly always moving – whether that's destroying a training dummy out back, pacing around, or just tapping her foot. Her ability to improvise and act does come with the downside that she's terrible at planning ahead and considering the future, which was never a huge issue until she lost her ability to literally see the future. She has a deep desire to have 'her thing' - whether that be her place in society, her role in the friend group, her hobby, etc etc, she never feels content just wandering.<br>
+
+  ## Backstory
+
+  Iekika spent her whole life living among other imps, training to be a deadly hunter, and refining her rare gift of future vision - which, wasn't quite as exciting to her as the fighting stuff. Then, she was one day struck with a violent vision of an incoming storm, which threatened to wipe out their home. She alerted the others, before setting off to the neighboring islands to warn them - but was caught in the storm, knocked overboard before passing out from hitting her head underwater. She came to stranded on the mainland - being looked over by [a weird, two-eyed woman with a mechanical arm](#Amber), and suddenly missing her future vision. After accidentally clobbering the human out of surprise and taking some time to adjust, she's trying her best to accomodate to life among these weird binocular creatures. Their food is good, at least."
+
+- name: Species - Imps
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: The Unknown Islanders
+  content: ""
+
+- name: Amber
+  bgcolor: "#dbc45e"
+  subtitle: Armed and Dangerous
+  img: assets/img/chars/amber.png
+  stat-body: 3
+  stat-mind: 5
+  stat-heart: 4
+  stat-custom: "PROJECTS: TOO MANY"
+  content: "???"
+
+- name: Uma
+  bgcolor: "#81e06d"
+  subtitle: High on the life of the party
+  img: assets/img/chars/uma.png
+  stat-body: 3
+  stat-mind: 2
+  stat-heart: 5
+  stat-custom: "SIZE: HUGE"
+  content: "???"
+
+- name: "Species - Gal&#39;Sha"
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: Symbiotic Slimes
+  content: ""
+
+- name: Darue
+  bgcolor: "#b3db5e"
+  subtitle: Wallflower
+  img: assets/img/chars/darue.png
+  stat-body: 2
+  stat-mind: 5
+  stat-heart: 4
+  stat-custom: "MAX ARM STRETCH: 300%"
+  content: "???"
+
+- name: "Species - Plantoids"
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: Lush Cave Dwellers
+  content: ""
+
+- name: Aparna
+  bgcolor: "#db5e6c"
+  subtitle: Gentle Giant
+  img: assets/img/chars/aparna.png
+  stat-body: 3
+  stat-mind: 4
+  stat-heart: 4
+  stat-custom: "RECIPES: 1000+"
+  content: "???"
+
+- name: Jamie
+  bgcolor: "#9c61bf"
+  subtitle: Cures for what ails you - and then some!
+  img: assets/img/chars/jamie.png
+  stat-body: 2
+  stat-mind: 5
+  stat-heart: 3
+  stat-custom: "DEALS: UNBEATABLE"
+  content: "???"
+
+- name: "Species - Kobolds"
+  is_lore: true
+  bgcolor: "#767d8e"
+  subtitle: Failed Experiment
+  content: ""
+
+- name: J.N.F.R.
+  bgcolor: "#e1f4f4"
+  subtitle: ravecast.tv/stream/jnfrofficial
+  img: assets/img/chars/jnfr.png
+  stat-body: 2
+  stat-mind: 4
+  stat-heart: 4
+  stat-custom: "GHz: 6.9"
+  content: "???"
