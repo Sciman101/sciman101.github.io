@@ -1,33 +1,24 @@
 ---
 layout: default
-title: Characters and Lore
+title: Characters
 description: A gang of misfits
 ---
-# Characters and Lore
+# Characters
 
 I've made a bunch of characters up over time to use in art, games, writing - whatever! (They're even the background of this website). If you're interested, you can learn more about each of them here.
 
-{% for item in site.data.lore %}
-<!--Expandable section-->
-<div class='expandable' style='background-color:{{item.bgcolor}};'>
-    <!-- The actual toggle button-->
-    <{% if item.is_lore %}h2{% else %}h1{% endif %} id='{{item.name}}' title='Click to toggle section' class='expandable-toggle'>{{item.name}}</{% if item.is_lore %}h2{% else %}h1{% endif %}>
-    <!-- Content to show -->
-    <div class='expandable-content'>
-    <h2>{{ item.subtitle | markdownify }}</h2>
-    {% unless item.is_lore %}
-        <ul class='stats'>
-            <h3>Stats</h3>
-            <li>[BODY: {{item.stat-body}}/5]</li>
-            <li>[MIND: {{item.stat-mind}}/5]</li>
-            <li>[HEART: {{item.stat-heart}}/5]</li>
-            <li>[{{item.stat-custom}}]</li>
-        </ul>
-    {% endunless %}
+<div class='card-container'>
+{% for item in site.characters %}
+
+<a href='{{ item.url }}'>
+<div class='char-card' style='background-color:{{item.bgcolor}};'>
+    <h2 style='background-color:white;'>{{ item.name }}</h2>
     {% if item.img %}
-    <img alt='{{item.name}}' src='{{item.img}}' style='filter:drop-shadow(2px 2px 2px black);'>
+    <img alt='{{item.name}}' src='{{item.img}}' style='height:70%;width:auto;'>
     {% endif %}
-    {{ item.content | markdownify }}
-    </div>
+    <h3 style='color: black;font-size:100%;background-color:white;'>{{ item.subtitle }}</h3>
 </div>
+</a>
+
 {% endfor %}
+</div>

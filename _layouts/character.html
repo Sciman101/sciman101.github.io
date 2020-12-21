@@ -1,0 +1,20 @@
+---
+layout: default
+title: {{ page.name }}
+description: {{ page.name }}
+---
+<h1>{{ page.name }}</h1>
+<h2 class='subtitle'>{{ page.subtitle }}</h2>
+
+<!--Stat block-->
+<ul class='stats'>
+    <h3>Stats</h3>
+    <li>Height: {{ page.stat-height }}</li>
+    <li>Species: {{ page.stat-species }}</li>
+    <li>{{ page.stat-age }} y/o</li>
+</ul>
+
+<!-- Image -->
+<img alt='{{page.name}}' src='{{page.img}}' style='filter:drop-shadow(2px 2px 2px black);'>
+
+{{ content }}
