@@ -328,7 +328,17 @@ article img {
 
   border: 2px solid black;
 
-  transition: 0.1s;
+  box-shadow: 0px 3px black;
+
+  transition: 0.05s;
+}
+.char-card h2,h3 {
+  color: black !important;
+  background-color: white;
+  border-radius:8px;
+}
+.char-card h3 {
+  font-size: 100%;
 }
 .char-card img {
   width: 100%;
@@ -341,7 +351,7 @@ article img {
 .char-card:hover {
   transform:scale(1.1);
   cursor:pointer;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .stats {

@@ -8,6 +8,10 @@ img: /assets/img/chars/uma.png
 stat-height: 7'2"
 stat-species: Gal'Sha
 stat-age: 45
+
+stat-body: 3
+stat-mind: 2
+stat-heart: 5
 ---
 **Uma Slimebutt** is on a perpetual contact high with life. Her needs are simple - good food, nice friends, fun times - but she wants as much of them as she can get. Too much is never enough, and being a self-proclaimed hedonist she knows this better than most. All that said, she's not selfish. She's more than willing to share with people who need something more than her, or just want it. But when she can, she'll take all she can get.
 

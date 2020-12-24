@@ -8,5 +8,9 @@ img: /assets/img/chars/jnfr.png
 stat-height: 3'10"
 stat-species: Modded A.D.A.M. Robot
 stat-age: 5
+
+stat-body: 2
+stat-mind: 4
+stat-heart: 4
 ---
 ???

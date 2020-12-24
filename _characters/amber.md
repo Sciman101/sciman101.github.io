@@ -8,6 +8,10 @@ img: /assets/img/chars/amber.png
 stat-height: 5'11"
 stat-species: Human
 stat-age: 27
+
+stat-body: 3
+stat-mind: 5
+stat-heart: 4
 ---
 **Amber Melody** is the type to take things as they come, roll with the punches, and act as a voice of reason, until she starts scheming plans of her own. This mostly comes in handy with her garage, where she takes apart gizmos and tinkers with parts to build new projects, and fix things for anyone who needs it, which is how she makes a living. Once a project is in mind, she sticks with it - sometimes to a fault. It doesn't matter how stupid 'Toaster motorcycle combo' might sound, she's gonna make it work. Whatever it may be, it has to be perfect. 
 

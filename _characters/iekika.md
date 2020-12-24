@@ -8,6 +8,10 @@ subtitle: Former Prophet
 stat-height: 5'2"
 stat-species: Imp
 stat-age: 23
+
+stat-body: 5
+stat-mind: 2
+stat-heart: 4
 ---
 **Iekika** is an [imp](/characters/imps.html) - a one-eyed, two-mouthed, psychic creature from Paradise Isles. She's known for having a lot of energy and being extremely impulsive. She's reasonably intelligent, but chooses to ignore that a lot in favor of doing whatever comes right to mind. Living like she does, she wouldn't be alive if it wasn't for the fact she's a great improviser, able to think on her feet and adapt to situations quickly. The one downside is her ability to plan ahead is a lot weaker by comparison, hich was never a huge issue until she lost her ability to literally see the future.
 

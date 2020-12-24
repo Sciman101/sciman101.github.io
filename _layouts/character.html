@@ -12,9 +12,13 @@ description: {{ page.name }}
     <li>Height: {{ page.stat-height }}</li>
     <li>Species: {{ page.stat-species }}</li>
     <li>{{ page.stat-age }} y/o</li>
+    <br><hr>
+    <li>Body: {{ page.stat-body }}/5</li>
+    <li>Mind: {{ page.stat-mind }}/5</li>
+    <li>Heart: {{ page.stat-heart }}/5</li>
 </ul>
 
 <!-- Image -->
-<img alt='{{page.name}}' src='{{page.img}}' style='filter:drop-shadow(2px 2px 2px black);'>
+<img alt='{{page.name}}' src='{{page.img}}' style='filter:drop-shadow(4px 4px 0 black);'>
 
 {{ content }}
