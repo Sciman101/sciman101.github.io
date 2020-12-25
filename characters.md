@@ -14,7 +14,7 @@ I've made a bunch of characters up over time to use in art, games, writing - wha
 <a href='{{ item.url }}'>
 <div class='char-card' style='background-color:{{item.bgcolor}};'>
     <h2>{{ item.name }}</h2>
-    {% if item.img %}
+    {% if item.icon %}
     <img alt='{{item.name}}' src='{{item.icon}}'>
     {% endif %}
     <h3>{{ item.subtitle }}</h3>
