@@ -332,7 +332,7 @@ article img {
 
   transition: 0.05s;
 }
-.char-card h2,h3 {
+.char-card h2, .char-card h3 {
   color: black !important;
   background-color: white;
   border-radius:8px;
