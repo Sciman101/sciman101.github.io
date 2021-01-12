@@ -9,4 +9,4 @@ Hey, thanks for stopping by! I'm **Yali** - New England based programmer, artist
 
 This site serves as a way to link together a bunch of my social accounts, show off my work, and host little web-based experiments I need a place to put.
 
-![Iekika sprite from Tussle Punks](/assets/img/iekika.gif)
+![Iekika sprite from Tussle Punks](/assets/img/Iekika.gif)
