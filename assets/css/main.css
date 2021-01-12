@@ -20,7 +20,7 @@ body {
 body {
   background-image: url('../img/bg.png');
   background-attachment: fixed;
-  background-size: 15%;
+  background-size: 256px;
 
   font-family: 'Alatsi';
   color: var(--text-color);
@@ -211,7 +211,7 @@ article {
 
   box-shadow: 0 0 8px 0px black;
 
-  border-radius: 1%;
+  border-radius: 8px;
 }
 /* Article title */
 article h1 {
@@ -233,9 +233,11 @@ article h2 {
   font-size: 32px;
   margin-top: 16px;
   margin-bottom: 10px;
+  margin-left: 8px;
 }
 article h3 {
   margin: 0px;
+  margin-left: 8px;
   color:rgb(78, 78, 78);
 }
 
@@ -245,15 +247,13 @@ article p {
   margin: 4px;
   line-height: 1.5;
   font-size: 1.1em;
-}
-
-article p:nth-child(odd) {
   background-color: rgb(189, 189, 189);
 }
 
 article img {
   display: block;
-  width: 60%;
+  width: auto;
+  max-height: 20em;
   margin-left: auto;
   margin-right: auto;
   padding: 8px;

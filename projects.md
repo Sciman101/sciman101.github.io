@@ -4,6 +4,15 @@ title: Projects
 ---
 # Projects
 
+## Vinekid
+### 2020
+### Godot 3.2
+Made for the [Secret Santa Gamejam](https://itch.io/jam/secret-santa/rate/852404), Vinekid is a short pixel platformer where you play as a potted plant who can swing from a vine. I did all the code, art and design within a month long window - which, admittably was pretty bad timing since I had finals at the same time. This was also one of my first games I really focused on audio with, spending a lot of time designing the SFX and writing custom helper scripts to randomize pitch and play multiple audio clips simultaneously. I consider it one of my better game projects!
+![Vinekid](/assets/img/projects/vinekid.gif)
+
+Download:  
+[itch.io](https://sciman101.itch.io/vine)
+
 ## Tussle Punks
 ### 2018 - 2020, On Hold
 ### Godot 3.2

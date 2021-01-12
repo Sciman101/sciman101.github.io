@@ -11,6 +11,12 @@
   <meta name="author" content="Yali Izzo">
   <meta name="description" content="{{ page.description }}">
 
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:type" content="website" />
+  <meta name="og:description" content="{{ page.description }}">
+  <meta property="og:url" content="{{page.url | absolute_url}}" />
+  <meta property="og:image" content="{{ page.preview | absolute_url }}" />
+
 
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
