@@ -20,7 +20,7 @@ const splash = [
   "Powered by Github Pages",
   "Powered by Jekyll",
   "<span style='color:red;'>LIGHTING NEEDS TO BE REBUILT (10 unbuilt object(s))<span>",
-  "> cd /; sudo rm -rf --no-preserve-root *",
+  "> sudo rm -rf --no-preserve-root /",
   "I <i>love</i> Bossfight",
   "I smoked this <a href='https://youtu.be/SKOFp4C4_zo'>juul</a>, and it did <strong>unthinkable</strong> things to my <i>mind</i> and  body",
   "Hope your day's going well!",
@@ -66,7 +66,11 @@ const splash = [
   "Best quality: Their Wiggles",
   "Powered by Clip Studio Paint",
   "#1, Victory Royale!",
-  "Node Graph out of Date. Rebuilding..."
+  "Node Graph out of Date. Rebuilding...",
+  "Take a seat, Douglath",
+  "<i>SpEeEEEeen</i>",
+  "Heehoo",
+  "Just a baby, drinking coffee"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
