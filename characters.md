@@ -3,6 +3,7 @@ layout: default
 title: Characters
 description: A gang of misfits
 ---
+<link href="/assets/css/character.css" rel="stylesheet" type="text/css" />
 # Characters
 
 I've made a bunch of characters up over time to use in art, games, writing - whatever! (They're even the background of this website). If you're interested, you can learn more about each of them here.

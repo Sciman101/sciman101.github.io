@@ -87,7 +87,7 @@ function randomizeSplash() {
 }
 
 // When the document loads...
-document.body.onload = function() {
+window.onload = function() {
   randomizeSplash();
 
   // Add onclick handlers for all expandable regions
