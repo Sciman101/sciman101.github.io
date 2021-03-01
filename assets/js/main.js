@@ -14,7 +14,7 @@ const splash = [
   "Known to cause cancer in the state of CA",
   "Non machine-washable",
   "50 notes",
-  "just three shots from Kitchen Gun",
+  "Just three shots from Kitchen Gun",
   "Thank you, very cool",
   "Where's the robot, Mansley??",
   "Powered by Github Pages",
@@ -22,9 +22,8 @@ const splash = [
   "<span style='color:red;'>LIGHTING NEEDS TO BE REBUILT (10 unbuilt object(s))<span>",
   "> sudo rm -rf --no-preserve-root /",
   "I <i>love</i> Bossfight",
-  "I smoked this <a href='https://youtu.be/SKOFp4C4_zo'>juul</a>, and it did <strong>unthinkable</strong> things to my <i>mind</i> and  body",
   "Hope your day's going well!",
-  "Pretend I put a funny reference here",
+  "Pretend I put a funny joke here",
   "The only site that's not on fire (yet)",
   "Importing small assets...",
   "Your daily source of fiber",
@@ -70,7 +69,25 @@ const splash = [
   "Take a seat, Douglath",
   "<i>SpEeEEEeen</i>",
   "Heehoo",
-  "Just a baby, drinking coffee"
+  "Just a baby, drinking coffee",
+  "[-]",
+  "Has this ever happened to you?",
+  "Accidentally building shelves",
+  "Helps with eyesight!",
+  "Here in my garage",
+  "I'm above elite, I'm stratospheric",
+  "Wants to dance like Gene Kelly",
+  "The Cooler Daniel",
+  "SS Tier",
+  "B Tier",
+  "D Tier",
+  "Never finished Homestuck",
+  "<span title='Disclaimer: Not actually sponsored by Squarespace'>Sponsored (but not made in) Squarespace",
+  "What conspiracies are we cooking on the menu, today?",
+  "Looks sus",
+  "10 different flavors!",
+  "Minceraft",
+  "Peach time :)"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
@@ -105,5 +122,7 @@ window.onload = function() {
       }
     });
   }
+
+  document.getElementById('currYear').innerText = new Date().getFullYear();
 
 }
