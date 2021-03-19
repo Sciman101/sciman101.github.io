@@ -1,5 +1,6 @@
 // Array of possible splash messages
 const splash = [
+  "",
   "Hello, World!",
   "9 out of 10 doctors recommend",
   "1 out of 10 doctors do not recommend",
@@ -82,12 +83,21 @@ const splash = [
   "B Tier",
   "D Tier",
   "Never finished Homestuck",
-  "<span title='Disclaimer: Not actually sponsored by Squarespace'>Sponsored (but not made in) Squarespace",
+  "<span title='Disclaimer: Not actually sponsored by Squarespace'>Sponsored by (but not made in) Squarespace",
   "What conspiracies are we cooking on the menu, today?",
   "Looks sus",
   "10 different flavors!",
   "Minceraft",
-  "Peach time :)"
+  "Peach time :)",
+  "New radio shows?",
+  "Two trucks",
+  "Turron!",
+  "No running in the halls!",
+  "Full of bees!",
+  "Nutritional values based on an average 2000 calorie diet",
+  "Cheese and Rice",
+  "Weed eater",
+  "I love refrigerators"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div

@@ -40,6 +40,7 @@ After a successful hunting outing, Iekika had a sudden vision of an incoming hur
 ## Trivia
  - Iekika is bisexual
  - Iekika's tail is huge by imp standards, which she's secretly somewhat proud of
+ - Loves weapons, especially spears
  - Shirts feel super uncomfortable to Iekika, and she often ends up chewing them without realizing it
  - She's known for having a large appetite
  - She is exceptionally good at catching things. No connection to being psychic, she just has incredible hand-eye coordination
