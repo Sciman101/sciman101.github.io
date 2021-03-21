@@ -1,7 +1,7 @@
-- name: Twitter
-  url: https://twitter.com/sciman101
-  fa-icon: fab fa-twitter
-  color: "#1da1f2"
+- name: Discord
+  url: https://discord.com/invite/6pEsTKC
+  fa-icon: fab fa-discord
+  color: "#7289DA"
 
 - name: itch.io
   url: https://sciman101.itch.io

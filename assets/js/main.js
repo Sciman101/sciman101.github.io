@@ -97,7 +97,11 @@ const splash = [
   "Nutritional values based on an average 2000 calorie diet",
   "Cheese and Rice",
   "Weed eater",
-  "I love refrigerators"
+  "I love refrigerators",
+  "Comes with a free drink",
+  "Mortal!",
+  "You can't win me, I can't be beat",
+  "Slime time..."
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
