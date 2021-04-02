@@ -101,7 +101,14 @@ const splash = [
   "Comes with a free drink",
   "Mortal!",
   "You can't win me, I can't be beat",
-  "Slime time..."
+  "Slime time...",
+  "How do you code video games with boxing gloves on?",
+  "Cheese.",
+  "Activate Orkroid fumigation protocols",
+  "Juno was mad, he knew he'd been had",
+  "You understand, mechanical hands, are the ruler of everything",
+  "There are some things we were never meant to know",
+  "Everyone loves a potato monkey!"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div

@@ -35,7 +35,7 @@ After a successful hunting outing, Iekika had a sudden vision of an incoming hur
 
  - *Empathy* - Iekika broadcasts whatever emotion she's feeling to people around her at a reduced amount, and she feels the emotions of people around her, again at a reduced amount
 
- - *Glamour* - Iekika can put out a phychic field that causes people to perceive her as how they'd expect her to look. For instance, if someone had was meeting her for the first time in a primarily human occupied city, they might expect her to be a human and would see her as such
+ - *Glamour* - Iekika can put out a phychic field that causes people to perceive her as how they'd expect her to look. For instance, if someone was meeting her for the first time in a primarily human occupied city, they might expect her to be a human and would see her as such
 
 ## Trivia
  - Iekika is bisexual

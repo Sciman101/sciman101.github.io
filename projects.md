@@ -14,9 +14,9 @@ Download:
 [itch.io](https://sciman101.itch.io/vine)
 
 ## Tussle Punks
-### 2018 - 2020, On Hold
+### 2018 - 2020, Cancelled
 ### Godot 3.2
-Tussle Punks is a local multiplayer platform fighter based on [a bunch of characters](/characters.html) I made. Each character has a completely unique moveset, with the goal of having each character feel almost like they came from a totally different platformer game, but for them to still work together as a cohesive whole. It's my most ambitious project to date - which is probably why I've been working on it for 2 years.
+Tussle Punks is a local multiplayer platform fighter based on [a bunch of characters](/characters.html) I made. Each character has a completely unique moveset, with the goal of having each character feel almost like they came from a totally different platformer game, but for them to still work together as a cohesive whole. It was my most ambitious project to date, but sadly I've put it to rest after 2 years of development due to personal reasons. You can still download the most recent build and play with it, though!
 ![The Tussle Punks Roster](/assets/img/projects/tusslepunks.gif)
 
 Download:  
