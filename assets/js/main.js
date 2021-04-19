@@ -108,7 +108,8 @@ const splash = [
   "Juno was mad, he knew he'd been had",
   "You understand, mechanical hands, are the ruler of everything",
   "There are some things we were never meant to know",
-  "Everyone loves a potato monkey!"
+  "Everyone loves a potato monkey!",
+  "Water your plants!",
 ];
 
 // Randomize the splash currently displayed in the 'splash' div

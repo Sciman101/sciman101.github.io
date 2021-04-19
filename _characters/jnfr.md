@@ -43,3 +43,5 @@ After a while, Milestone Robotics released another version of the A.D.A.M.. Amon
 		- Because her software parses these memories as they're downloaded, it results in her dreaming
 		- Though she doesn't feel 'tired' like a human does, she becomes noticably slower to respond and more irritable when her short term memory drive is nearly full
 	- The third drive is a personal drive where she stores files for herself, including a copy of Wikipedia she updates every week or so
+ - JNFR runs on an ARM SoC, running a distro of linux designed for embedded devices, then further modified by Milestone Robotics
+ - J.N.F.R. hates being picked up by people

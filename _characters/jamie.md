@@ -1,12 +1,12 @@
 ---
 name: Jamie
 bgcolor: "#9c61bf"
-subtitle: Cures for what ails you - and then some!
+subtitle: Your Strongest Potions
 icon: /assets/img/chars/icons/jamie.png
 img: /assets/img/chars/jamie.png
 
 stat-height: 4'4"
-stat-species: Kobold
+stat-species: Kobold (Reptillian)
 stat-age: 31
 
 stat-body: 2
@@ -32,5 +32,5 @@ The details of their earlier life and family are fairly obscured, an intentional
     - It's outfitted with all kinds of alchemical equipment, a bedroom with a king sized bed, a storage warehouse, and a few other rooms, along with an airlock leading to the rest of the pocket dimension
  - As part of the loophole, Jamie's shop also sells non-magical beverages and snacks
  - Jamie enjoys skateboarding, which is a lot faster than walking with their short legs
- - Jamie enjoys collecting and researching antique firearms. They keep a brass, magic-based revolver on their person at most times, which fires a powerful, concussive blast of energy in place of bullets
+ - Jamie enjoys collecting and researching antique firearms. They keep a small, brass revolver on their person at most times
  - Jamie doesn't talk about their family often, and when they do they seem to suggest that they burned that bridge a while ago

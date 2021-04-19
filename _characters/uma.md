@@ -39,3 +39,4 @@ As time passed, and with help from her new sister - who was about on the same pa
     - This, as a whole, leads to Uma being a very cuddly, touchy person, since it's the best way for her to figure out what someone looks like
  - Uma is partially transparent, unlike Aparna, who is opaque
  - The 'Slimebutt' name started as an inside joke that went too far when she accidentally wrote it on some legal documents and, through a series of strange legal loopholes, it became her and her sister's last name. Aparna wasn't pleased
+ - Uma can move *signifigantly* faster than most people would think, given her size

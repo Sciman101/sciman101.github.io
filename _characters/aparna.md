@@ -1,7 +1,7 @@
 ---
 name: Aparna
 bgcolor: "#C14177"
-subtitle: Gentle Giant
+subtitle: Silent Giant
 icon: /assets/img/chars/icons/aparna.png
 img: /assets/img/chars/aparna.png
 

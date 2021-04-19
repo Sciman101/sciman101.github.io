@@ -1,13 +1,13 @@
 ---
 name: Amber
 bgcolor: "#dbc45e"
-subtitle: Armed and Dangerous
+subtitle: Arm Dealer
 icon: /assets/img/chars/icons/amber.png
 img: /assets/img/chars/amber.png
 
 stat-height: 5'11"
 stat-species: Human
-stat-age: 27
+stat-age: 28
 
 stat-body: 3
 stat-mind: 5
