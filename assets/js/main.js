@@ -15,7 +15,6 @@ const splash = [
   "Known to cause cancer in the state of CA",
   "Non machine-washable",
   "50 notes",
-  "Just three shots from Kitchen Gun",
   "Thank you, very cool",
   "Where's the robot, Mansley??",
   "Powered by Github Pages",
@@ -83,7 +82,6 @@ const splash = [
   "B Tier",
   "D Tier",
   "Never finished Homestuck",
-  "<span title='Disclaimer: Not actually sponsored by Squarespace'>Sponsored by (but not made in) Squarespace",
   "What conspiracies are we cooking on the menu, today?",
   "10 different flavors!",
   "Minceraft",
@@ -101,9 +99,8 @@ const splash = [
   "Mortal!",
   "You can't win me, I can't be beat",
   "Slime time...",
-  "How do you code video games with boxing gloves on?",
+  "How do you make video games with boxing gloves on?",
   "Cheese.",
-  "Activate Orkroid fumigation protocols",
   "Juno was mad, he knew he'd been had",
   "You understand, mechanical hands, are the ruler of everything",
   "There are some things we were never meant to know",
@@ -111,6 +108,7 @@ const splash = [
   "Water your plants!",
   "Hey peebrain, you teleport?",
   "Secret Classroom Superpowers?",
+  "I don't own an air fryer",
 ];
 
 // Randomize the splash currently displayed in the 'splash' div

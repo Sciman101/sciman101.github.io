@@ -20,7 +20,7 @@ body {
 body {
   background-image: url('../img/bg.png');
   background-attachment: fixed;
-  background-size: 256px;
+  background-size: 400px;
 
   font-family: 'Alatsi';
   color: var(--text-color);
