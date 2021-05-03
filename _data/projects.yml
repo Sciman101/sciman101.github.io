@@ -1,0 +1,67 @@
+- name: Vinekid
+  subtitle: Secret Santa Gamejam 2020, Godot 3.2
+  type: game
+  date: 2020-12-20
+  description: A momentum-based platformer where the player can grapple and swing from a vine. Developed over the course of a month, with a lot of care being put into the grappling mechanic and the sound design - the latter something I normally struggle with. Easily one of the better games I've made.
+  footer: "Download: [itch.io](https://sciman101.itch.io/vine)<br>Source: [GitHub](https://github.com/Sciman101/SecretSanta)"
+  video: assets/video/vinekid.webm
+
+- name: Tussle Punks
+  subtitle: Original Character Fighting Game, Godot 3.2 (Scrapped)
+  type: game
+  date: 2020-11-01
+  description: "A hugely ambitious pixel platform fighter based around [characters](/characters.html) I designed. Built for local multiplayer with all major code and animation done by myself. In the end it was abandoned due to scope issues and not being super fun to play, but it still stands as one of the biggest things I've ever worked on."
+  footer: "Download: [itch.io](https://sciman101.itch.io/tussle-punks)"
+  video: assets/video/tusslepunks.webm
+  shift: -50
+
+- name: Linn the Snake
+  subtitle: Christmas Gift, Godot 3.2
+  type: game
+  date: 2019-12-25
+  description: "A christmas gift for my friend [CoconutFella](https://twitter.com/CoconutFella), it's a simple snake clone featuring one of his characters, thrown together in around a week. Includes an online leaderboard and multiple difficulty modes."
+  footer: "Play in browser: [itch.io](https://sciman101.itch.io/linn-the-snake)<br>Source: [GitHub](https://github.com/Sciman101/Linn-The-Snake)"
+  video: assets/video/linn.webm
+
+- name: Toast
+  subtitle: Toast, Unity
+  type: game
+  date: 2018-09-20
+  description: I got home one night and decided I needed to make a game. Toast is that game.
+  footer: "Play in browser: [itch.io](https://sciman101.itch.io/toast)"
+  img: assets/img/projects/toast.png
+  
+- name: Just Dig Down
+  subtitle: Mobile Game, Gamemaker Studio 1.4
+  type: game
+  date: 2018-08-29
+  description: A 'remake' of a very old project I made to learn the basics of Gamemaker. First time working with targeting a mobile device, which was made easier by borrowing some ui inspirations from Downwell. See how far down you can go!
+  footer: "Download: [itch.io](https://sciman101.itch.io/just-dig-down), [Google Play](https://play.google.com/store/apps/details?id=com.sciman.DigDown)"
+  video: assets/video/digdown.webm
+
+- name: ANYKEY
+  subtitle: Party Game, Unity
+  type: game
+  date: 2018-01-13
+  description: What started as an experiment to practice Unity ended up becoming my first release on Steam. ANYKEY was less about mechanical depth - the main mechanic only uses a single button - and more about figuring out how to *finish* something. Grab a friend or a dozen, huddle around a keyboard, and give it a spin.
+  footer: "Download: [itch.io](https://sciman101.itch.io/anykey), [Steam](https://store.steampowered.com/app/790450/ANYKEY/)<br>Proud bearer of the [Aggro Crab Seal of Quality](https://twitter.com/AggroCrabGames/status/1361388502106054659)"
+  video: assets/video/anykey.webm
+
+
+- name: Minef*ck
+  subtitle: Minecraft Fabric Mod
+  type: mod
+  date: 2021-02-25
+  description: A mod to let you write and execute Brainf*ck code in Minecraft. Ridiculous? Yeah. Useful? ...maybe. It was a fun challenge to implement, and involved combining both a Minecraft mod and a simple language interpreter.
+  footer: "Download: [Modrinth](https://modrinth.com/mod/minefck)<br>Source: [GitHub](https://github.com/Sciman101/minefuck/)"
+  img: assets\img\projects\minefuck.png
+  shift: -120
+
+- name: Growth Hacker API
+  subtitle: Going Under Modding API (WIP)
+  type: mod
+  date: 2021-05-02
+  description: A modding toolkit used alongside [BepInEx](https://thunderstore.io/package/bbepis/BepInExPack/) to allow for custom content in [Going Under](https://store.steampowered.com/app/1154810/Going_Under/). Currently, the main focus is adding custom skills - featured in the image to the left. 
+  footer: "Source: [GitHub](https://github.com/Sciman101/GrowthHacker-API)"
+  img: assets\img\projects\goingunder.png
+  shift: -30

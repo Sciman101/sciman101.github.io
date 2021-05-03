@@ -85,7 +85,6 @@ const splash = [
   "Never finished Homestuck",
   "<span title='Disclaimer: Not actually sponsored by Squarespace'>Sponsored by (but not made in) Squarespace",
   "What conspiracies are we cooking on the menu, today?",
-  "Looks sus",
   "10 different flavors!",
   "Minceraft",
   "Peach time :)",
@@ -110,6 +109,8 @@ const splash = [
   "There are some things we were never meant to know",
   "Everyone loves a potato monkey!",
   "Water your plants!",
+  "Hey peebrain, you teleport?",
+  "Secret Classroom Superpowers?",
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
