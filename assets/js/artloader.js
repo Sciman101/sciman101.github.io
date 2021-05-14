@@ -67,6 +67,9 @@ window.addEventListener("load",function() {
 	allArt.forEach(art => {
 		art.onclick = function() {
 			lightbox.style.display = 'flex';
+			// Clear image
+			lightboxImg.src = '';
+			// Load new image
 			lightboxImg.src = this.src.replace('/thumb','');
 			lightboxCaption.innerHTML = art.alt;
 		}

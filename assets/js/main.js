@@ -109,6 +109,9 @@ const splash = [
   "Hey peebrain, you teleport?",
   "Secret Classroom Superpowers?",
   "I don't own an air fryer",
+  "Don't forget to stay hydrated!",
+  "Sit up straight!",
+  "Stretch your wrists!",
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
