@@ -1,7 +1,7 @@
 - name: JNFR
   subtitle: Discord Bot
   type: software
-  date: 2021-5-25
+  date: 2021-05-25
   description: "Named and based on [the character of the same name](/characters/jnfr.html), JNFR is a Discord bot I made to add some simple server utilities, and a few toys for users to play with. She's written in [Discord.JS](https://discord.js.org/#/) and can be found in my Discord server linked at the top of this site.<br><br>Some of her features include reaction roles, running an automated pins/favorites channel, and gambling!"
   footer: "Source: [GitHub](https://github.com/Sciman101/JNFR)"
   img: assets/img/projects/jnfr.png
