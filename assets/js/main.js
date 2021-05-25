@@ -112,6 +112,11 @@ const splash = [
   "Don't forget to stay hydrated!",
   "Sit up straight!",
   "Stretch your wrists!",
+  "On a stick!",
+  "Procrastinating",
+  "I'm a real web-dev now",
+  "Presumably made of flesh!",
+  "Cut to the chase, are there beans in here?"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
