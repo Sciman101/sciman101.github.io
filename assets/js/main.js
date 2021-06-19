@@ -120,7 +120,10 @@ const splash = [
   "A little bit of everything, all of the time",
   "That funny feeling",
   "Not a brand!",
-  "<span style='display:none;'>You're trying to make it look like </span>I think Coolsville sucks!"
+  "<span style='display:none;'>You're trying to make it look like </span>I think Coolsville sucks!",
+  "Be Good",
+  "Don't be evil!",
+  "Be careful on the internet"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
