@@ -121,7 +121,11 @@ const splash = [
   "<span style='display:none;'>You're trying to make it look like </span>I think Coolsville sucks!",
   "Be Good",
   "Don't be evil!",
-  "Be careful on the internet"
+  "Be careful on the internet",
+  "Peepy loves you(?)",
+  "Elephant boys! Elephant boys!",
+  "I'm gonna be a Bastion man!",
+  "Throwing children since 2021"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div

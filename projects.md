@@ -11,6 +11,7 @@ Show me...
 	<option value="game">Games</option>
 	<option value="mod">Mods</option>
 	<option value="software">Software & Tools</option>
+	<option value="art">Art</option>
 </select>
 
 {% assign projects_sorted = site.data.projects | sort:"date" | reverse %}

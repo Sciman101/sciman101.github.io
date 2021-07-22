@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(22, 22, 22);
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+}
+
+/* Header sizes */
+h1 {
+	font-size: 8vmin;
+}
+h2 {
+	font-size: 5vmin;
+}
+
+/* Table formatting */
+table {
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Link colors */
+a {
+	color: rgb(108, 108, 236);
+}
+a:visited {
+	color: rgb(139, 67, 221);
+}
+a:hover {
+	color: rgb(255, 255, 255);
+}
+
+footer {
+	font-size: 3vmin;
+}
+
+/* The main segment and title */
+#main {
+	height: 100%;
+	width: 100%;
+	max-width: min(750px, 90vw);
+
+	margin: 0 auto 32px auto;
+}
+#title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.spacer {
+	margin-bottom: 3em;
+}
+
+/* Used for thumbnails*/
+.thumbnail {
+	transition: 0.1s;
+	border: 8px solid rgb(22, 22, 22);
+	width: 95%;
+}
+.thumbnail:hover {
+	filter: grayscale(0);
+	transition: 0.05s;
+	cursor: pointer;
+}
+
+/* Bastion and pyre coloring */
+.bastion:hover {
+	border: 8px solid rgb(87, 87, 241);
+	transition: 0.1s;
+}
+.pyre:hover {
+	border: 8px solid rgb(241, 73, 73);
+	transition: 0.1s;
+}
+
+.loser {
+	filter: grayscale(100%);
+}
