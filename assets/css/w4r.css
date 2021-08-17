@@ -75,12 +75,19 @@ footer {
 	cursor: pointer;
 }
 
+.bastion {
+	color: rgb(87, 87, 241);
+}
+.pyre {
+	color: rgb(241, 73, 73);
+}
+
 /* Bastion and pyre coloring */
-.bastion:hover {
+.bastionborder:hover {
 	border: 8px solid rgb(87, 87, 241);
 	transition: 0.1s;
 }
-.pyre:hover {
+.pyreborder:hover {
 	border: 8px solid rgb(241, 73, 73);
 	transition: 0.1s;
 }
