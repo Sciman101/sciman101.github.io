@@ -45,11 +45,17 @@
 	margin-left: auto;
 	margin-right: auto;
 	filter:drop-shadow(4px 4px 0 black);
+	transition: .15s;
   }
   .char-card:hover {
 	transform:scale(1.1);
 	cursor:pointer;
 	transition: 0.1s;
+  }
+
+  .char-card:hover img {
+	  transform:translateY(-10px);
+	  transition: .15s;
   }
   
   .stats {

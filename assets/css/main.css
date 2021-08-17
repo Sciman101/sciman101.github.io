@@ -30,7 +30,7 @@ body {
 #main {
   height: 100%;
   width: 100%;
-  max-width: min(750px, 90vw);
+  max-width: min(900px, 90vw);
 
   margin: 0 auto 32px auto;
 }
@@ -223,6 +223,11 @@ article h1 {
   margin:0;
 }
 
+article iframe {
+  width: 100%;
+  display: block;
+}
+
 .subtitle {
   text-align: center;
   margin: 0;
@@ -241,12 +246,20 @@ article h3 {
   color:rgb(78, 78, 78);
 }
 
+article h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin:0;
+}
+
 article p {
   border-radius: 4px;
   padding: 8px;
   margin: 4px;
   line-height: 1.5;
-  font-size: 1.05em;
+  font-size: 1.2em;
   background-color: rgb(189, 189, 189);
 }
 
@@ -309,4 +322,20 @@ article .footer {
   margin-top: 32px;
   text-align: center;
   color: darkgray;
+}
+
+/* Blog */
+.blognavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.blognavigation a {
+  float:left;
+  width: 50%;
+  display: block;
+  margin: 1em 0;
+}
+.blognavigation .next {
+  text-align:right;
 }

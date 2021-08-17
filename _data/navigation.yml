@@ -2,7 +2,9 @@
   link: /
 - name: Projects
   link: /projects.html
-- name: Cool People
-  link: /people.html
 - name: Art
   link: /art.html
+- name: Blog
+  link: /blog.html
+- name: Spotlight
+  link: /spotlight.html

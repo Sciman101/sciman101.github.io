@@ -5,7 +5,7 @@
   description: "Set in the world of [Kill Six Billion Demons](https://killsixbilliondemons.com/comic/kill-six-billion-demons-chapter-1/), War for Rayuba is a massive tournament where artists draw comics featuring their characters fighting over a war to decide the fate of the world.<br><br>I entered Iekika starting Round 6, and it's been one of the most incredible art communities I've been able to be a part of."
   footer: "[Read the comics!](/w4r.html)"
   img: assets/img/w4r/intro.png
-  shift: -15
+  shift: 0
 
 - name: JNFR
   subtitle: Discord Bot
@@ -14,7 +14,7 @@
   description: "Named and based on [the character of the same name](/characters/jnfr.html), JNFR is a Discord bot I made to add some simple server utilities, and a few toys for users to play with. She's written in [Discord.JS](https://discord.js.org/#/) and can be found in my [Discord server](https://discord.com/invite/6pEsTKC).<br><br>Some of her features include reaction roles, running an automated pins/favorites channel, and gambling!"
   footer: "Source: [GitHub](https://github.com/Sciman101/JNFR)"
   img: assets/img/projects/jnfr.png
-  shift: -22
+  shift: -15
 
 - name: Vinekid
   subtitle: Secret Santa Gamejam 2020, Godot 3.2
@@ -28,7 +28,7 @@
   subtitle: Original Character Fighting Game, Godot 3.2
   type: game
   date: 2020-11-01
-  description: "A hugely ambitious pixel platform fighter based around [characters](/characters.html) I designed. Built for local multiplayer with all major code and animation done by myself. In the end it was put on hold due to scope issues and not being super fun to play, but it still stands as one of the biggest things I've ever worked on. One day, I'll finally finish it"
+  description: "A hugely ambitious pixel platform fighter based around [characters](/characters.html) I designed. Built for local multiplayer with all major code and animation done by myself. In the end it was put on hold due to scope issues, but it still stands as one of the biggest things I've ever worked on. One day, I'll finally finish it"
   footer: "Download: [itch.io](https://sciman101.itch.io/tussle-punks)"
   video: assets/video/tusslepunks.webm
   shift: -50
@@ -47,7 +47,7 @@
   date: 2018-09-20
   description: I got home one night and decided I needed to make a game. Toast is that game.
   footer: "Play in browser: [itch.io](https://sciman101.itch.io/toast)"
-  img: assets/img/projects/toast.png
+  img: assets/img/projects/toaster.png
   
 - name: Just Dig Down
   subtitle: Mobile Game, Gamemaker Studio 1.4
@@ -76,10 +76,10 @@
   shift: -120
 
 - name: Growth Hacker API
-  subtitle: Going Under Modding API (WIP)
+  subtitle: Going Under Modding API (In Hiatus)
   type: mod
   date: 2021-05-02
-  description: A modding toolkit used alongside [BepInEx](https://thunderstore.io/package/bbepis/BepInExPack/) to allow for custom content in [Going Under](https://store.steampowered.com/app/1154810/Going_Under/). Currently, the main focus is adding custom skills - featured in the image to the left. 
+  description: A modding toolkit used alongside [BepInEx](https://thunderstore.io/package/bbepis/BepInExPack/) to allow for custom content in [Going Under](https://store.steampowered.com/app/1154810/Going_Under/) via plugins written in C#. Currently, the main focus is adding custom skills - featured in the image to the left. 
   footer: "Source: [GitHub](https://github.com/Sciman101/GrowthHacker-API)"
   img: assets\img\projects\goingunder.png
   shift: -30

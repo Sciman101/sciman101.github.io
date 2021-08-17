@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Characters
-description: A gang of misfits
+description: A bunch of weirdos
 ---
 <link href="/assets/css/character.css" rel="stylesheet" type="text/css" />
 # Characters
@@ -24,4 +24,5 @@ I've made a bunch of characters up over time to use in art, games, writing - wha
 {% endunless %}
 
 {% endfor %}
+
 </div>
