@@ -111,7 +111,10 @@ const splash = [
   "I'm gonna be a Bastion man!",
   "Throwing children since 2021",
   "GMO Free",
-  "Solve under-extrusions with this one weird trick!"
+  "Solve under-extrusions with this one weird trick!",
+  "You have [2] PlayCoins!",
+  "NFTs are dumb",
+  "Building a better tomorrow"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
