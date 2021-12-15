@@ -129,12 +129,14 @@ a:hover {
   line-height: 1.5;
 }
 .connections-list a {
+  min-width: 32px;
   border-radius: 16px;
   padding:2px;
   padding-left: 5px;
   margin: 4px;
   box-shadow: 0 0 4px black;
   color:white;
+  text-align: center;
 }
 .connections-list a:hover {
   text-decoration: none;

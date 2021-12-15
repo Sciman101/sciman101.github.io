@@ -13,7 +13,7 @@
   fa-icon: fab fa-github
   color: "#171515"
 
-- name: Email
-  url: mailto:Sciman1011@Gmail.com
-  color: "rgb(117, 11, 255)"
-  fa-icon: fas fa-envelope
+- name: Discord
+  url: https://discord.gg/fV9qFHNkCG
+  color: "#7289da"
+  fa-icon: fab fa-discord

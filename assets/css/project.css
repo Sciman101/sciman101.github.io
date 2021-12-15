@@ -39,6 +39,9 @@
 	margin-left: 2px;
 	min-width: 60%;
 	max-width: 60%;
+
+	box-shadow: 0 0 32px 0 black;
+	z-index: 1;
 }
 
 .project-details h2 {
