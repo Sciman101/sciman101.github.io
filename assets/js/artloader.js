@@ -24,6 +24,13 @@ const onTagButtonClick = function() {
 		}
 	}
 
+	// Create new hash
+	let hash = "";
+	activeTags.forEach(tag => {
+		hash += "," + tag
+	});;
+	window.location.hash = hash.substring(1);
+
 	// apply to art
 	allArt.forEach(art => {
 		art.style.display='block';
@@ -59,9 +66,16 @@ const onTagButtonClick = function() {
 // When the document loads...
 window.addEventListener("load",function() {
 
+	// load active tags
+	const urlTags = window.location.hash.substring(1).split(",");
+	console.log(urlTags);
+
 	// Assign onclick to all buttons
 	allTags.forEach(btn => {
 		btn.onclick = onTagButtonClick;
+		if (urlTags.indexOf(btn.innerText) != -1) {
+			btn.onclick();
+		}
 	});
 	// Assign onclick to all art
 	allArt.forEach(art => {
@@ -79,5 +93,6 @@ window.addEventListener("load",function() {
 		// Hide lightbox
 		this.style.display = 'none';
 	}
+	
 
 },false);
