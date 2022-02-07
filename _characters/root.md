@@ -1,5 +1,6 @@
 ---
 name: Root
+arttag: root
 bgcolor: "#EBD04E"
 subtitle: Donut Rogue
 icon: /assets/img/chars/icons/root.png

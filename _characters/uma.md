@@ -1,5 +1,6 @@
 ---
 name: Uma
+arttag: uma
 bgcolor: "#81e06d"
 subtitle: High on the life of the party
 icon: /assets/img/chars/icons/uma.png

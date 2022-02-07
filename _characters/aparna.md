@@ -1,5 +1,6 @@
 ---
 name: Aparna
+arttag: aparna
 bgcolor: "#C14177"
 subtitle: Silent Giant
 icon: /assets/img/chars/icons/aparna.png

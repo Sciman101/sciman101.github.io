@@ -75,6 +75,8 @@
 
       <link href="/assets/css/character.css" rel="stylesheet" type="text/css" />
       
+      <a class='prev' href='/characters.html'>&laquo; Back to characters</a>
+
       <h1>{{ page.name }}</h1>
       <h2 class='subtitle'>{{ page.subtitle }}</h2>
       
@@ -94,6 +96,8 @@
       <img alt='{{page.name}}' src='{{page.img}}' style='filter:drop-shadow(4px 4px 0 black);'>
       
       {{ content }}
+
+      <p><a href="/art.html#{{page.arttag}}">All of {{page.name}}'s art</a></p>
 
       <div class='footer'>
         Made with <a href='https://jekyllrb.com/'>Jekyll</a> and <a href='https://pages.github.com/'>GitHub Pages</a>.

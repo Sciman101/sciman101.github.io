@@ -1,5 +1,6 @@
 ---
 name: Amber
+arttag: amber
 bgcolor: "#dbc45e"
 subtitle: Arm Dealer
 icon: /assets/img/chars/icons/amber.png
@@ -13,14 +14,14 @@ stat-body: 3
 stat-mind: 5
 stat-heart: 4
 ---
-**Amber Melody** is a laid-back engineer, rolling with the punches life has to offer and building machines to terrify and astonish. She makes a living fixing up people's cars and bikes and blenders and treadmills, and pretty much anything that can move, along with running the Cape Magnolia junkyard.
+**Amber Melody** is a laid-back engineer, rolling with the punches that life has to offer and building machines to terrify and astonish. She makes a living fixing up people's cars, bikes, blenders, treadmills, pretty much anything that can move, along with running the Cape Magnolia junkyard.
 
-She has a habit of coming up with ideas faster than her hands - flesh or metal - can put them together, leading to more than a few piles of scrap that might have been something at one point. Making the thing is the easy part - staying focused is the hard part. Her prosthetic arm is her greatest achivement. And with the way things are going, she fears, her last.
+She has a habit of coming up with ideas faster than her hands - flesh or metal - can put them together, leading to more than a few piles of scrap that might have been something at one point. Making the thing is the easy part - staying focused is the hard part. Her prosthetic arm is her greatest achivement. And with the way things are going, she fears it may be her last.
 
 ## Background
-Amber's art-driven family wasn't really sure what to think about their kid being so into something so foreign to them. Especially after an accident lead to her entire right arm being amputated up to the shoulder. But she took it in stride, and cobbled together a primitive prosthetic made from recycled cans and door hinges. It worked, surprisingly well.
+Amber's art-driven family wasn't really sure what to think about their kid being into something so foreign to them. Especially after an accident lead to her entire right arm being amputated up to the shoulder. But she took it in stride, and cobbled together a primitive prosthetic made from recycled cans and door hinges. It worked surprisingly well.
 
-She kept iterating on it, eventually partnering with a friend to design a non-invasive system to let her control it with whatever working nerve endings her shoulder had left (before having a falling out with said friend over the ethics of transhumanism).
+She kept iterating on it, eventually partnering with a friend to design a non-invasive system to let her control it with whatever working nerve endings her shoulder had left (before she had a falling out with them over the ethics of transhumanism).
 
 She started working out more, both to help compensate for the difference in strength between her arms, and after realizing she really enjoyed it. Life was going well, and she had one of the most advanced prosthetics ever made. She intended to move right onto a new project, but her attention was grabbed by some [weird blue thing](/characters/iekika.html), first.
 

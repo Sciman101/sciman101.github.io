@@ -1,5 +1,6 @@
 ---
 name: Orange
+arttag: orange
 bgcolor: "#FD973A"
 subtitle: Rainbow Squadron Rescue Unit
 img: /assets/img/chars/orange.png

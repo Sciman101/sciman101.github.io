@@ -1,5 +1,6 @@
 ---
 name: Darue
+arttag: darue
 bgcolor: "#b3db5e"
 subtitle: Wallflower
 icon: /assets/img/chars/icons/darue.png

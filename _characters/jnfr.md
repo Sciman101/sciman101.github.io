@@ -1,5 +1,6 @@
 ---
 name: J.N.F.R.
+arttag: jnfr
 bgcolor: "#e1f4f4"
 subtitle: Modded Rig
 icon: /assets/img/chars/icons/jnfr.png

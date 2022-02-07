@@ -1,5 +1,6 @@
 ---
 name: Jamie
+arttag: jamie
 bgcolor: "#9c61bf"
 subtitle: Your Strongest Potions
 icon: /assets/img/chars/icons/jamie.png

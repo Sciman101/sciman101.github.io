@@ -1,5 +1,6 @@
 ---
 name: Makana
+arttag: makana
 img: /assets/img/chars/makana.png
 icon: /assets/img/chars/icons/makana.png
 bgcolor: "#85322E"

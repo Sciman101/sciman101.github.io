@@ -1,5 +1,6 @@
 ---
 name: Iekika
+arttag: iekika
 icon: /assets/img/chars/icons/iekika.png
 img: /assets/img/chars/iekika.png
 bgcolor: "#6669af"

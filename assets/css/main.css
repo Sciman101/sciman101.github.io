@@ -226,8 +226,9 @@ article h1 {
 }
 
 article iframe {
-  width: 100%;
+  width: 70%;
   display: block;
+  margin: 0 auto;
 }
 
 .subtitle {
@@ -256,7 +257,7 @@ article h4 {
   margin:0;
 }
 
-article p {
+article p, ul {
   border-radius: 4px;
   padding: 12px;
   margin: 16px;
@@ -264,6 +265,11 @@ article p {
   font-size: 1.2em;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(194, 194, 194);
+}
+
+article ul {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 article img {
@@ -331,15 +337,37 @@ article .footer {
 /* Blog */
 .blognavigation {
   display: block;
-  width: auto;
+  width: 100%;
   overflow: hidden;
+  margin: 1em 0;
 }
 .blognavigation a {
   float:left;
   width: 50%;
   display: block;
-  margin: 1em 0;
+  margin: 0;
 }
 .blognavigation .next {
   text-align:right;
+  float:right;
+}
+
+/* Live demos */
+.democontainer {
+  position: relative;
+  display: block;
+  width: 25%;
+  height: auto;
+  background-color: rgb(68, 68, 68);
+  margin: 0 auto;
+  border: 8px black;
+  overflow: hidden;
+}
+
+.democontainer canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  bottom: 0;
 }
