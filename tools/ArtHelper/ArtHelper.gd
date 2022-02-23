@@ -1,7 +1,7 @@
 extends Control
 
-const YAML_PATH = "C:/Users/izzoy/repos/sciman101.github.io/_data/art.yml"
-const ART_PATH = "C:/Users/izzoy/repos/sciman101.github.io/assets/img/art/"
+const YAML_PATH = "D:/repos/sciman101.github.io/_data/art.yml"
+const ART_PATH = "D:/repos/sciman101.github.io/assets/img/art/"
 
 const MAX_THUMBNAIL_SIZE = 256.0
 
