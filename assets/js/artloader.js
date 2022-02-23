@@ -68,7 +68,6 @@ window.addEventListener("load",function() {
 
 	// load active tags
 	const urlTags = window.location.hash.substring(1).split(",");
-	console.log(urlTags);
 
 	// Assign onclick to all buttons
 	allTags.forEach(btn => {
