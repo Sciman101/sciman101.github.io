@@ -20,11 +20,11 @@ Show me...
 <div class='project-container' data-type='{{item.type}}'>
 	<div class='project-image-container'>
 		{% if item.video %}
-		<video autoplay loop muted {% if item.shift %}style="transform:translateX({{item.shift}}px)"{% endif %}>
+		<video autoplay loop muted >
 			<source type="video/webm" src="{{item.video}}">
 		</video>
 		{% else %}
-		<img alt="{{item.name}}" src="{{item.img}}" {% if item.shift %}style="transform:translateX({{item.shift}}px)"{% endif %}>
+		<img alt="{{item.name}}" src="{{item.img}}">
 		{% endif %}
 	</div>
 

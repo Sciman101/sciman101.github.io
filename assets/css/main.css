@@ -24,7 +24,7 @@ body {
 
   width:100%;
   height:100%;
-  overflow:auto;
+  overflow: auto;
 
   font-family: 'Alatsi';
   color: var(--text-color);
@@ -34,7 +34,9 @@ body {
 #main {
   height: 100%;
   width: 100%;
-  max-width: min(900px, 90vw);
+  max-width: min(1250px, 90vw);
+
+  padding-top: 24px;
 
   margin: 0 auto 0 auto;
 }
@@ -49,7 +51,6 @@ body {
   
   height: 128px;
   max-height: 128px;
-  margin-top: 24px;
   margin-left: -16px;
 
   position: relative;
