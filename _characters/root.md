@@ -30,5 +30,5 @@ One evening, closing up, Root was told to take all the unsold inventory and... t
  - Being a Procyon Kobold, Root can turn themselves invisible, save for their eyes. This helps considerably with their donut espionage
  - After starting the whole donut-redistribution thing, Root started becoming more aware of other issues facing the people they were trying to help - like spiked plates built into the exterior of buildings, so it would be impossible to sleep there
 	- They also bought an enchanted crowbar around this time... no reason, or anything
-- Root is ace
+- Root is aromantic
 - Root figured out how to fit an entire donut in their mouth and eat it in one bite, which makes everyone else viscerally uncomfortable
