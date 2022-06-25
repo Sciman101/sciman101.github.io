@@ -1,7 +1,7 @@
-- name: Twitter
-  url: twitter.com/sciman101
-  fa-icon: fab fa-twitter
-  color: "#1DA1F2"
+- name: Tumblr
+  url: sci-makes-stuff.tumblr.com
+  fa-icon: fab fa-tumblr
+  color: "#001935"
 
 - name: itch.io
   url: https://sciman101.itch.io
