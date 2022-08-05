@@ -112,7 +112,8 @@ const splash = [
   "Which one of you took <i>4 SNAPSHOTS</i> of this site on the wayback machine on November 1st 2020???",
   "I could go for some nice drywall right now",
   "Welcome to our cyberhome!",
-  "Do what you can"
+  "Do what you can",
+  "Toki!"
 ];
 
 // Randomize the splash currently displayed in the 'splash' div
