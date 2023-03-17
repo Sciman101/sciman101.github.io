@@ -26,3 +26,7 @@ I've made a bunch of characters up over time to use in art, games, writing - wha
 {% endfor %}
 
 </div>
+
+<div style="text-align:center; padding-top:4em">
+    <a href="/lore.html">Descend</a>
+</div>

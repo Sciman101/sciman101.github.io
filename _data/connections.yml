@@ -1,7 +1,7 @@
-- name: Tumblr
-  url: sci-makes-stuff.tumblr.com
-  fa-icon: fab fa-tumblr
-  color: "#001935"
+- name: Cohost
+  url: cohost.org/sciman101
+  fa-icon: fas fa-bug
+  color: "#83254F"
 
 - name: itch.io
   url: https://sciman101.itch.io
@@ -12,8 +12,3 @@
   url: https://github.com/sciman101
   fa-icon: fab fa-github
   color: "#171515"
-
-- name: Discord
-  url: https://discord.gg/fV9qFHNkCG
-  color: "#7289da"
-  fa-icon: fab fa-discord

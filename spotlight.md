@@ -4,7 +4,7 @@ title: Spotlight
 description: Things my friends have been working on!
 ---
 # Spotlight
-Every month, I'll be adding new projects here my friends have been working on that I think deserve recognition. These could be games, artwork, music - whatever they happen to be doing. Check them out!
+Every now and then, I'll add new projects here my friends have been working on that I think deserve recognition. These could be games, artwork, music - whatever they happen to be doing. Check them out!
 
 ## November 2021 - Disaster Engine
 <img src="/assets/img/disasterengine.png" style='height:50%'>

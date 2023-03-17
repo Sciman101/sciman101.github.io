@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About
+title: Home
 description: Sciman101's personal site
 ---
-# About
+Thanks for stopping by! I'm **Sciman101** - artist, programmer, and tinkerer, currently working as a software engineer. This site serves as a volatile little corner of the internet for me to show off my own [art](/art.html) and [projects](/projects.html), and to [promote my friends](/spotlight.html).
 
-Thanks for stopping by! I'm **Sciman101** - New England based programmer, artist and tinkerer (and for the time being, student). This site serves as a little corner of the internet for me to show off my own [art](/art.html) and [projects](/projects.html), [promote my friends](/spotlight.html), and maybe [say a few things](/blog.html) here and there.
+I'm planning on redoing some of this site in the future - nothing huge, but I want to clean things up and get some stuff up to date. Expect changes in `NaN` days!
 
 ![Iekika sprite from Tussle Punks](/assets/img/Iekika.gif)
