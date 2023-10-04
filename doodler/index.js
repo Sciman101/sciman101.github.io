@@ -1,10 +1,24 @@
 const BRUSH_SIZES = [2, 5, 10];
-const COLORS = ["black", "white", "red", "blue", "green", "yellow"];
+const COLORS = [
+  "black",
+  "white",
+  "AliceBlue",
+  "red",
+  "blue",
+  "green",
+  "yellow",
+  "orange",
+  "purple",
+  "cyan",
+  "rainbow",
+];
 
 function load() {
   // Drawing vars
   let drawing = false;
   let prevX, prevY;
+  let rainbow = false;
+  let rainbowIndex = COLORS.indexOf("red");
   const buttons = {};
 
   // Configure dom
@@ -50,6 +64,7 @@ function load() {
       clearCategory("color");
       ctx.strokeStyle = COLORS[i];
       btn.classList.add("selected");
+      rainbow = i == COLORS.indexOf("rainbow");
     });
     if (i == 0) btn.classList.add("selected");
   }
@@ -68,9 +83,16 @@ function load() {
   canvas.addEventListener("pointermove", (evt) => {
     const { offsetX: x, offsetY: y } = evt;
     if (drawing) {
+      if (rainbow) {
+        rainbowIndex += 1;
+        if (rainbowIndex >= COLORS.length - 1) rainbowIndex = 3;
+        ctx.strokeStyle = COLORS[rainbowIndex];
+        ctx.beginPath();
+      }
       ctx.moveTo(prevX, prevY);
       ctx.lineTo(x, y);
       ctx.stroke();
+      if (rainbow) ctx.closePath();
       prevX = x;
       prevY = y;
     }
