@@ -1,5 +1,5 @@
 - name: Cohost
-  url: cohost.org/sciman101
+  url: https://cohost.org/sciman101
   fa-icon: fas fa-bug
   color: "#83254F"
 
