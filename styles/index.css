@@ -1,0 +1,132 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa,
+    Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri,
+    source-sans-pro, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffeeb9;
+}
+
+main {
+  height: 100%;
+  width: 50%;
+  min-width: calc(100vmin - 64px);
+  margin: 0 auto;
+  padding: 16px 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 2rem 1.5rem;
+}
+header h1,
+h3 {
+  margin: 0;
+}
+header h1 {
+  margin-bottom: 0.5rem;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  transition: 0.1s;
+}
+header a:hover {
+  color: black;
+  background-color: white;
+  transition: 0.1s;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.link-expand {
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+}
+.link-expand > a {
+  background-color: white;
+  color: black;
+
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+
+  border-radius: 0 0 8px 8px;
+  border: 4px solid black;
+  border-top-style: none;
+
+  transition: height 0.1s;
+}
+.link-expand > a:hover {
+  height: calc(125%);
+}
+.nav-icon {
+  width: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+footer {
+  color: rgb(68, 68, 68);
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#content img {
+  display: block;
+  width: 90%;
+  margin: 2rem auto;
+  box-shadow: 0 0 4px black;
+}
+#content small {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: rgb(68, 68, 68);
+}
+#content p {
+  font-family: system-ui, sans-serif;
+  font-weight: 500;
+}
+#content blockquote {
+  margin: 0;
+  padding: 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid black;
+  font-style: italic;
+}
+
+.cw {
+  background-color: #efba69;
+  border-radius: 4px;
+  font-weight: 600;
+  color: black !important;
+  padding: 4px !important;
+}

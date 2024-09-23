@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Resurrecting a Cricut Mini</title>
+  <!-- Non social metatags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Embed tags -->
+  <meta name="theme-color" content="#750bff" />
+
+  <meta name="author" content="Sciman101" />
+  <meta name="description" content="" />
+
+  <meta property="og:title" content="Resurrecting a Cricut Mini" />
+  <meta property="og:type" content="website" />
+  <meta name="og:description" content="" />
+  <meta property="og:url" content="https://sciman.info/" />
+  <meta property="og:image" content="" />
+
+  <!--Links and stuff-->
+  <link rel="stylesheet" href="/styles/index.css" />
+  <link rel="stylesheet" href="/styles/main.css" />
+  <link rel="stylesheet" href="/styles/blog.css" />
+  <link rel="stylesheet" href="/styles/tag-selector.css" />
+  <link rel="stylesheet" href="/styles/art.css" />
+</head>
+
+<body>
+  <main >
+    <header>
+      <h1><a href="/">sciman.info</a></h1>
+      <h3 id="splash">Programmer and Artist</h3>
+    </header>
+    <nav>
+      
+      <span class="link-expand">
+        <a href="https://github.com/Sciman101" style="background-color: #ffffff" class="link-button"><img src="/icons/github-mark.svg" class="nav-icon" alt="GitHub" /></a></span>
+      
+      <span class="link-expand">
+        <a href="sciman101.itch.io" style="background-color: #fa5c5c" class="link-button"><img src="/icons/itchio-logo-textless-white.svg" class="nav-icon" alt="itch.io" /></a></span>
+      
+      <span class="link-expand">
+        <a href="/under-construction" style="background-color: #FFA52F" class="link-button"><img src="/icons/rss.svg" class="nav-icon" alt="RSS Feed" /></a></span>
+      
+      <span class="link-expand">
+        <a href="mailto:hello@sciman.info" style="background-color: #81b7f5" class="link-button"><img src="/icons/email.svg" class="nav-icon" alt="Email" /></a></span>
+      
+      <!-- <span class="link-expand" id="theme-toggle"><label class="link-button" for="theme-toggle"><input type="checkbox" id="theme-toggle"><img class="nav-icon" src="/icons/sun.svg"></label></span> -->
+    </nav>
+    <div id="content">
+      <p><em>This was originally posted to Cohost on April 4th, 2024</em></p>
+<img src="cover.png" alt="A Cricut Mini vinyl cutter retrofitted into a plotter, with a finished picture of Nova sitting on it" loading="lazy">
+<small>Spoilers: It works!</small>
+<p>I was apparently a raccoon in a past life, or something, because I just love digging through e-waste. Every tech company I've worked at has had a bin somewhere that, if you're persistent, you can get some real goodies out of. An Xbox Elite controller, an entire working 2-in-1 laptop, parts for projects, all things I've fished from the bin.</p>
+<p>Recently my work had an employee e-waste event where people could drop off their own stuff. And in there, I found this thing - a Cricut Mini.</p>
+<p>For those who don't know - Cricut makes a series of cutting machines with the same form factor as like, a printer. You load in some material and a cutting blade drags across the surface, cutting out shapes for craft projects. It's a neat piece of tech, and so finding this one discarded, I figured I'd take it home and see if I could fix it.</p>
+<hr>
+<h2 id="part-1-so-whats-wrong-with-it"><a href="#part-1-so-whats-wrong-with-it">Part 1: So what's wrong with it?</a></h2>
+<p>I took it home and did a little research trying to figure out what common failure points are for these things. I didn't have to look far before I found an <em>extremely</em> likely culprit for why it got binned.</p>
+<p>See, the Cricut machines are made for non-techy people. Most of them work by letting you insert a cartridge loaded with designs from Provo Craft, the company that makes the thing. Then, you use a built in control panel to select a design and let the machine cut it out. You may notice from the photo that the Cricut Mini doesn't have an on screen display or anything - just two buttons. This is where Cricut's web-based design tools come in, that would let you do more detailed design work and send them to the machines.</p>
+<p>What was that online tool made in? Why, <em>Flash</em>, of course! Flash is gonna be around forever, so- Huh? Oh. <a href="https://cricut.com/blog/cricut-craft-room-closing/">Oh no.</a></p>
+<img src="cricut-craft-closure.png" alt="Screenshot of Cricut's blog announcing the closure of Cricut Craft Room" loading="lazy">
+<small>Everyone loves planned obsolecense</small>
+<p>So, the only real way to control the Cricut Mini is now discontinued. But Provo Craft and Cricut stepped up to the plate, and added support for the device to their newer software suites. This way, their customers could still use the machines they already owned, and- I'm just kidding, could you IMAGINE. The Cricut Mini - a still perfectly functional machine - was dead, severed from the only way you could control it. But hey, on the plus side...</p>
+<blockquote>
+<p>You’ll get $75 off any Explore machine or bundle on Cricut.com</p>
+</blockquote>
+<p>Hooray.</p>
+<h2 id="part-2-cracking-it-open"><a href="#part-2-cracking-it-open">Part 2: Cracking it open</a></h2>
+<p>With that figured out, I assumed the machine actually worked fine. It just needed a way to control it that wasn't owned by Cricut.</p>
+<p>Thankfully, the Cricut Mini is ultimately just a CNC machine. Printers (2d and 3d), plotters, cnc routers, laser cutters - all of these machines really just move a tool in a 3d work environment to do something, and they all qualify as CNC machines. The Cricut Mini is no different, so I assumed I could take the control board for a 3d printer and jam it in there, do some tweaks to the firmware, and bam! The Cricut would start accepting G-Code, the universal language of cnc machines. Easy weekend project.</p>
+<p>Then I opened it up.</p>
+<img src="the-guts.png" loading="lazy" alt="Photo of the guts of a Cricut Mini">
+<p>This might not mean much to most people at first glance. Remember how I said all CNC machines are the same? That's mostly true. And most CNC machines use these things called 'stepper motors' to move the tool around. Without getting too into the weeds, stepper motors are very easy to move precise amounts, which is really useful for a machine doing precision work.</p>
+<p>The Cricut Mini does not use stepper motors.</p>
+<p>That metal cylinder on the left? That's a DC Motor. That's the kind of thing you'd find inside a toy RC car. You give it power, and it spins until it stops getting power. That ring hovering over the end of it is an <strong>encoder disc</strong>. It has a pattern of narrow lines that a sensor can read. As the motor spins, the encoder is able to determine how <em>much</em> it spins, and feed that data back into the controller. As a result, despite using these much less precise motors, the Cricut can still achieve the necessary precision to do it's job.</p>
+<p>From an engineering perspective, really cool! From my perspective, bad! Because every single 3d printer I know of uses stepper motors <em>(yes I know about the Magneto X and it's linear motors but that's neither here nor there)</em>. I can't just stick a 3d printer control board in there and wire it up to a totally different motor system. So I was stuck, again.</p>
+<p>While I'm inside this machine, though - holy hell this thing is well built. The core chassis of it is folded sheet steel, and it feels <em>sturdy</em>. Like I said, those motor-encoder things are annoying for me, but they're <em>really</em> clever. This thing was built by people who knew what they were doing, and clearly designed it to last a long time. This machine is roughly 9 years old, and - spoilers for the end of the post - It still works! Which makes the discontinuation of it's software even more shameful on Cricut's behalf.</p>
+<h2 id="part-3-teensycnc-to-the-rescue"><a href="#part-3-teensycnc-to-the-rescue">Part 3: TeensyCNC to the rescue</a></h2>
+<p>Anyways. I was thinking about whether I could write my own controller using a Raspberry Pi Pico or something, but that would be a <em>lot</em> of work, especially if I wanted to include G-Code parsing. As much as I wanted to save this thing, I wasn't ready to dedicate that much time to it.</p>
+<p>Then, I did some googling - someone beat me to it.</p>
+<img src="teensycnc.png" alt="Photo of a Teensy microcontroller being hooked into the Cricut Mini's control board" loading="lazy">
+<p>GitHub user <a href="https://github.com/seishuku/TeensyCNC">seishuku</a> had created <em>TeensyCNC</em>. They ran into the exact issue I did, but <em>did</em> devote the time to writing a custom controller. The firmware they made was designed to run on a Teensy 3.x board - a microcontroller kind of like an Arduino - which would replace the original microcontroller chip in the Cricut like some kind of parasite. It took standard G-Code, and preserved most of the original functionality of the device.</p>
+<p>Even better, though - <a href="https://github.com/wholder/TeensyCNC2?tab=readme-ov-file">Wayne Holder</a> took that same code and improved it with TeensyCNC2. More important than some small feature additions, though, he documented the <em>entire</em> process of modding the Cricut in more detail than most developers I know would have. This made soldering the 20 or so wires between the two boards WAY easier than just following the original wiring diagram.</p>
+<p>I wanna shout these two out for their amazing work, without them this would have been nearly impossible for me and this machine would have been tossed, most likely. It always makes me happy to see people doing shit like this to combat planned obsolescence.</p>
+<p>The one downside to all this, is the Teensy 3.x series of microcontroller has been discontinued for a while now. A little work has been put into porting it to the Teensy 4, but it doesn't seem like a priority item for either developer. Thankfully, someone at my local makerspace was willing to sell me a Teensy 3.1 at list price, which is great considering how much people are scalping them for.</p>
+<p>Anyways! I took the Cricut apart, soldered in the chip, had to reassemble it like 3 times because I kept messing up the ordering of screws - and then, lo and behold. It worked!</p>
+<h2 id="part-4-so-what-now"><a href="#part-4-so-what-now">Part 4: So what now</a></h2>
+<p>I needed to get some accessories for the Cricut. You can't buy the originals, but the power supply is an off the shelf part, and the cutting mat you can make by just cutting a rectangle out of a thin plastic cutting board. For the tool, I just taped a pen in place to act as a plotter.</p>
+<p>I used mixtela's <a href="https://mitxela.com/plotterfun/">plotter fun</a> tool to convert my drawing of <a href="https://cohost.org/Sciman101/post/5444019-empty">Nova</a> into an SVG, and 30 minutes later I had the drawing you see at the top of the post.</p>
+<p>It's not perfect - I need a better tool holding system than tape, and this thing is LOUD. Not sure how much of that is age and how much is the unconventional motor system.</p>
+<p>I also don't... <em>need</em> this. I don't have much interest in a vinyl cutter, and a plotter is a neat novelty, but I don't see myself using it regularly. I'll probably see if I can donate it back to my makerspace.</p>
+<p>The main reason I did this was just to see if I could save this really cleverly built machine from an early grave, and it's gone about as well as I could have hoped for. I hope you learned something, or at the very least have a mild disdain for Provo Craft, now. Either way, hoping I can do more stuff like this in the future!</p>
+    </div>
+    <footer>
+      <div>Sciman101, 2024</div>
+    </footer>
+  </main>
+  <script src="/scripts/splash.js"></script>
+</body>
+
+</html>

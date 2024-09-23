@@ -1,0 +1,30 @@
+#tag-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tag-container > input {
+  display: none;
+}
+
+.tag-container > span {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tag-container:hover > span {
+  background-color: #ccc;
+}
+
+input[type="checkbox"]:checked + span {
+  background: green;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

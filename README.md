@@ -1,1 +1,0 @@
-# sciman101.github.io
