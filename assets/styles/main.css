@@ -1,0 +1,44 @@
+#sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-header {
+  text-decoration: none;
+  font-size: 3.5rem;
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+  width: 100%;
+  border-bottom: 4px solid black;
+  background-color: none;
+  color: black;
+  transition: 0.1s;
+}
+.section-header.interactive:hover {
+  background-color: black;
+  color: white;
+  transition: 0.1s;
+}
+
+#blog-recent {
+  font-size: 1.25rem;
+  width: 100%;
+  text-align: right;
+  list-style-position: inside;
+}
+#blog-recent li {
+  margin: 0.5rem 0;
+}
+.blog-recent-date {
+  font-size: 0.75rem;
+}
+
+#writing-excerpt {
+  border-left: 2px solid;
+  padding-left: 4px;
+  margin-top: 1rem;
+  font-style: italic;
+}
+#writing-excerpt-link {
+  text-align: right;
+}
