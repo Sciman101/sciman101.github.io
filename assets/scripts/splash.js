@@ -23,6 +23,8 @@ const splashes = [
   "Powered by Phantomake",
   "Mk. III",
   "Made with blood, sweat, and JavaScript",
+  "Forever a Work-in-Progress",
+  "The 5th website",
 ];
 
 document.getElementById("splash").innerHTML =
