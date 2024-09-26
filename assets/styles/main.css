@@ -9,14 +9,14 @@
   margin-top: 1rem;
   padding: 0 0.5rem;
   width: 100%;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid var(--color-text);
   background-color: none;
-  color: black;
+  color: var(--color-text);
   transition: 0.1s;
 }
 .section-header.interactive:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--color-text);
+  color: var(--color-text-inverse);
   transition: 0.1s;
 }
 

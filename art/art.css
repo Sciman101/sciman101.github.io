@@ -1,0 +1,36 @@
+main {
+  width: 95% !important;
+}
+
+#art-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-auto-rows: var(20px);
+  justify-content: center;
+}
+
+.art-thumb {
+}
+
+#lightbox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+}
+#lightbox-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#lightbox.hidden {
+  display: none;
+}

@@ -18,7 +18,7 @@
 /* date */
 .blog-post sub {
   margin: 0;
-  color: rgb(67, 78, 92);
+  color: var(--color-text-secondary);
 }
 
 .inline-img {
@@ -28,7 +28,7 @@
 }
 
 .cw {
-  background-color: #efba69;
+  background-color: var(--color-accent);
   border-radius: 4px;
   font-weight: 600;
   color: black !important;
