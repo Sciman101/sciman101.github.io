@@ -117,3 +117,17 @@ footer {
   border-left: 2px solid var(--color-text);
   font-style: italic;
 }
+
+a {
+  color: var(--color-link);
+}
+/* Anchor links */
+h2 > a {
+  text-decoration: none !important;
+  width: 95%;
+  border-bottom: 2px solid var(--color-link);
+}
+h2 > a::before {
+  content: "# ";
+  font-size: 75%;
+}
