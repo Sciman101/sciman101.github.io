@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ricket's Computer Trouble released!</title>
+<!-- Non social metatags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<!-- Embed tags -->
+<meta name="author" content="Sciman101" />
+<meta name="description" content="" />
+
+<meta property="og:title" content="Ricket's Computer Trouble released!" />
+<meta property="og:type" content="website" />
+<meta name="og:description" content="" />
+<meta property="og:url" content="https://sciman.info/" />
+<meta name="twitter:site" content="https://sciman.info/">
+<meta name="twitter:title" content="Ricket's Computer Trouble released!">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:src" content="rct cover.png">
+
+<!-- Feed -->
+<link rel="alternate" type="application/atom+xml" href="https://sciman.info/atom.xml" title="sciman.info" />
+
+<!--Links and stuff-->
+<link rel="stylesheet" href="/assets/styles/vars.css" />
+<link rel="stylesheet" href="/assets/styles/index.css" />
+
+<link rel="stylesheet" href="/assets/styles/main.css" />
+
+<link rel="stylesheet" href="/assets/styles/blog.css" />
+
+</head>
+
+<body>
+  <main>
+    <header>
+  <h1><a href="/">sciman.info</a></h1>
+  <h3 id="splash">Programmer and Artist</h3>
+</header>
+<nav>
+  
+  <span class="link-expand">
+    <a href="https://github.com/Sciman101" style="background-color: #24292f" class="link-button"><img src="/assets/icons/github-mark.svg" class="nav-icon" alt="GitHub" /></a></span>
+  
+  <span class="link-expand">
+    <a href="https://sciman101.itch.io" style="background-color: #fa5c5c" class="link-button"><img src="/assets/icons/itchio-logo-textless-white.svg" class="nav-icon" alt="itch.io" /></a></span>
+  
+  <span class="link-expand">
+    <a href="https://www.printables.com/@Sciman101" style="background-color: #eb6f40" class="link-button"><img src="/assets/icons/printables.svg" class="nav-icon" alt="Printables" /></a></span>
+  
+  <span class="link-expand">
+    <a href="/atom.xml" style="background-color: #FFA52F" class="link-button"><img src="/assets/icons/rss.svg" class="nav-icon" alt="RSS Feed" /></a></span>
+  
+  <span class="link-expand">
+    <a href="mailto:hello@sciman.info" style="background-color: #81b7f5" class="link-button"><img src="/assets/icons/email.svg" class="nav-icon" alt="Email" /></a></span>
+  
+</nav>
+    <div id="content">
+      <div class="section-header">Ricket's Computer Trouble released!</div>
+      <div>2024-10-02</div>
+      <img class='inline-img pixelated' src="rct cover.png" alt="Cover art for 'Ricket's Computer Trouble', with the tituar Ricket recoiling as his laptop bursts into flame." loading="lazy"/>
+<p>I made a new game! <a href="https://sciman101.itch.io/rickets-computer-trouble">You can download it from itch.io here.</a></p>
+<p>Ricket's Computer Trouble is the first game I've released since... <a href="https://sciman101.itch.io/vessel-garden">Vessel Garden</a>, back in January 2023, good lord. I've worked on game project since - prototypes, mostly, but I'd started worrying that maybe I just wasn't cut out for this hobby anymore. I was doubting my abilities, and it was really getting to me.</p>
+<p>So, I vowed to put everything else aside and just <em>finish</em> something. A small (though scope creep reared it's ugly head) game I could get done in a month ish (it took two). This is the result of that, and I wanted to go over some of what I learned while working on it.</p>
+<p>(Light spoilers below! Nothing crazy - the game is pretty small, but you've been warned!)</p>
+<img class='inline-img' src="demo1.gif" alt="GIF showing gameplay of Ricket getting a shotgun and blasting a laptop on his desk."  loading="lazy"/>
+<h2 id="the-concept"><a href="#the-concept">The concept</a></h2>
+<p>The first question you might have is why I made a game about a furry going around shooting laptops with a shotgun.</p>
+<img class='inline-img short-img' src="context1.png" alt="Screencap of a Discord conversation between me and Torcado. Torcado, lamenting his laptop keeps crashing, says he wants to shoot it. In return, I draw his fursona doing just that." loading="lazy"/>
+<p><a href="https://torcado.itch.io/">Torcado</a> is one of the most incredible gamedevs I know, and I'm fortunate to have him as a friend of mine. One time in his Discord, for a project, his laptop kept running into problems and slowing him down. I drew the pic up above as a bit, but wasn't kidding about the game idea.</p>
+<img class='inline-img' src="context2.png" alt="Continuing the discord conversation, me telling Torcado I was genuinely trying to come up with a way to make a game about him shooting his laptop."  loading="lazy"/>
+<p>When the time came to come up with a small project to finish something again - it seemed like a good chance to dust the silly idea off and make something of it.</p>
+<p>The biggest problem was - what <em>do</em> I do to gamify such a silly concept. At first I was imagining some kind of boss battle against a giant laptop, almost Cuphead style. But I came up with the movement mechanics using the shotgun, and decided something that let the player expore that made more sense. I landed on a Smash. Bros style 'smash the targets' game - originally meant to be a single scene, it expanded into multiple rooms later on.</p>
+<h2 id="art"><a href="#art">Art</a></h2>
+<p>Lately, I've been on a kick with the binary brush, which draws blobs of color with zero antialiasing. It's fun to use in full res drawings, and at lower resolutions it's functionally just pixel art, so I wanted to give that a spin for this.</p>
+<p>I drew most of the characters in Clip Studio Paint at a higher res to start, then downscaled them in Aseprite before cleaning them up and animating them.</p>
+<img class='inline-img short-img' src="ricket mockup.png" alt="Original Ricket mockup, at a much higher resolution than the final game."  loading="lazy"/>
+<small>The origninal mockup for Ricket</small>
+<p>The hands and shotgun were kept disembodied to make them easier to animate. At the small size of the sprites, you don't really notice it, anyways.</p>
+<h2 id="level-design"><a href="#level-design">Level Design</a></h2>
+<p>Aside from 'finishing things', my other goal with this project was to sharpen my level design skills.</p>
+<p>Level design is, as it turns out, hard! My brain really prefers making systems that can interact with one another, way more than making the spaces those systems inhabit. I wouldn't be shocked if this is why stuff like rougelikes/lites and procgen appeal to me - make the fun parts, then write some code to actually build the game out of it.</p>
+<p>But, it's an important skill nonetheless, and some practice wouldn't hurt. The last game I really did level design for was <a href="https://sciman101.itch.io/vine">Vinekid</a> - which I still think is a really good game, but the level design can be a pretty weak at parts.</p>
+<p>RCT is by no means <em>perfect</em> in that regard, but I think it's an improvement. I tried to make sure every level felt like there was some substance to it - be it teaching you new mechanics, testing your skills, or giving you a space to experiment in with less of a defined end goal.</p>
+<p>This was also a good reminder that the only thing more important than testing your game, is having <em>other</em> people test your game. Most of development happened with me testing to make sure stuff worked, levels were possible, assets looked good - all at my desk, playing by myself. And the longer I did that, the better I got at the game. The hardest levels started to become kinda trivial.</p>
+<p>So, when the time came to show it to a friend of mine in person, she got stuck pretty quickly. There were entire mechanics I'd built in I'd forgotten to actually tell the player about, I was so used to them. The difficulty curve of the levels was totally off, and in the end my friend seemed a bit frustrated at the whole thing.</p>
+<p>This is a stumbling block I've run into before. Tussle Punks, my big ambitious platform fighter project, was always tested solo. By me. Which is kind of an issue for a multiplayer game.</p>
+<p>The good news is, I was able to use feedback from the friends playtest to make some improvements, and the next time I showed it to someone they seemed to like it a lot more. I'm hoping to be able to take future games to events or little get togethers to try and gather more feedback - we'll have to see!</p>
+<h2 id="super-duper-shotgun-mode"><a href="#super-duper-shotgun-mode">Super Duper Shotgun Mode</a></h2>
+<p>Most of the time I was trying to actually finish the game, y'know, the whole point of this project. But now and then I'd goof off a little. At one point I made a sprite of the shotgun with 3 more shotguns duct-taped onto it that fired 4 shots at once, inspired by the <a href="https://youtu.be/oiduuZChCMM?si=j9WzIqIPWtvnF8yM&#x26;t=134">Stacked Shotgun from the DOOM 2 mod</a>.</p>
+<img class='inline-img' src="super duper shotgun.gif" alt="Ricket firing an early version of the super duper shotgun."  loading="lazy"/>
+<small>Was really tempted to keep the programmer art DOOR in tbh</small>
+<p>I intended for it to just be a one off joke, but people wanted to see it in the final game - and like, of course they would, who was I kidding. So for the final game I quickly threw together an updated version with better graphics and tied it to completion. If you beat the game once, a checkbox shows up on the main menu to turn it on.</p>
+<p>I also turned the recoil up by 2x. You'd think 4x would make more sense, but the game was borderline unplayable, with Ricket launching across the entire map every shot.</p>
+<p>Making this kind of dumb nonsense is one of my favorite parts of gamedev, I need to do stuff like it more often.</p>
+<h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
+<p>This was fun! Like most projects, it was most exciting at the start and, as time went on, my interest kinda drained until the last burst of getting it out there. That feels like how these sorts of things tend to go - the last 10% if 90% of the work, and all - and it's a big part of why I need the practice. My brain is overflowing with ideas for projects, and as fun as daydreaming about them can be, it doesn't count for much if I can't realize them.</p>
+<p>I'm also still trying to keep my expectations in check. Just because I did this doesn't mean I should rush back into some massive dream game project - I'm pretty sure the last time I tried that it burned me out, hard. I'm gonna try and work on more small-scale projects like this one. Exercise the 'finishing projects' muscle, as it were.</p>
+<p>Until then, thanks for reading! I hope you found something interesting here, and I hope you enjoy the game!</p>
+    </div>
+    <footer>
+  <div>Sciman101, 2024</div>
+  <div>This site last updated <a href="/history">Thu Oct 03 2024</a></div>
+</footer>
+  </main>
+  <script src="/assets/scripts/splash.js"></script>
+</body>
+
+</html>

@@ -27,6 +27,11 @@
   margin: 2rem auto;
 }
 
+.short-img {
+  max-height: 50vmin;
+  width: auto;
+}
+
 .cw {
   background-color: var(--color-accent);
   border-radius: 4px;

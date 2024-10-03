@@ -131,3 +131,8 @@ h2 > a::before {
   content: "# ";
   font-size: 75%;
 }
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}

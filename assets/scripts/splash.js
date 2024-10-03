@@ -3,7 +3,7 @@ const splashes = [
   "The most fun you can have on-line",
   "Powered by HTML5",
   "NFT-Free!",
-  "It's like a website",
+  "It's like a website in here",
   "The only site that's not on fire (yet)",
   "Ai-Free!",
   "Just like mom used to make",
@@ -25,6 +25,10 @@ const splashes = [
   "Made with blood, sweat, and JavaScript",
   "Forever a Work-in-Progress",
   "The 5th website",
+  "or PvP Boss",
+  "Available for a limited time!",
+  "Have a nice day!",
+  "The punchline is that there is no punchline",
 ];
 
 document.getElementById("splash").innerHTML =
