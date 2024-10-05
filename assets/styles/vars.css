@@ -5,4 +5,34 @@
   --color-text-inverse: rgb(243, 243, 243);
   --color-text-secondary: rgb(67, 78, 92);
   --color-link: #801912;
+  --color-header: rgb(15, 15, 15);
+  --color-header-text: rgb(243, 243, 243);
+
+  --font-body: "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Lato",
+    "Liberation Sans", "Noto Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  --font-header: ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa,
+    Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri,
+    source-sans-pro, sans-serif;
+}
+
+:root:has(#theme-picker option[value="dark"]:checked) {
+  --color-background: #2b2b3a;
+  --color-accent: #885a88;
+  --color-text: rgb(243, 243, 243);
+  --color-text-inverse: rgb(22, 22, 22);
+  --color-text-secondary: rgb(100, 102, 105);
+  --color-link: #ab6fe4;
+  --color-header: rgb(147, 138, 172);
+  --color-header-text: rgb(243, 243, 243);
+}
+
+:root:has(#theme-picker option[value="cohost"]:checked) {
+  --color-background: #2b2b3a;
+  --color-accent: #885a88;
+  --color-text: rgb(243, 243, 243);
+  --color-text-inverse: rgb(22, 22, 22);
+  --color-text-secondary: rgb(100, 102, 105);
+  --color-link: #ab6fe4;
+  --color-header: rgb(147, 138, 172);
+  --color-header-text: rgb(243, 243, 243);
 }

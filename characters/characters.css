@@ -38,11 +38,13 @@
   right: 0;
   width: auto !important;
   margin: 0 !important;
+  padding: 0 !important;
   box-shadow: none !important;
 }
 
 a:hover + .character-face {
   bottom: 0;
+  right: 0;
 }
 
 table,
@@ -90,4 +92,18 @@ table {
   height: 100%;
   font-weight: 600;
   position: absolute;
+}
+
+.bobbing {
+  animation: bob 3s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(-4px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
 }
