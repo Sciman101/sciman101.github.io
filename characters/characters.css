@@ -40,6 +40,7 @@
   margin: 0 !important;
   padding: 0 !important;
   box-shadow: none !important;
+  pointer-events: none;
 }
 
 a:hover + .character-face {
@@ -92,6 +93,21 @@ table {
   height: 100%;
   font-weight: 600;
   position: absolute;
+}
+
+.pitch-fullbody-placeholder {
+  width: 400px;
+  max-width: 80vmin;
+  aspect-ratio: 2 / 2.2;
+  position: relative;
+}
+
+.pitch-fullbody {
+  width: 120%;
+  position: absolute;
+  left: -999px;
+  right: -999px;
+  margin: auto;
 }
 
 .bobbing {

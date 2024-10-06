@@ -135,14 +135,22 @@ a {
   color: var(--color-link);
 }
 /* Anchor links */
-h2 > a {
+#content > h2 {
+  display: flow-root;
+}
+#content > h2 > a {
   text-decoration: none !important;
   width: 95%;
+  display: block;
   border-bottom: 2px solid var(--color-link);
 }
-h2 > a::before {
+#content > h2 > a::before {
   content: "# ";
   font-size: 75%;
+}
+
+h2 > a::before {
+  content: "> ";
 }
 
 .pixelated {
