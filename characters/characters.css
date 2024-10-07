@@ -15,7 +15,7 @@
 }
 
 .character-link.no-gradient {
-  background: var(--character-color);
+  background-color: var(--character-color) !important;
 }
 
 .character-link a {
