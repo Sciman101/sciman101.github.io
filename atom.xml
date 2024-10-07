@@ -4,7 +4,7 @@
   <title>sciman.info</title>
   <subtitle>Thoughts and writing from Sciman101</subtitle>
   <link href="https://sciman.info" />
-  <updated>2024-10-06T04:03:47.282Z</updated>
+  <updated>2024-10-07T22:11:42.418Z</updated>
   <author>
     <name>Sciman101</name>
   </author>
@@ -43,6 +43,7 @@
 
   
   
+  
   <entry>
     <category type="writing" />
     <title>Writing - Stargazing</title>
@@ -53,6 +54,8 @@
 </summary>
   </entry>
   
+  
+  
   <entry>
     <category type="writing" />
     <title>Writing - Sentient Water Filter</title>
@@ -61,6 +64,8 @@
     <updated>2023-10-27T04:00:00.000Z</updated>
     <summary>So, of course, they made something with openAware. Why wouldn't they? Everyone was using openAware. Google shoved it into their search engine, Boston Dynamics had Atlas competing on Wipeout with it, even a company like Milestone was thinking about integrating it into the Mi-90, and Milestone was notoriously behind the times. openAware was the trend, and if staying trendy meant they could keep funding the fleet, that was the way to go.</summary>
   </entry>
+  
+  
   
   <entry>
     <category type="writing" />
@@ -73,6 +78,8 @@ For just a moment, a smile returned to her chest mouth.
 ”I like to think you were happy."</summary>
   </entry>
   
+  
+  
   <entry>
     <category type="writing" />
     <title>Writing - Pitch Black</title>
@@ -82,6 +89,8 @@ For just a moment, a smile returned to her chest mouth.
     <summary>She frowned. This tasted really bad. She wasn't buying this snack again in the future.</summary>
   </entry>
   
+  
+  
   <entry>
     <category type="writing" />
     <title>Writing - Not Built for This</title>
@@ -90,6 +99,8 @@ For just a moment, a smile returned to her chest mouth.
     <updated>2024-03-25T04:00:00.000Z</updated>
     <summary>Her voice trailed off. Nothing sounded right. She imagined Ru-B hearing what she had to say, and the way she'd respond. That momentary flicker in the LEDs of her eyes when she got angry. The feeling of a wall building itself up between the two of them. Cutting off the only other person that felt real. She shook her head, and tried to focus on her little fidget. When suddenly, there came a banging from the front door.</summary>
   </entry>
+  
+  
   
   <entry>
     <category type="writing" />
@@ -101,5 +112,119 @@ For just a moment, a smile returned to her chest mouth.
 </summary>
   </entry>
   
+  
+
+  
+  
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Uma</title>
+      <link href="/characters/uma/" />
+      <id>/characters/uma/</id>
+      <updated>2024-09-24T00:00:00.000Z</updated>
+      <summary>High on the life of the party</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Root</title>
+      <link href="/characters/root/" />
+      <id>/characters/root/</id>
+      <updated>2024-09-27T00:00:00.000Z</updated>
+      <summary>Donut Rogue</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Pitch</title>
+      <link href="/characters/pitch/" />
+      <id>/characters/pitch/</id>
+      <updated>2024-10-06T00:00:00.000Z</updated>
+      <summary>Rock Bottom</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Nova</title>
+      <link href="/characters/nova/" />
+      <id>/characters/nova/</id>
+      <updated>2024-09-26T00:00:00.000Z</updated>
+      <summary>Live from the milky way</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Moby</title>
+      <link href="/characters/moby/" />
+      <id>/characters/moby/</id>
+      <updated>2024-10-07T00:00:00.000Z</updated>
+      <summary>Macroplastic Processor</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Iekika</title>
+      <link href="/characters/iekika/" />
+      <id>/characters/iekika/</id>
+      <updated>2024-09-23T00:00:00.000Z</updated>
+      <summary>Spearheader</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Darue</title>
+      <link href="/characters/darue/" />
+      <id>/characters/darue/</id>
+      <updated>2024-09-26T00:00:00.000Z</updated>
+      <summary>Late Bloomer</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Candy</title>
+      <link href="/characters/candy/" />
+      <id>/characters/candy/</id>
+      <updated>2024-10-04T00:00:00.000Z</updated>
+      <summary>Afterlife Afterparty</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Basil</title>
+      <link href="/characters/basil/" />
+      <id>/characters/basil/</id>
+      <updated>2024-10-07T00:00:00.000Z</updated>
+      <summary>Not quite god, Not quite in a box</summary>
+    </entry>
+    
+    
+  
+    <entry>
+      <category type="original-character" />
+      <title>Character - Amber</title>
+      <link href="/characters/amber/" />
+      <id>/characters/amber/</id>
+      <updated>2024-09-24T00:00:00.000Z</updated>
+      <summary>The Machinist</summary>
+    </entry>
+    
+    
 
 </feed>

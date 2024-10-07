@@ -14,6 +14,10 @@
   height: 8vmin;
 }
 
+.character-link.no-gradient {
+  background: var(--character-color);
+}
+
 .character-link a {
   font-size: calc(max(6.5vmin, 38px));
   position: absolute;
@@ -33,7 +37,7 @@
 }
 
 .character-face {
-  height: 200%;
+  height: 201%;
   position: absolute;
   right: 0;
   width: auto !important;
