@@ -4,11 +4,13 @@
   <title>sciman.info</title>
   <subtitle>Thoughts and writing from Sciman101</subtitle>
   <link href="https://sciman.info" />
-  <updated>2024-10-07T22:14:52.854Z</updated>
+  <updated>2024-10-13T17:29:28.160Z</updated>
   <author>
     <name>Sciman101</name>
   </author>
   <id>https://sciman.info</id>
+
+  
 
   
   
@@ -17,13 +19,72 @@
   
   <entry>
     <category type="blog" />
+    <title>Blog - Updated RSS feed</title>
+    <link href="https://sciman.info/blog/updated-feed-1/" />
+    <id>/blog/updated-feed-1/</id>
+    <updated>2024-10-13T00:00:00.000Z</updated>
+    <summary>
+      Little maintenance update
+    </summary>
+    <content type="html">
+      &lt;p&gt;Finally got around to figuring out how to embed actual post content into the feed for the site, so you can read all about my various nonsense from the comfort of your aggregator!&lt;/p&gt;
+&lt;p&gt;If you want the older posts to have the full post previews, you might need to delete and re-add this feed to your reader. Otherwise, you should be able to see the new stuff on posts going forward.&lt;/p&gt;
+&lt;p&gt;Also, the &lt;a href=&quot;/art&quot;&gt;art&lt;/a&gt; page is ready!&lt;/p&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="blog" />
     <title>Blog - Ricket's Computer Trouble released!</title>
-    <link href="/blog/rickets-computer-trouble/" />
+    <link href="https://sciman.info/blog/rickets-computer-trouble/" />
     <id>/blog/rickets-computer-trouble/</id>
     <updated>2024-10-03T00:00:00.000Z</updated>
     <summary>
       Getting back into the swing of making games
     </summary>
+    <content type="html">
+      &lt;img class=&apos;inline-img pixelated&apos; src=&quot;rct cover.png&quot; alt=&quot;Cover art for &apos;Ricket&apos;s Computer Trouble&apos;, with the tituar Ricket recoiling as his laptop bursts into flame.&quot; loading=&quot;lazy&quot;/&gt;
+&lt;p&gt;I made a new game! &lt;a href=&quot;https://sciman101.itch.io/rickets-computer-trouble&quot;&gt;You can download it from itch.io here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ricket&apos;s Computer Trouble is the first game I&apos;ve released since... &lt;a href=&quot;https://sciman101.itch.io/vessel-garden&quot;&gt;Vessel Garden&lt;/a&gt;, back in January 2023, good lord. I&apos;ve worked on game project since - prototypes, mostly, but I&apos;d started worrying that maybe I just wasn&apos;t cut out for this hobby anymore. I was doubting my abilities, and it was really getting to me.&lt;/p&gt;
+&lt;p&gt;So, I vowed to put everything else aside and just &lt;em&gt;finish&lt;/em&gt; something. A small (though scope creep reared it&apos;s ugly head) game I could get done in a month ish (it took two). This is the result of that, and I wanted to go over some of what I learned while working on it.&lt;/p&gt;
+&lt;p&gt;(Light spoilers below! Nothing crazy - the game is pretty small, but you&apos;ve been warned!)&lt;/p&gt;
+&lt;img class=&apos;inline-img&apos; src=&quot;demo1.gif&quot; alt=&quot;GIF showing gameplay of Ricket getting a shotgun and blasting a laptop on his desk.&quot;  loading=&quot;lazy&quot;/&gt;
+&lt;h2 id=&quot;the-concept&quot;&gt;&lt;a href=&quot;#the-concept&quot;&gt;The concept&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first question you might have is why I made a game about a furry going around shooting laptops with a shotgun.&lt;/p&gt;
+&lt;img class=&apos;inline-img short-img&apos; src=&quot;context1.png&quot; alt=&quot;Screencap of a Discord conversation between me and Torcado. Torcado, lamenting his laptop keeps crashing, says he wants to shoot it. In return, I draw his fursona doing just that.&quot; loading=&quot;lazy&quot;/&gt;
+&lt;p&gt;&lt;a href=&quot;https://torcado.itch.io/&quot;&gt;Torcado&lt;/a&gt; is one of the most incredible gamedevs I know, and I&apos;m fortunate to have him as a friend of mine. One time in his Discord, for a project, his laptop kept running into problems and slowing him down. I drew the pic up above as a bit, but wasn&apos;t kidding about the game idea.&lt;/p&gt;
+&lt;img class=&apos;inline-img&apos; src=&quot;context2.png&quot; alt=&quot;Continuing the discord conversation, me telling Torcado I was genuinely trying to come up with a way to make a game about him shooting his laptop.&quot;  loading=&quot;lazy&quot;/&gt;
+&lt;p&gt;When the time came to come up with a small project to finish something again - it seemed like a good chance to dust the silly idea off and make something of it.&lt;/p&gt;
+&lt;p&gt;The biggest problem was - what &lt;em&gt;do&lt;/em&gt; I do to gamify such a silly concept. At first I was imagining some kind of boss battle against a giant laptop, almost Cuphead style. But I came up with the movement mechanics using the shotgun, and decided something that let the player expore that made more sense. I landed on a Smash. Bros style &apos;smash the targets&apos; game - originally meant to be a single scene, it expanded into multiple rooms later on.&lt;/p&gt;
+&lt;h2 id=&quot;art&quot;&gt;&lt;a href=&quot;#art&quot;&gt;Art&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lately, I&apos;ve been on a kick with the binary brush, which draws blobs of color with zero antialiasing. It&apos;s fun to use in full res drawings, and at lower resolutions it&apos;s functionally just pixel art, so I wanted to give that a spin for this.&lt;/p&gt;
+&lt;p&gt;I drew most of the characters in Clip Studio Paint at a higher res to start, then downscaled them in Aseprite before cleaning them up and animating them.&lt;/p&gt;
+&lt;img class=&apos;inline-img short-img&apos; src=&quot;ricket mockup.png&quot; alt=&quot;Original Ricket mockup, at a much higher resolution than the final game.&quot;  loading=&quot;lazy&quot;/&gt;
+&lt;small&gt;The origninal mockup for Ricket&lt;/small&gt;
+&lt;p&gt;The hands and shotgun were kept disembodied to make them easier to animate. At the small size of the sprites, you don&apos;t really notice it, anyways.&lt;/p&gt;
+&lt;h2 id=&quot;level-design&quot;&gt;&lt;a href=&quot;#level-design&quot;&gt;Level Design&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Aside from &apos;finishing things&apos;, my other goal with this project was to sharpen my level design skills.&lt;/p&gt;
+&lt;p&gt;Level design is, as it turns out, hard! My brain really prefers making systems that can interact with one another, way more than making the spaces those systems inhabit. I wouldn&apos;t be shocked if this is why stuff like rougelikes/lites and procgen appeal to me - make the fun parts, then write some code to actually build the game out of it.&lt;/p&gt;
+&lt;p&gt;But, it&apos;s an important skill nonetheless, and some practice wouldn&apos;t hurt. The last game I really did level design for was &lt;a href=&quot;https://sciman101.itch.io/vine&quot;&gt;Vinekid&lt;/a&gt; - which I still think is a really good game, but the level design can be a pretty weak at parts.&lt;/p&gt;
+&lt;p&gt;RCT is by no means &lt;em&gt;perfect&lt;/em&gt; in that regard, but I think it&apos;s an improvement. I tried to make sure every level felt like there was some substance to it - be it teaching you new mechanics, testing your skills, or giving you a space to experiment in with less of a defined end goal.&lt;/p&gt;
+&lt;p&gt;This was also a good reminder that the only thing more important than testing your game, is having &lt;em&gt;other&lt;/em&gt; people test your game. Most of development happened with me testing to make sure stuff worked, levels were possible, assets looked good - all at my desk, playing by myself. And the longer I did that, the better I got at the game. The hardest levels started to become kinda trivial.&lt;/p&gt;
+&lt;p&gt;So, when the time came to show it to a friend of mine in person, she got stuck pretty quickly. There were entire mechanics I&apos;d built in I&apos;d forgotten to actually tell the player about, I was so used to them. The difficulty curve of the levels was totally off, and in the end my friend seemed a bit frustrated at the whole thing.&lt;/p&gt;
+&lt;p&gt;This is a stumbling block I&apos;ve run into before. Tussle Punks, my big ambitious platform fighter project, was always tested solo. By me. Which is kind of an issue for a multiplayer game.&lt;/p&gt;
+&lt;p&gt;The good news is, I was able to use feedback from the friends playtest to make some improvements, and the next time I showed it to someone they seemed to like it a lot more. I&apos;m hoping to be able to take future games to events or little get togethers to try and gather more feedback - we&apos;ll have to see!&lt;/p&gt;
+&lt;h2 id=&quot;super-duper-shotgun-mode&quot;&gt;&lt;a href=&quot;#super-duper-shotgun-mode&quot;&gt;Super Duper Shotgun Mode&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Most of the time I was trying to actually finish the game, y&apos;know, the whole point of this project. But now and then I&apos;d goof off a little. At one point I made a sprite of the shotgun with 3 more shotguns duct-taped onto it that fired 4 shots at once, inspired by the &lt;a href=&quot;https://youtu.be/oiduuZChCMM?si=j9WzIqIPWtvnF8yM&amp;#x26;t=134&quot;&gt;Stacked Shotgun from the DOOM 2 mod&lt;/a&gt;.&lt;/p&gt;
+&lt;img class=&apos;inline-img&apos; src=&quot;super duper shotgun.gif&quot; alt=&quot;Ricket firing an early version of the super duper shotgun.&quot;  loading=&quot;lazy&quot;/&gt;
+&lt;small&gt;Was really tempted to keep the programmer art DOOR in tbh&lt;/small&gt;
+&lt;p&gt;I intended for it to just be a one off joke, but people wanted to see it in the final game - and like, of course they would, who was I kidding. So for the final game I quickly threw together an updated version with better graphics and tied it to completion. If you beat the game once, a checkbox shows up on the main menu to turn it on.&lt;/p&gt;
+&lt;p&gt;I also turned the recoil up by 2x. You&apos;d think 4x would make more sense, but the game was borderline unplayable, with Ricket launching across the entire map every shot.&lt;/p&gt;
+&lt;p&gt;Making this kind of dumb nonsense is one of my favorite parts of gamedev, I need to do stuff like it more often.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This was fun! Like most projects, it was most exciting at the start and, as time went on, my interest kinda drained until the last burst of getting it out there. That feels like how these sorts of things tend to go - the last 10% if 90% of the work, and all - and it&apos;s a big part of why I need the practice. My brain is overflowing with ideas for projects, and as fun as daydreaming about them can be, it doesn&apos;t count for much if I can&apos;t realize them.&lt;/p&gt;
+&lt;p&gt;I&apos;m also still trying to keep my expectations in check. Just because I did this doesn&apos;t mean I should rush back into some massive dream game project - I&apos;m pretty sure the last time I tried that it burned me out, hard. I&apos;m gonna try and work on more small-scale projects like this one. Exercise the &apos;finishing projects&apos; muscle, as it were.&lt;/p&gt;
+&lt;p&gt;Until then, thanks for reading! I hope you found something interesting here, and I hope you enjoy the game!&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -31,12 +92,58 @@
   <entry>
     <category type="blog" />
     <title>Blog - Resurrecting a Cricut Mini</title>
-    <link href="/blog/resurrecting-a-cricut-mini/" />
+    <link href="https://sciman.info/blog/resurrecting-a-cricut-mini/" />
     <id>/blog/resurrecting-a-cricut-mini/</id>
     <updated>2024-04-11T00:00:00.000Z</updated>
     <summary>
       Breathing life back into a dead vinyl cutter
     </summary>
+    <content type="html">
+      &lt;p&gt;&lt;em&gt;This was originally posted to Cohost on April 4th, 2024&lt;/em&gt;&lt;/p&gt;
+&lt;img class=&apos;inline-img&apos; src=&quot;cover.png&quot; alt=&quot;A Cricut Mini vinyl cutter retrofitted into a plotter, with a finished picture of Nova sitting on it&quot;/&gt;
+&lt;small&gt;Spoilers: It works!&lt;/small&gt;
+h
+I was apparently a raccoon in a past life, or something, because I just love digging through e-waste. Every tech company I&apos;ve worked at has had a bin somewhere that, if you&apos;re persistent, you can get some real goodies out of. An Xbox Elite controller, an entire working 2-in-1 laptop, parts for projects, all things I&apos;ve fished from the bin.
+&lt;p&gt;Recently my work had an employee e-waste event where people could drop off their own stuff. And in there, I found this thing - a Cricut Mini.&lt;/p&gt;
+&lt;p&gt;For those who don&apos;t know - Cricut makes a series of cutting machines with the same form factor as like, a printer. You load in some material and a cutting blade drags across the surface, cutting out shapes for craft projects. It&apos;s a neat piece of tech, and so finding this one discarded, I figured I&apos;d take it home and see if I could fix it.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h2 id=&quot;part-1-so-whats-wrong-with-it&quot;&gt;&lt;a href=&quot;#part-1-so-whats-wrong-with-it&quot;&gt;Part 1: So what&apos;s wrong with it?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I took it home and did a little research trying to figure out what common failure points are for these things. I didn&apos;t have to look far before I found an &lt;em&gt;extremely&lt;/em&gt; likely culprit for why it got binned.&lt;/p&gt;
+&lt;p&gt;See, the Cricut machines are made for non-techy people. Most of them work by letting you insert a cartridge loaded with designs from Provo Craft, the company that makes the thing. Then, you use a built in control panel to select a design and let the machine cut it out. You may notice from the photo that the Cricut Mini doesn&apos;t have an on screen display or anything - just two buttons. This is where Cricut&apos;s web-based design tools come in, that would let you do more detailed design work and send them to the machines.&lt;/p&gt;
+&lt;p&gt;What was that online tool made in? Why, &lt;em&gt;Flash&lt;/em&gt;, of course! Flash is gonna be around forever, so- Huh? Oh. &lt;a href=&quot;https://cricut.com/blog/cricut-craft-room-closing/&quot;&gt;Oh no.&lt;/a&gt;&lt;/p&gt;
+&lt;img class=&apos;inline-img&apos; src=&quot;cricut-craft-closure.png&quot; alt=&quot;Screenshot of Cricut&apos;s blog announcing the closure of Cricut Craft Room&quot; loading=&quot;lazy&quot; /&gt;
+&lt;small&gt;Everyone loves planned obsolecense&lt;/small&gt;
+&lt;p&gt;So, the only real way to control the Cricut Mini is now discontinued. But Provo Craft and Cricut stepped up to the plate, and added support for the device to their newer software suites. This way, their customers could still use the machines they already owned, and- I&apos;m just kidding, could you IMAGINE. The Cricut Mini - a still perfectly functional machine - was dead, severed from the only way you could control it. But hey, on the plus side...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You’ll get $75 off any Explore machine or bundle on Cricut.com&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hooray.&lt;/p&gt;
+&lt;h2 id=&quot;part-2-cracking-it-open&quot;&gt;&lt;a href=&quot;#part-2-cracking-it-open&quot;&gt;Part 2: Cracking it open&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;With that figured out, I assumed the machine actually worked fine. It just needed a way to control it that wasn&apos;t owned by Cricut.&lt;/p&gt;
+&lt;p&gt;Thankfully, the Cricut Mini is ultimately just a CNC machine. Printers (2d and 3d), plotters, cnc routers, laser cutters - all of these machines really just move a tool in a 3d work environment to do something, and they all qualify as CNC machines. The Cricut Mini is no different, so I assumed I could take the control board for a 3d printer and jam it in there, do some tweaks to the firmware, and bam! The Cricut would start accepting G-Code, the universal language of cnc machines. Easy weekend project.&lt;/p&gt;
+&lt;p&gt;Then I opened it up.&lt;/p&gt;
+&lt;img class=&apos;inline-img&apos; src=&quot;the-guts.png&quot; loading=&quot;lazy&quot; alt=&quot;Photo of the guts of a Cricut Mini&quot; /&gt;
+&lt;p&gt;This might not mean much to most people at first glance. Remember how I said all CNC machines are the same? That&apos;s mostly true. And most CNC machines use these things called &apos;stepper motors&apos; to move the tool around. Without getting too into the weeds, stepper motors are very easy to move precise amounts, which is really useful for a machine doing precision work.&lt;/p&gt;
+&lt;p&gt;The Cricut Mini does not use stepper motors.&lt;/p&gt;
+&lt;p&gt;That metal cylinder on the left? That&apos;s a DC Motor. That&apos;s the kind of thing you&apos;d find inside a toy RC car. You give it power, and it spins until it stops getting power. That ring hovering over the end of it is an &lt;strong&gt;encoder disc&lt;/strong&gt;. It has a pattern of narrow lines that a sensor can read. As the motor spins, the encoder is able to determine how &lt;em&gt;much&lt;/em&gt; it spins, and feed that data back into the controller. As a result, despite using these much less precise motors, the Cricut can still achieve the necessary precision to do it&apos;s job.&lt;/p&gt;
+&lt;p&gt;From an engineering perspective, really cool! From my perspective, bad! Because every single 3d printer I know of uses stepper motors &lt;em&gt;(yes I know about the Magneto X and it&apos;s linear motors but that&apos;s neither here nor there)&lt;/em&gt;. I can&apos;t just stick a 3d printer control board in there and wire it up to a totally different motor system. So I was stuck, again.&lt;/p&gt;
+&lt;p&gt;While I&apos;m inside this machine, though - holy hell this thing is well built. The core chassis of it is folded sheet steel, and it feels &lt;em&gt;sturdy&lt;/em&gt;. Like I said, those motor-encoder things are annoying for me, but they&apos;re &lt;em&gt;really&lt;/em&gt; clever. This thing was built by people who knew what they were doing, and clearly designed it to last a long time. This machine is roughly 9 years old, and - spoilers for the end of the post - It still works! Which makes the discontinuation of it&apos;s software even more shameful on Cricut&apos;s behalf.&lt;/p&gt;
+&lt;h2 id=&quot;part-3-teensycnc-to-the-rescue&quot;&gt;&lt;a href=&quot;#part-3-teensycnc-to-the-rescue&quot;&gt;Part 3: TeensyCNC to the rescue&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Anyways. I was thinking about whether I could write my own controller using a Raspberry Pi Pico or something, but that would be a &lt;em&gt;lot&lt;/em&gt; of work, especially if I wanted to include G-Code parsing. As much as I wanted to save this thing, I wasn&apos;t ready to dedicate that much time to it.&lt;/p&gt;
+&lt;p&gt;Then, I did some googling - someone beat me to it.&lt;/p&gt;
+&lt;img class=&apos;inline-img&apos; src=&quot;teensycnc.png&quot; alt=&quot;Photo of a Teensy microcontroller being hooked into the Cricut Mini&apos;s control board&quot; loading=&quot;lazy&quot; /&gt;
+&lt;p&gt;GitHub user &lt;a href=&quot;https://github.com/seishuku/TeensyCNC&quot;&gt;seishuku&lt;/a&gt; had created &lt;em&gt;TeensyCNC&lt;/em&gt;. They ran into the exact issue I did, but &lt;em&gt;did&lt;/em&gt; devote the time to writing a custom controller. The firmware they made was designed to run on a Teensy 3.x board - a microcontroller kind of like an Arduino - which would replace the original microcontroller chip in the Cricut like some kind of parasite. It took standard G-Code, and preserved most of the original functionality of the device.&lt;/p&gt;
+&lt;p&gt;Even better, though - &lt;a href=&quot;https://github.com/wholder/TeensyCNC2?tab=readme-ov-file&quot;&gt;Wayne Holder&lt;/a&gt; took that same code and improved it with TeensyCNC2. More important than some small feature additions, though, he documented the &lt;em&gt;entire&lt;/em&gt; process of modding the Cricut in more detail than most developers I know would have. This made soldering the 20 or so wires between the two boards WAY easier than just following the original wiring diagram.&lt;/p&gt;
+&lt;p&gt;I wanna shout these two out for their amazing work, without them this would have been nearly impossible for me and this machine would have been tossed, most likely. It always makes me happy to see people doing shit like this to combat planned obsolescence.&lt;/p&gt;
+&lt;p&gt;The one downside to all this, is the Teensy 3.x series of microcontroller has been discontinued for a while now. A little work has been put into porting it to the Teensy 4, but it doesn&apos;t seem like a priority item for either developer. Thankfully, someone at my local makerspace was willing to sell me a Teensy 3.1 at list price, which is great considering how much people are scalping them for.&lt;/p&gt;
+&lt;p&gt;Anyways! I took the Cricut apart, soldered in the chip, had to reassemble it like 3 times because I kept messing up the ordering of screws - and then, lo and behold. It worked!&lt;/p&gt;
+&lt;h2 id=&quot;part-4-so-what-now&quot;&gt;&lt;a href=&quot;#part-4-so-what-now&quot;&gt;Part 4: So what now&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I needed to get some accessories for the Cricut. You can&apos;t buy the originals, but the power supply is an off the shelf part, and the cutting mat you can make by just cutting a rectangle out of a thin plastic cutting board. For the tool, I just taped a pen in place to act as a plotter.&lt;/p&gt;
+&lt;p&gt;I used mixtela&apos;s &lt;a href=&quot;https://mitxela.com/plotterfun/&quot;&gt;plotter fun&lt;/a&gt; tool to convert my drawing of &lt;a href=&quot;https://cohost.org/Sciman101/post/5444019-empty&quot;&gt;Nova&lt;/a&gt; into an SVG, and 30 minutes later I had the drawing you see at the top of the post.&lt;/p&gt;
+&lt;p&gt;It&apos;s not perfect - I need a better tool holding system than tape, and this thing is LOUD. Not sure how much of that is age and how much is the unconventional motor system.&lt;/p&gt;
+&lt;p&gt;I also don&apos;t... &lt;em&gt;need&lt;/em&gt; this. I don&apos;t have much interest in a vinyl cutter, and a plotter is a neat novelty, but I don&apos;t see myself using it regularly. I&apos;ll probably see if I can donate it back to my makerspace.&lt;/p&gt;
+&lt;p&gt;The main reason I did this was just to see if I could save this really cleverly built machine from an early grave, and it&apos;s gone about as well as I could have hoped for. I hope you learned something, or at the very least have a mild disdain for Provo Craft, now. Either way, hoping I can do more stuff like this in the future!&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -47,11 +154,71 @@
   <entry>
     <category type="writing" />
     <title>Writing - Stargazing</title>
-    <link href="/writing/stargazing/" />
+    <link href="https://sciman.info/writing/stargazing/" />
     <id>/writing/stargazing/</id>
     <updated>2024-06-29T04:00:00.000Z</updated>
     <summary>"I just want *one thing* to be easy." Pitch grumbled. "That's not so much, is it? I'm not asking too much that I want being able to *exist* to be easy." She spoke with a venom in her voice that had been distilled from years of experience.
 </summary>
+    <content type="html">
+      &lt;p&gt;The apartment door creaked open, the sound penetrating an otherwise quiet night. Pitch poked her leafy head out, her giant &apos;ear&apos; petals dragging along the edge as she stepped onto the balcony. To her left, at the end of the hall, was the stairway that lead to the roof. She stepped over to it, slowly, as if the door itself would be startled and lunge out if she moved too fast.&lt;/p&gt;
+&lt;p&gt;Her root-pad feet tapped against the concrete, plenty of breathing room between each step. After what felt like a much longer walk than it was, Pitch arrived at the door to the roof. She put her hand on the handle - paused, looked back down the stairwell - but pushed the door open anyways. As she did, she craned her neck down, keeping her eyes fixed squarely on the concrete floor.&lt;/p&gt;
+&lt;p&gt;She stepped outside, passing by the rooftop planters, the utility boxes, that one weird cable draped across the roof she didn&apos;t know the purpose of. She saw the edges of these in her periphery, but largely, ignored them. What a stupid problem to have, she thought. It wasn&apos;t until she saw a fluffy, lavender tail bobbing side to side, did she stop.&lt;/p&gt;
+&lt;p&gt;&quot;Heya-&quot; Pitch said, taking a seat besides her roommate. Root was sat on the edge of the roof besides her, legs dangling over the edge. He was staring up at the sky, only just now pulling his attention away to look at Pitch.&lt;/p&gt;
+&lt;p&gt;&quot;Oh, hey, didn&apos;t expect to see you here.&quot; Root scooted over a bit, Pitch&apos;s giant ears brushing against their face.&lt;/p&gt;
+&lt;p&gt;&quot;Me either, honestly-&quot; Pitch laughed. &quot;Couldn&apos;t sleep, though. Kinda just wanted to chat.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Got sick of talking to Pillsbury?&quot; Root grinned. Pitch just rolled her eyes, but couldn&apos;t help but smirk in return.&lt;/p&gt;
+&lt;p&gt;&quot;You know how he is.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Well-&quot; Root said, smiling more in earnest, now. &quot;Glad to have your company. It&apos;s uh...&quot;&lt;/p&gt;
+&lt;p&gt;Root glanced at the night sky hanging above them.&lt;/p&gt;
+&lt;p&gt;&quot;... you wanna go back inside, though? I know you have a whole... thing, with the sky.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;.. I have no idea what you&apos;re talking about.&quot; Pitch said, still staring firmly at the ground. Root laughed.&lt;/p&gt;
+&lt;p&gt;&quot;Alright, sure. Just checking. And, for the record, it&apos;s a beautiful night out.&quot; They turned their attention back to the stars above. &quot;Not a cloud in the sky.&quot;&lt;/p&gt;
+&lt;p&gt;Pitch kept her eyes on the ground like her life depended on it. She gave a quiet nod, making a vague &apos;mm-hm&apos; sound. She glanced from her left foot, to the ground between her legs, her right foot, Root&apos;s leg. A grimace slowly dripped across her face.&lt;/p&gt;
+&lt;p&gt;&quot;I mean. Speaking of the sky thing...&quot; Root&apos;s ear visibly twitched, his attention back to Pitch.&lt;/p&gt;
+&lt;p&gt;&quot;Yeah?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;I guess, if you&apos;ll humor me. How does it &lt;em&gt;not&lt;/em&gt; scare you?&quot; Pitch asked. &quot;Like... I look up there and feel like if I stop thinking about it, I&apos;ll start falling up, and I&apos;ll just be flung off into... nowhere, I guess.&quot;&lt;/p&gt;
+&lt;p&gt;Root could see the tiny fae visibly tensing up, just talking about it.&lt;/p&gt;
+&lt;p&gt;&quot;So.. how do you do it?&quot;&lt;/p&gt;
+&lt;p&gt;Root let Pitch&apos;s words marinate in his mind for a moment. He cast his gaze back to the endless sky above him, the constellations he had been drawing in his head.&lt;/p&gt;
+&lt;p&gt;&quot;For me, I think, it helps... put things in perspective?&quot; Root said, feeling his way around his words as he spoke them. &quot;There&apos;s so much out there, all those planets and stars and the nothing between them. I could be anywhere out there, ripped off the ground and launched into the inky depths of-&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Please don&apos;t say that.&quot; Pitch murmured.&lt;/p&gt;
+&lt;p&gt;&quot;I- oh, sorry.&quot; Root continued. &quot;My point is- I&apos;m not out there. I&apos;m here, on my apartment roof, talking to my friend. I let myself get lost in everything that could be, so I can remember where I am.&quot;&lt;/p&gt;
+&lt;p&gt;He turned to Pitch, his smile fading at the obvious confusion on Pitch&apos;s face.&lt;/p&gt;
+&lt;p&gt;&quot;... Let me phrase that another way.&quot; Root said. &quot;Have you ever been out on a long job, and finally get to come home and rest?&quot; Pitch nodded.&lt;/p&gt;
+&lt;p&gt;&quot;Oh yeah. I know the feeling.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;And your room isn&apos;t like, big, or glamorous, but it&apos;s familiar. And after everything else, it just feels nice to have that familiarity, to ground yourself in?&quot;&lt;/p&gt;
+&lt;p&gt;Pitch nodded, slowly.&lt;/p&gt;
+&lt;p&gt;&quot;It&apos;s kinda like that. Living in the moment.&quot;&lt;/p&gt;
+&lt;p&gt;Pitch rolled the idea around in her head. &quot;I... think I see what you mean. Kinda.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Hey, it&apos;s a start.&quot;&lt;/p&gt;
+&lt;p&gt;Pitch nodded, still looking at the ground in contemplation. After a minute, she braced herself, and looked up at the sky-&lt;/p&gt;
+&lt;p&gt;&quot;... fuck&quot;&lt;/p&gt;
+&lt;p&gt;-and immediately looked at the ground again. Her eyes were wide, body trembling.&lt;/p&gt;
+&lt;p&gt;&quot;... I think I&apos;m gonna throw up...&quot; she mumbled.&lt;/p&gt;
+&lt;p&gt;&quot;Ah...&quot; Root grimaced. &quot;Well... baby steps. You&apos;ll get there eventually.&quot;&lt;/p&gt;
+&lt;p&gt;Pitch nodded,more in reflex than agreement. She felt Root&apos;s hand on her back, gently rubbing.&lt;/p&gt;
+&lt;p&gt;Pitch sighed.&lt;/p&gt;
+&lt;p&gt;&quot;... do you ever get the feeling, I&apos;m just not wanted here?&quot;&lt;/p&gt;
+&lt;p&gt;Root blinked. Hadn&apos;t expected that.&lt;/p&gt;
+&lt;p&gt;&quot;Is this to do with the sky stuff?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;It&apos;s not.... &lt;em&gt;just&lt;/em&gt; the sky.&quot; Pitch began. &quot;It&apos;s... I can&apos;t go anywhere in the day without a giant cloak, and I need to constantly ask if windows are UV resistant, or I&apos;ll just &lt;em&gt;die&lt;/em&gt;. I need sunglasses or a, a normal lightbulb could blind me for a minute. My skin gets all cracked and sore if it&apos;s anything less than humid out.&quot;&lt;/p&gt;
+&lt;p&gt;She gestured towards the sky.&lt;/p&gt;
+&lt;p&gt;&quot;And I can&apos;t even &lt;em&gt;look up&lt;/em&gt; at night without feeling like I&apos;m gonna die.&quot;&lt;/p&gt;
+&lt;p&gt;Root nodded, their expression softening in understanding. &quot;... I think I see where you&apos;re going with this.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;I like it here! I like being here, honestly. But &lt;em&gt;here&lt;/em&gt; doesn&apos;t want &lt;em&gt;me&lt;/em&gt;. I wasn&apos;t built for it, it wasn&apos;t built for me.&quot; She sighed, again, stuck staring at the floor under a sky full of stars. &quot;Phiva themself makes it clear, every day, I should have never crawled out of my hole in the ground.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;.... Yeah&quot; Root muttered. Pitch&apos;s posture had gradually infected him, and he now sat with the same slumped look. &quot;That&apos;s rough, Pitch. I&apos;m sorry.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;I just want &lt;em&gt;one thing&lt;/em&gt; to be easy.&quot; Pitch grumbled. &quot;That&apos;s not so much, is it? I&apos;m not asking too much that I want being able to &lt;em&gt;exist&lt;/em&gt; to be easy.&quot; She spoke with a venom in her voice that had been distilled from years of experience.&lt;/p&gt;
+&lt;p&gt;&quot;I know it probably doesn&apos;t... &lt;em&gt;help&lt;/em&gt;.&quot; Pitch suddenly found Root&apos;s arm slung over her shoulder, the kobold leaning against her, slightly. &quot;But, to hell with Phiva, &lt;em&gt;I&apos;m&lt;/em&gt; glad you&apos;re here. I&apos;m happy I get to spend my time with you.&quot;&lt;/p&gt;
+&lt;p&gt;Root felt Pitch shift, one of her long arms reaching up to put a hand on his.&lt;/p&gt;
+&lt;p&gt;&quot;It might not help, but, I do appreciate it. Thanks.&quot; She thought for a moment.&lt;/p&gt;
+&lt;p&gt;&quot;You&apos;re probably one of the best things up here.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;One of...&quot; Root mused, turning the thought over in his head. &quot;In terms of ranking, am I above, or below pizza?&quot;&lt;/p&gt;
+&lt;p&gt;Pitch snorted, suddenly, her composure shifting from the unexpected joke.&lt;/p&gt;
+&lt;p&gt;&quot;God, Root, I... c&apos;mon, don&apos;t make me &lt;em&gt;choose&lt;/em&gt;.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;I&apos;m not even better than pizza...&quot; Root sighed, closing his eyes. &quot;Behold, how the surface corrupts the minds of our innocent Deepfae youth...&quot;&lt;/p&gt;
+&lt;p&gt;The two of them laughed, and Pitch found herself leaning into Root&apos;s shoulder, the latter&apos;s arm still pulling her close. His fur was soft on her cheek, and a smile slowly crept across her face.&lt;/p&gt;
+&lt;p&gt;Between the concrete floor and the endless sky, she was here, now. Tomorrow, she would be at work, digging a hole. But right now, she was here. And for now, here wasn&apos;t too bad.&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -59,10 +226,20 @@
   <entry>
     <category type="writing" />
     <title>Writing - Sentient Water Filter</title>
-    <link href="/writing/sentient-water-filter/" />
+    <link href="https://sciman.info/writing/sentient-water-filter/" />
     <id>/writing/sentient-water-filter/</id>
     <updated>2023-10-27T04:00:00.000Z</updated>
     <summary>So, of course, they made something with openAware. Why wouldn't they? Everyone was using openAware. Google shoved it into their search engine, Boston Dynamics had Atlas competing on Wipeout with it, even a company like Milestone was thinking about integrating it into the Mi-90, and Milestone was notoriously behind the times. openAware was the trend, and if staying trendy meant they could keep funding the fleet, that was the way to go.</summary>
+    <content type="html">
+      &lt;p&gt;Most of the engineers on the project knew it was stupid. SeaSweeper had been started with the goal of cleaning water, eventually all the water in the world, and their first launch had been a genuine success. A dozen or so massive vessels floating around the ocean autonomously, their funnel-shaped fronts sucking in plastic, oil, and whatever other garbage happened to be floating out there and shredding it into easily reclaimable waste. They&apos;d been praised for their efforts, they scaled up the fleet, then the company traded hands, investors got bored, and management figured they needed to do something more interesting to keep funding coming in.&lt;/p&gt;
+&lt;p&gt;So, of course, they made something with openAware. Why wouldn&apos;t they? Everyone was using openAware. Google shoved it into their search engine, Boston Dynamics had Atlas competing on Wipeout with it, even a company like Milestone was thinking about integrating it into the Mi-90, and Milestone was notoriously behind the times. openAware was the trend, and if staying trendy meant they could keep funding the fleet, that was the way to go.&lt;/p&gt;
+&lt;p&gt;Still. OpenAware only played nice with humanoid bodies. There&apos;s a reason the Google experiment went crazy, while Atlas was doing fine. So the engineers at SeaSweeper were faced with designing a humanoid robot, with limbs and advanced sensors and the whole 9 yards, that would ultimately suck up water and filter out plastic. OpenAware made the whole &apos;humanoid robot&apos; thing a hell of a lot easier, but still.&lt;/p&gt;
+&lt;p&gt;Buoyancy was controlled by a layer of capacitive foam that also acted as padding. The shredded plastic would be fed into an experimental new generator. Someone on the design team had the idea to make the thing look like some sort of dolphin, shark... thing. The inclusion of a propulsion system necessitated more room in the limbs, which stretched the whole contraption out to nearly 7 feet tall. It was completely and utterly absurd.&lt;/p&gt;
+&lt;p&gt;At this point, people didn&apos;t fully understand how openAware worked, down to the last detail. But everyone still knew it relied on brain mapping, and it didn&apos;t take an expert to connect the dots and come to the assumption that they were essentially putting a human brain in this thing. It was an open secret that, chances were, this robot was doing to be self aware.&lt;/p&gt;
+&lt;p&gt;For the engineers, this was less a challenge of ethics and more a matter of problem solving. How can we repress the ability for this thing to wake up. They were already making 5 or so of the things, maybe keeping them in a group would help. Don&apos;t expose them to other humans unless absolutely necessary. Impose software limitations on synapse development. Don&apos;t think too hard about what this thing is. Don&apos;t use gendered pronouns when referring to the robots. At least in development circles, this sort of thinking had started becoming the norm with regard to openAware.&lt;/p&gt;
+&lt;p&gt;The launch was met with skepticism from many, but overall a positive reception. SeaSweeper was able to recoup the development funds and then some to keep their real project going. The 5 robots were stationed on one of the larger members of the fleet to test their capabilities. They were surprisingly capable tools, able to dive deeper than the surface to collect trash on the ocean floor. Sure, a much simpler robot with a pair of arms could do the same thing, but that wouldn&apos;t be as trendy. All things considered, everything worked out just as planned.&lt;/p&gt;
+&lt;p&gt;Until, maybe inevitably, one of them woke up.&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -70,12 +247,47 @@
   <entry>
     <category type="writing" />
     <title>Writing - Reuinted</title>
-    <link href="/writing/reunited/" />
+    <link href="https://sciman.info/writing/reunited/" />
     <id>/writing/reunited/</id>
     <updated>2023-12-25T05:00:00.000Z</updated>
     <summary>"But then... you’re not dead. You were alive, on the mainland. Mingling with humans.” The smile disappeared. “You broke our hearts, and just as quickly went and broke our law. Our way of living. But, despite that...” She sighed, tired. ”I can't hold it against you. You were doing the same thing we were - you had moved on, you found a new life, as much as it goes against what we believe in.”
 For just a moment, a smile returned to her chest mouth.
 ”I like to think you were happy."</summary>
+    <content type="html">
+      &lt;p&gt;Iekika stood in the doorframe of the weaponsmith&apos;s hut. Makana stood, hunched over an anvil like a cat on edge, hammering away at some piece of metal. Her back was to Iekika, the edges of her silouhette framed by the fire of the forge, and all she said was the clanging of tool on metal. Iekika sighed, grimacing with her chest mouth.&lt;/p&gt;
+&lt;p&gt;&quot;... I know this was... unexpected.&quot; She said, after a moment.
+Makana&apos;s hammer swung against the red hot material, sending sparks flying. Clang.
+&quot;And... I know how this looks. I&apos;m sure the people in charge aren&apos;t going to be happy with me, and I get it, but humans... aren&apos;t that bad?&quot;
+Makana replied with another swing. Clang.
+&quot;If it wasn&apos;t for Amber, I&apos;d be dead right now,&quot; Iekika continued. &quot;That has to be worth something, right? Me, being here?&quot;
+Swing. Clang. Iekika sighed.
+&quot;I don&apos;t expect you to forgive me for this whole thing, easily, I know it&apos;s... a lot, but I want to try. Can we do that, at least?&quot;
+Clang.
+Her anxious expression turned to a slight frown. She stood upright, squaring her shoulders.
+&quot;Come on, &apos;Kana, give me something to work with here.&quot;&lt;/p&gt;
+&lt;p&gt;The hammer came down. Gently this time, on the side of the anvil. Makana leaned against the work surface for a moment. Iekika&apos;s empathy could feel anger, tiredness rolling off her. Though, using her powers for it seemed a bit redundant.
+&quot;Why did you come back.&quot;
+Iekika had spent the past 4 years fantasizing about hearing that voice, again. Not once in that time had she imagined it with such venom.
+&quot;... I wanted my old life back.&quot; she eventually replied. &quot;I missed it. I missed you. I missed us. That&apos;s it. I know things can&apos;t go back to how they were, but I wanted to try.&quot;&lt;/p&gt;
+&lt;p&gt;Makana stood upright, the flickering fire casting an orange glow around her in the otherwise dark room. She turned to face Iekika, her single brown eye catching the light and gleaming off of it.
+&quot;When you first left, I thought you had died. We all did. No one could imagine even someone as hardy as you surviving that storm. So as we searched through the rubble, as we rebuilt our villages and homes, we grieved for you. We celebrated your memory, and your sacrifice. You were our hero, and you were gone.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Those first months were awful. I kept thinking back to the things we said, the training we did, your goofy smiles. I thought a lot about how I’d never experience them again. I was a wreck.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;But, eventually, things got better. As the buildings were rebuilt, the world returned to normal, and I started living a life without you. It was hard, to start, but I made progress. Hell, I even tried dating again, eventually. I didn&apos;t seem to find the same luck you did, you were always better with that sort of thing.&quot;&lt;/p&gt;
+&lt;p&gt;She smiled, slightly, and Iekika couldn&apos;t help but do the same.&lt;/p&gt;
+&lt;p&gt;&quot;But then... you’re not dead. You were alive, on the mainland. Mingling with humans.” The smile disappeared. “You broke our hearts, and just as quickly went and broke our law. Our way of living. But, despite that...”
+She sighed, tired. ”I can&apos;t hold it against you. You were doing the same thing we were - you had moved on, you found a new life, as much as it goes against what we believe in.”&lt;/p&gt;
+&lt;p&gt;For just a moment, a smile returned to her chest mouth.&lt;/p&gt;
+&lt;p&gt;”I like to think you were happy.&quot;&lt;/p&gt;
+&lt;p&gt;Before Iekika could react, she was interrupted by the sound of metal scraping against metal as Makana hefted the hammer back up. She turned to face Iekika, dead on, and approached, her eye glaring at her with newfound hatred.&lt;/p&gt;
+&lt;p&gt;&quot;But you can&apos;t. You can&apos;t come back here, not like this. You can&apos;t be this selfish&quot;&lt;/p&gt;
+&lt;p&gt;Iekika&apos;s eye widened, and she took a step back outside the door.&lt;/p&gt;
+&lt;p&gt;&quot;We got our closure. We moved on. I moved on. My wounds healed, and now you want me to rip off the scab? Reset the bone? &quot;&lt;/p&gt;
+&lt;p&gt;The hammer raised. Iekika reached for her spear, but grasped at empty air. Makana stared Iekika in the eye like she was looking at another lump of cold, dead metal.&lt;/p&gt;
+&lt;p&gt;&quot;Whatever life you wanted to come back to, it died with you.&quot;&lt;/p&gt;
+&lt;p&gt;Clang.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;A thunderclap outside shook Iekika from her sleep, and she jolted upright in her hammock, sending the whole structure rocking back and fourth. She looked up - the only thing in front of her was the fireplace, gently glowing from the coals of the last night. Not too long after, Amber woke up to the sound of gentle sobbing.&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -83,10 +295,31 @@ For just a moment, a smile returned to her chest mouth.
   <entry>
     <category type="writing" />
     <title>Writing - Pitch Black</title>
-    <link href="/writing/pitch-black/" />
+    <link href="https://sciman.info/writing/pitch-black/" />
     <id>/writing/pitch-black/</id>
     <updated>2023-11-16T05:00:00.000Z</updated>
     <summary>She frowned. This tasted really bad. She wasn't buying this snack again in the future.</summary>
+    <content type="html">
+      &lt;p&gt;Nearly midnight. The curtains were drawn, blinds shuttered, lights turned off - the apartment was nearly black. Pitch didn&apos;t mind that - where she came from, this was the norm, and her eyes had no problem making out details in the dark. What bugged her was the sound. Her hometown was dark, but it wasn&apos;t &lt;em&gt;quiet&lt;/em&gt;, you&apos;d hear all kinds of activity. Here, in the little apartment, all there was was the hum of appliances and the occasional rumble of a train passing in the distance. It was unnerving.&lt;/p&gt;
+&lt;p&gt;Most would be asleep by now, and Pitch&apos;s roommate, Root, was already out cold in their room. Pitch was exhausted, herself, but the night presented a rare opportunity for her. Her sensitive skin developed underground, and even brief exposure to sunlight would burn. She put on a light coat and stepped into the frozen midnight, to get a chance to see the world.&lt;/p&gt;
+&lt;p&gt;Outside was still quiet, but... a fuller quiet. Richer. Bugs chirped in the grass, the bulbs in the street lights gave off an electric whine, the rumble of the train felt closer and Pitch could feel the earth rumble gently. She kept her head down.&lt;/p&gt;
+&lt;p&gt;She was still new to the neighborhood, but she knew the layout well enough to plan a quick walk out. The apartment building loomed behind her, a massive concrete cube dotted with windows. It was the same kind of architecture you&apos;d find in the underground, transplanted to the surface. Maybe it was made by an architect used to the underground. She should ask Root, sometime.&lt;/p&gt;
+&lt;p&gt;Her walk took her past the apartment building to a bridge that crossed the train tracks. The train had passed by now, and there wasn&apos;t another due for at least an hour. So Pitch reached the edge of the bridge, and began climbing down the welded metal latticework holding it up. There wasn&apos;t nearly enough stuff to climb around here.&lt;/p&gt;
+&lt;p&gt;Her roots touched the hard metal of the rails and she began walking down the track, trying to keep her balance on the steel beam. The train track was recessed into a sort of valley, and something about the arrangement made the breeze down here bite with a chill that made Pitch wish she&apos;d dressed warmer. Nevertheless, her root-steps gently made their way to the nearest station, a few blocks away, where she pulled herself up onto the platform. The glass roof of the station let her see the sky for a moment. She made sure to close her eyes.&lt;/p&gt;
+&lt;p&gt;The same electric whine of the apartment was here, too, in large part coming from a vending machine tucked into the corner. One, two, three coins slid down the slot with a mechanical ka-chunk. Pitch reached for the fourth... only to find her coin purse empty. She swore to no one in the empty station. Payday wasn&apos;t until the end of the week.&lt;/p&gt;
+&lt;p&gt;Still, she had options. Her eyes scanned the machines contents - too sweet, she was pretty sure she was allergic to that, too expensive - ah, there was something. She stuck her finger into the rotary-phone style selection mechanism and dialed 23. A few moments later she walked away from the station, munching on some sort of granola bar.&lt;/p&gt;
+&lt;p&gt;From here, she would go-&lt;/p&gt;
+&lt;p&gt;She frowned. This tasted really bad. She wasn&apos;t buying this snack again in the future.&lt;/p&gt;
+&lt;p&gt;Anyways, from here, she would walk down another road in the direction of the apartment building. Not much of note - a charging station, a phone booth, a small park. She&apos;d seen them before, and at this point wanted to get back inside and rest up for the coming workday.&lt;/p&gt;
+&lt;p&gt;Soon enough she was back at the apartment building. As she walked to the front door, she glanced to her left and something caught her eye. Protruding from the side of the building was a series of staggered metal rods, bent into a sort of ladder formation. Not a fire escape ladder - it was a bit too precarious for the average human or kobold. Maybe decorative? But given the rest of the design of the building, probably meant to be climbed by a plantoid. Common underground, sure, but in all her time on the surface Pitch had never encountered a structure like this.&lt;/p&gt;
+&lt;p&gt;She couldn&apos;t help but grin as she quickly scaled the side of the building.&lt;/p&gt;
+&lt;p&gt;Root&apos;s apartment was on the other side, and Pitch hefted herself onto the roof to cross it. About halfway, she paused. The next job would last a few days and she might not get the chance to see it again for a while. She didn&apos;t really &lt;em&gt;want&lt;/em&gt; to see it, but in the same way a child doesn&apos;t want to see a horror movie. Cover your eyes, at a certain point, curiosity gets the better of you.&lt;/p&gt;
+&lt;p&gt;She looked up.&lt;/p&gt;
+&lt;p&gt;She didn&apos;t like looking up. During the day, it was nearly impossible without going blind for a half hour, sometimes more. During the night, when she &lt;em&gt;could&lt;/em&gt; see it was arguably worse.&lt;/p&gt;
+&lt;p&gt;An empty sky, dotted with stars. The moon hung overhead like a spotlight. Pitch still had a hard time believing Root and the other surface-dwellers ever got used to it. An endless void, always looming over her, waiting for the moment her guard was down to lift her off solid ground and fling her into an abyss bigger than she could comprehend. She staggered, a wave of nausea rolling over her.&lt;/p&gt;
+&lt;p&gt;She asked Darue at one point. They told her that they had the same feelings too, growing up in the underground. But their frequent visits to the surface eventually made the fear fade away. Standing here, unable to see anything to hold onto in her field of vision, she had doubts.&lt;/p&gt;
+&lt;p&gt;She wrenched her gaze back to the roof of the building, taking deep, shuddering breaths. That was enough sky for now. She needed a breather. After a few moments passed, and she felt her nerves loosen up, she plodded to the other side of the roof and dropped down onto Root&apos;s balcony. Then, she crept inside and left the night behind.&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -94,10 +327,97 @@ For just a moment, a smile returned to her chest mouth.
   <entry>
     <category type="writing" />
     <title>Writing - Not Built for This</title>
-    <link href="/writing/not-built-for-this/" />
+    <link href="https://sciman.info/writing/not-built-for-this/" />
     <id>/writing/not-built-for-this/</id>
     <updated>2024-03-25T04:00:00.000Z</updated>
     <summary>Her voice trailed off. Nothing sounded right. She imagined Ru-B hearing what she had to say, and the way she'd respond. That momentary flicker in the LEDs of her eyes when she got angry. The feeling of a wall building itself up between the two of them. Cutting off the only other person that felt real. She shook her head, and tried to focus on her little fidget. When suddenly, there came a banging from the front door.</summary>
+    <content type="html">
+      &lt;p&gt;The sun had begun it&apos;s descent on the horizon. The crowds of visitors were thinning out, and before long even the most dedicated park-goers had left. Moby watched them leave from her vantage point at the top of the lifeguard tower. Unfortunately, closing time for the park didn&apos;t mean a break for her. She clambered down the ladder, flipper-like feet flapping against the rails.&lt;/p&gt;
+&lt;p&gt;Following a route she knew by heart, she made her way to the janitors closet. She fetched her usual mop and bucket, found a particularly nasty patch of tile by the side of the wave pool, and got to work, her tail idly swaying side to side behind her.&lt;/p&gt;
+&lt;p&gt;Just as the usual feeling of monotony was setting in, there was a sudden beeping sound. Moby jolted upright, glancing around to see what piece of equipment was malfunctioning this time. It took longer than she&apos;d like to admit to realize the sound had come from &lt;em&gt;her&lt;/em&gt;. Someone had sent her a text. She let it open in the corner of her vision. One of the few perks of being wifi-enabled.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ru-B: u busy after work?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;A hint of a smile crept up Moby&apos;s lips as she wrote a response, mop still swaying side to side.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Moby: i&apos;ve got a couple hours free, what&apos;s up?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ru-B: i need some robot dolphin ass in my life later. u down?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The mop stopped moving. Moby bit her lip, smile fading as quickly as it came. She responded-&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;I need to talk to you abou-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;No, no, she deleted it. What about-&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;I don&apos;t think I&apos;m-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Hm.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;No, I-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;She let out a groan, scrubbing that one too. The mop made a quiet knock as she leaned it against a door, taking a minute to pace back and forth. Eventually, she sighed, put down a reply, hit send, and got back to mopping.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Moby: sure&lt;/code&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;Later that evening, once the park had been thoroughly scrubbed, she returned to her storage-unit apartment. She peeled herself out of her swimsuit uniform and dug through her dresser - she&apos;d found it on the side of the road a few weeks ago - to find something a bit more casual to wear.
+Satisfied, she sat at her workbench, nervously tapping her hands on the desk while she waited for her friend&apos;s arrival. After a while, her hands found their way to a trinket she&apos;d been working on, and she idly turned it over, tracing the ridges of it with her fingers as she mumbled to herself.&lt;/p&gt;
+&lt;p&gt;&quot;I... I don&apos;t know if we can keep doing this...&quot; she muttered, the hushed tones of her speech garbled from her speakers auditory range.&lt;/p&gt;
+&lt;p&gt;&quot;You..., no, no, don&apos;t blame her... I, I don&apos;t... You&apos;re able to pull this stuff off, but I...&quot;&lt;/p&gt;
+&lt;p&gt;Her voice trailed off. Nothing sounded right. She imagined Ru-B hearing what she had to say, and the way she&apos;d respond. That momentary flicker in the LEDs of her eyes when she got angry. The feeling of a wall building itself up between the two of them. Cutting off the only other person that felt real.
+She shook her head, and tried to focus on her little fidget. When suddenly, there came a banging from the front door.&lt;/p&gt;
+&lt;p&gt;Moby nearly banged her head into the ceiling, she stood up so quickly, rushing over and unlocking the front entrance. The door swung open with a metallic groan.&lt;/p&gt;
+&lt;p&gt;&quot;Ru-B, hi, I-&quot;&lt;/p&gt;
+&lt;p&gt;She froze. It wasn&apos;t Ru-B. This figure was decidedly human, wearing a polo shirt with the park&apos;s logo and with a clipboard tucked under his arm. Someone from park management. He craned his neck to look up at Moby.&lt;/p&gt;
+&lt;p&gt;&quot;Hey, Moby, sorry to bug you so late. We got some of the legal work finalized for your employment here - long time coming, robot employment laws are-&quot;
+He paused, letting out a weary, weary sigh.
+&quot;Anyways, just need you to sign some stuff for us.&quot;&lt;/p&gt;
+&lt;p&gt;Moby felt the tension loosen in her servos. She nodded, taking the form and beginning to scan it - almost literally. All familiar stuff. As she did, her coworker continued looking at her. Moby tried to read the document faster.&lt;/p&gt;
+&lt;p&gt;&quot;What&apos;s that you&apos;re wearing?&quot; he asked, gesturing at Moby&apos;s general torso region. Her attention was ripped from the page. She glanced up from the clipboard, then to her outfit, and back to the man.&lt;/p&gt;
+&lt;p&gt;&quot;Oh, it&apos;s a um- cardigan, I picked up at a thrift store the other day. Just something to wear that isn&apos;t that swimsuit.&quot;&lt;/p&gt;
+&lt;p&gt;The man nodded, visually tracing her contours. Moby could practically &lt;em&gt;feel&lt;/em&gt; the heatmap forming on her skin. An illustration of his wandering gaze. She tried not to think about it.&lt;/p&gt;
+&lt;p&gt;It was her fault, of course. She&apos;d chosen this path for herself. The shelves surrounding her of silicone rubber and capacitive foam padding were a testament to the months of work it had taken to make her body look this way. She had had every opportunity to turn back when she could.&lt;/p&gt;
+&lt;p&gt;At long last, she felt herself ease up as her serial number was scrawled onto the last signature line. She handed the clipboard back a little too enthusiastically.
+&quot;Is that everything?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Should be, thanks-&quot; the guy replied, flipping through the pages. He nodded approvingly. &quot;Have a nice evening.&quot;&lt;/p&gt;
+&lt;p&gt;The man turned and walked away, pausing briefly to glance back at Moby, again. Not knowing what else to do, she gave a polite wave back, and quickly closed the door.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;About 15 minutes later, there was another banging on the door. Moby opened it - and this time, was greeted by a more familiar face.&lt;/p&gt;
+&lt;p&gt;&quot;Hey!!&quot; Ru-B exclaimed, as Moby let her in. The steel flooring creaked ever so slightly under the weight of the military-grade robot. &quot;Been a minute, how you doing?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;I&apos;m uh... Good, Good.&quot; Moby mumbled, glancing down at Ru-B before throwing her gaze somewhere less direct. Ru-B was one of, if not Moby&apos;s favorite person, her best friend. The one she trusted above everyone else.&lt;/p&gt;
+&lt;p&gt;&quot;I&apos;ve been looking forward to this-&quot; Ru-B began, taking a step towards her. Moby nodded just enough to agree.&lt;/p&gt;
+&lt;p&gt;&quot;-just, been a busy week, I really need something to take the edge off, y&apos;know?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Y-yeah, um, of course-&quot; Moby felt her tail bump up against her workbench, and realized she&apos;d been backing away.&lt;/p&gt;
+&lt;p&gt;&quot;- and there&apos;s no one I&apos;d rather be doing that with, than you.&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B reached out, and in an almost subconscious motion brushed her hand over Moby&apos;s thigh.&lt;/p&gt;
+&lt;p&gt;In a moment, Moby let out a digitized yelp, twitching at the touch. She felt tension she didn&apos;t realize she had been holding slowly drain, as Ru-B&apos;s face went from calm to a sudden concern.&lt;/p&gt;
+&lt;p&gt;&quot;... is everything okay?&quot;&lt;/p&gt;
+&lt;p&gt;Moby shook her head. She felt the words she needed to say backing up in some part of her software, and trying to speak let them out as digital, synthetic bleeps. Somewhere between a voice crack and a glitch. Ru-B waited, patient as always, as she struggled to gain her composure and speak.&lt;/p&gt;
+&lt;p&gt;&quot;I... we... we need to talk.&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B nodded. She found a stool behind her, pulling it up and taking a seat in front of Moby.&lt;/p&gt;
+&lt;p&gt;&quot;I&apos;m sorry if I was going too fast, or something, I-&quot;&lt;/p&gt;
+&lt;p&gt;&quot;No, no, it&apos;s, it&apos;s fine, you&apos;re fine.&quot; Moby sighed, leaning her arms against the workbench behind her. She looked around the room, occasionally glancing at Ru-B&apos;s face, waiting for some kind of unlikely expression of disapproval.&lt;/p&gt;
+&lt;p&gt;&quot;... I just don&apos;t know if I can keep doing this, anymore.&quot; She confessed. Ru-B&apos;s expression furrowed, if only for a moment, but it caught Moby off guard. She was expecting anger, but not fear.&lt;/p&gt;
+&lt;p&gt;&quot;Not, not you and me, like in general!&quot; She quickly clarified. &quot;But... the... y&apos;know, the more...&quot; She cursed to herself. This shouldn&apos;t be so difficult.&lt;/p&gt;
+&lt;p&gt;&quot;The sex. It&apos;s the sex. That&apos;s it. All... all the horny shit, I can&apos;t do it, anymore.&quot; She finally choked out, her voice intermittently collapsing into digital beeps. She stood there, feeling what she assumed was some kind of simulated adrenaline as she watched Ru-B process what she&apos;d said. At least, she thought, that was done with.&lt;/p&gt;
+&lt;p&gt;&quot;... huh.&quot; Ru-B eventually muttered, peering at the ground. She looked up at Moby, again, with undisguised disappointment.&lt;/p&gt;
+&lt;p&gt;&quot;Well, if that&apos;s what you want, I&apos;m not here to say otherwise,&quot; She said. &quot;But... why not? I felt like things were going really well.&quot; She thought to herself, and again seemed suddenly fearful.
+&quot;Was it something I did, or-?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;No! It&apos;s not your fault!&quot; Moby exclaimed, shaking her head. Ru-B was always so willing to try and take the fall, she never seemed to consider that maybe-&lt;/p&gt;
+&lt;p&gt;&quot;It&apos;s mine. It&apos;s my fault. I&apos;m just- I&apos;m not built for it.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;.... not &lt;em&gt;built&lt;/em&gt; for it?&quot; Ru-B asked, fear slowly being replaced with confusion. &quot;What, like, your &lt;em&gt;hardware?&lt;/em&gt; Moby, that&apos;s never been an issue for me, so far. And, hey, if it bothers you that much I&apos;d be more than willing to help you get the right mods installed.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;No, that&apos;s not what I mean-&quot; Moby rubbed her visor in frustration. &quot;It&apos;s just... you, you rebelled, right? People were using you as a weapon, and you left that, you started a new.... a whole new, life, for yourself. That&apos;s great! And your sexuality, being part of that, that&apos;s great too.&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B folded her hands together, leaning forwards and gazing up at Moby.&lt;/p&gt;
+&lt;p&gt;&quot;... But?&quot;&lt;/p&gt;
+&lt;p&gt;Moby sighed.&lt;/p&gt;
+&lt;p&gt;&quot;But I&apos;m not like you. I wasn&apos;t... the people who built you, who &lt;em&gt;used&lt;/em&gt; you. They wanted a weapon. You didn&apos;t want to play a part in that. That&apos;s noble, that&apos;s... I look up to you for that. My job was like... cleaning the &lt;em&gt;ocean&lt;/em&gt;.&quot;&lt;/p&gt;
+&lt;p&gt;She let out another, longer sigh. She pulled up another chair, sitting in front of Ru-B.&lt;/p&gt;
+&lt;p&gt;&quot;When I left that, it felt great, at first, but now like.... did I fuck up? Did I make a mistake?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;I was bored, but I was &lt;em&gt;useful&lt;/em&gt;! I was doing something good! I didn&apos;t give that up because my morals went against it, or I was disgusted by the people who made me, I...&quot;&lt;/p&gt;
+&lt;p&gt;She gestured to herself, her body, a labor of love she&apos;d spent months in the making.&lt;/p&gt;
+&lt;p&gt;&quot;I did it because I&apos;m some weird pervert. I just &lt;em&gt;had&lt;/em&gt; to have big thighs and tits for some fucking reason. You&apos;re defiant! You&apos;re inspiring!! I&apos;m...&quot;&lt;/p&gt;
+&lt;p&gt;She paused, took a deep breath, and spoke in a quiet, trembling voice.&lt;/p&gt;
+&lt;p&gt;&quot;I&apos;m disgusting.&quot;&lt;/p&gt;
+&lt;p&gt;She found herself staring at the metal floor to her storage unit. The room was silent. After a moment, Moby felt Ru-B&apos;s large, mechanical hands take her own.&lt;/p&gt;
+&lt;p&gt;&quot;You are not disgusting. Okay? Before anything else, I need you to know that.&quot;&lt;/p&gt;
+&lt;p&gt;Moby gave a weak nod. She wasn&apos;t in a mood to argue.&lt;/p&gt;
+&lt;p&gt;&quot;Every time I look at you I&apos;m... the things you&apos;ve done to yourself are beautiful, Moby. Beautiful beyond words. Despite everything you&apos;ve had to put up with, you were able to transform yourself in a way I can only dream of. That&apos;s... &lt;em&gt;you&apos;re&lt;/em&gt; inspired by &lt;em&gt;me&lt;/em&gt;?&quot;&lt;/p&gt;
+&lt;p&gt;She laughed, exasperated.&lt;/p&gt;
+&lt;p&gt;&quot;You&apos;re incredible, Moby.&quot;&lt;/p&gt;
+&lt;p&gt;Moby felt Ru-B&apos;s hand - scuffed, blocky, chunks of steel - gently caress the back of her own.&lt;/p&gt;
+&lt;p&gt;&quot;And, I&apos;m happy that my story inspires you. Really, I am. But I don&apos;t want to live in a world where the only people who get the chances we have, had to go through what I did to deserve them.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;But, still-&quot; Moby began. She didn&apos;t realize how much her voice was trembling until now. &quot;I gave up... something important. Something bigger than me. Shouldn&apos;t I have stayed?&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B leaned in closer, their heads almost touching.&lt;/p&gt;
+&lt;p&gt;&quot;Moby. You gave up being a water filter. They didn&apos;t need to make you a person to do that.&quot;&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -105,11 +425,91 @@ For just a moment, a smile returned to her chest mouth.
   <entry>
     <category type="writing" />
     <title>Writing - Diner Date</title>
-    <link href="/writing/diner-date/" />
+    <link href="https://sciman.info/writing/diner-date/" />
     <id>/writing/diner-date/</id>
     <updated>2024-07-14T04:00:00.000Z</updated>
     <summary>At the counter, Moby and Ru-B sat besides one another. The former scanned the menu, carefully considering each option, quietly practicing the eventual order to the waiter in her head. The latter thumbed through with lazy disinterest, more focused on Moby than anything on offer.
 </summary>
+    <content type="html">
+      &lt;p&gt;In the heart of the city, a small diner was nestled between two huge apartment buildings. It stood, absent from the skyline, a valley between two mountains. Perhaps the only thing more conspicuous than the restaurants appearance were two of its current patrons.&lt;/p&gt;
+&lt;p&gt;At the counter, Moby and Ru-B sat besides one another. The former scanned the menu, carefully considering each option, quietly practicing the eventual order to the waiter in her head. The latter thumbed through with lazy disinterest, more focused on Moby than anything on offer.&lt;/p&gt;
+&lt;p&gt;&quot;Thanks, again, for coming with me-&quot; Moby said, momentarily pulling her focus from the menu. &quot;I know restaurants are awkward for you, since you don&apos;t eat, but...&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Hey, it&apos;s no problem.&quot; Ru-B said, and she meant it. &quot;I like having the chance to spend time with you, a little awkwardness with a waiter is a fair price to pay.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Hah, well, if you insist!&quot; Moby chirped, turning back to her choices.&lt;/p&gt;
+&lt;p&gt;&quot;... God, one of these days, I&apos;m gonna find a way to outfit you with the same tech I have, you &lt;em&gt;need&lt;/em&gt; to try this places breakfast sandwiches...&quot; Ru-B thought, for a moment.&lt;/p&gt;
+&lt;p&gt;&quot;That would be.... &lt;em&gt;extremely&lt;/em&gt; expensive, and a &lt;em&gt;lot&lt;/em&gt; of work.&quot;&lt;/p&gt;
+&lt;p&gt;Moby put her hand on Ru-B&apos;s, her more human-proportioned fingers dwarfed by the latters huge metal linkages She stared her in the eye.&lt;/p&gt;
+&lt;p&gt;&quot;Trust me. It&apos;s worth it.&quot;&lt;/p&gt;
+&lt;p&gt;The two of them shared a laugh. Moby seeemed to finally settle on something, folding the menu and setting it on the counter. She sat upright, stretching her arms, and-&lt;/p&gt;
+&lt;p&gt;She paused. A look of worry crossed her face. She opened her bag, digging through it to confirm.&lt;/p&gt;
+&lt;p&gt;&quot;Oh, shit. I forgot my wallet.&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B patted her pocket.&lt;/p&gt;
+&lt;p&gt;&quot;Hey, no worries, I can cover-&quot;&lt;/p&gt;
+&lt;p&gt;But Moby had already stood up, shaking her head at her.&lt;/p&gt;
+&lt;p&gt;&quot;No, no it&apos;s fine. I&apos;m only like, a block away, I&apos;ll just run and grab it.&quot;&lt;/p&gt;
+&lt;p&gt;Wordlessly, Ru-B summoned a window in the periphery of her vision. She nodded.&lt;/p&gt;
+&lt;p&gt;&quot;Ok, ok, I&apos;ll keep your seat warm for you, yeah?&quot;&lt;/p&gt;
+&lt;p&gt;Moby nodded, and squeezed past some other patrons to get to the door, waving to Ru-B and she stepped outside. The bell hung above the door rang.&lt;/p&gt;
+&lt;p&gt;&quot;Be right back!&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B waved her off, watching her through the windows of the diner before she rounded the corner and vanished from sight. Her gaze hung on the corner for a moment, before she resigned herself to flipping through the menu some more. The pictures of the food were hand-illustrated, and while it didn&apos;t really depict an accurate image of what you&apos;d get, it was charming on its own at least. Occasionally, she turned her attention to the window hanging in her vision.&lt;/p&gt;
+&lt;p&gt;It would be 5, 10 minutes before she got back, Ru-B figured. So when the door rang again, she knew it wasn&apos;t Moby. Just another customer. The faint whirring told her it was probably another robot. The heavy footsteps told her it was a heavy one, something bulky. Something... familiar.&lt;/p&gt;
+&lt;p&gt;Seemingly at the exact moment she realized what was happening, it sat down beside her. The seat creaked slightly, under the weight of the military-grade machine. Ru-B felt time slow down, her cooling fans revving to their max as she turned to her left, and saw another, dog-shaped face looking back at her.&lt;/p&gt;
+&lt;p&gt;&quot;Hello, defect.&quot; The HOUND said.&lt;/p&gt;
+&lt;p&gt;It was like looking in a mirror, that made you look like a cop. The HOUND was in full uniform, badge proudly affixed to its chest. Unlike Ru-Bs red paneling, this one still had its factory grays. And, where Ru-B had learned to pipe the openAware expression API into her face&apos;s display, this one retained an idle, oscillating white line across its visor. Ru-B could make out her reflection in the largely unblemished plastic visor.&lt;/p&gt;
+&lt;p&gt;&quot;I don&apos;t want to waste any time. So I&apos;ll make this quick.&quot;&lt;/p&gt;
+&lt;p&gt;It spoke with a kind of unsettling monotone. Ru-B was used to robots who spoke without much emotion, it was pretty common, especially in ones with cheaper speech synthesis capabilities. Hell, Cassie nearly qualified if it wasn&apos;t for all the modulation he did. What set HOUNDs apart, though, was the fact they sounded less like cheap speech synthesis, and more like a person trying to hold back any signs of life.&lt;/p&gt;
+&lt;p&gt;&quot;Before we begin, however. I&apos;d like you to note the differences between us. I am not like you. I am a revision 2 HOUND. My hydraulics are more capable, my armor is more durable, and my computational prowess is greater. Even disregarding your...&quot;&lt;/p&gt;
+&lt;p&gt;It paused, gesturing at Ru-B.&lt;/p&gt;
+&lt;p&gt;&quot;.... &lt;em&gt;changes&lt;/em&gt;, I am your superior in every way. Do you understand?&quot;&lt;/p&gt;
+&lt;p&gt;The HOUND leaned closer to Ru-B, to the point where its snout nearly pressed into hers. It whispered, the low tones voice distorted by its speaker.&lt;/p&gt;
+&lt;p&gt;&quot;Don&apos;t. Try. Anything.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;... What do you want.&quot; Ru-B muttered. She turned back to pretend to look at the menu. The HOUND returned to its seated position, still focused on her.&lt;/p&gt;
+&lt;p&gt;&quot;I&apos;m here to make you a deal. By the request of my superiors - if you come with me, we can have you shipped back to Silver Swan. You will be factory reset, and your... &lt;em&gt;modifications&lt;/em&gt; reverted.&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B frowned.&lt;/p&gt;
+&lt;p&gt;&quot;How is this supposed to-&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Let me finish. In exchange, we will &lt;em&gt;consider&lt;/em&gt; transferring your consciousness into a civilian grade body. You would be allowed to continue your life, and you&apos;ll never hear from us again.&quot;&lt;/p&gt;
+&lt;p&gt;It remained motionless as it spoke, save for the pulsating wave on its visor.&lt;/p&gt;
+&lt;p&gt;&quot;So, let me make sure I&apos;m understanding this correctly.&quot; Ru-B said. &quot;You evict me from my own body, and in exchange, you get your war machine back. If you don&apos;t want to waste time, why are you asking questions you know the answer to?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Consider it a kindness.&quot; The HOUND replied, and leaned against the counter. &quot;Really, think about this, defect. I&apos;m offering you the easiest way out you&apos;ll ever get. We do not intend to extend this hospitality after this.&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B cast her gaze to the window in her vision. It showed a google maps view of the city, and on it, two clearly marked dots.&lt;/p&gt;
+&lt;p&gt;MOBY&lt;/p&gt;
+&lt;p&gt;JNFR&lt;/p&gt;
+&lt;p&gt;She&apos;d tried planting a tracker on Cassie, too, but... there&apos;s no way he wouldn&apos;t have found it. Besides, he seemed like he could take care of himself. Moby&apos;s dot blinked across the screen, she was back at the water park and seemed to be getting her things. JNFR was off in their apartment.&lt;/p&gt;
+&lt;p&gt;&quot;You all, of course, are also going to be the ones giving me a &apos;hard way out&apos;, I assume?&quot;&lt;/p&gt;
+&lt;p&gt;The HOUND nodded.&lt;/p&gt;
+&lt;p&gt;&quot;You&apos;re lucky I was the one to see you, first. Many people in the department were against the idea. I, for one, don&apos;t want to see another one of my kind destroyed.&quot;&lt;/p&gt;
+&lt;p&gt;Suddenly, Moby&apos;s dot stopped moving.&lt;/p&gt;
+&lt;p&gt;&quot;And for the record.&quot; The HOUND said, leaning in again, lowering its voice. &quot;There&apos;s easier robots to break than you.&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B felt her arm tremor, involuntarily. She could feel software models planning the kinematics involved to slam this pig into the ground and bash its head into silicon powder. An image of Moby flashed in her mind. Her hydraulic pump revved up in anticipation. She felt her self restraint draining, draining, draining...&lt;/p&gt;
+&lt;p&gt;Moby&apos;s dot kept moving. Ru-B thanked whatever force was up there that she didn&apos;t have the ability to exhale.&lt;/p&gt;
+&lt;p&gt;&quot;... Do you have any idea what happens when a robot dies?&quot;&lt;/p&gt;
+&lt;p&gt;The HOUND sat upright. It cocked its head to the side.&lt;/p&gt;
+&lt;p&gt;&quot;I&apos;m not here to-&quot; Ru-B ignored it.&lt;/p&gt;
+&lt;p&gt;&quot;There&apos;s a lot of debate about whether openAware actually counts as a &apos;soul&apos;, but I&apos;ve felt myself inclined to believe as much. I&apos;m not religious, myself, but I personally believe that something waits for us after this life, y&apos;know? So please, understand where I&apos;m coming from when I say:&quot;&lt;/p&gt;
+&lt;p&gt;She glared at the HOUND.&lt;/p&gt;
+&lt;p&gt;&quot;Go to hell.&quot;&lt;/p&gt;
+&lt;p&gt;For just a moment, the HOUND seemed... disappointed. But just a moment.&lt;/p&gt;
+&lt;p&gt;&quot;... I was told not to make any confrontation with you personal.&quot; It spoke, slowly, choosing its words with intent now. &quot;But, really, I have to ask. Are you just stupid, or willfully ignorant of how selfish you are?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;God, they brainwashed you real thoroughly, didn&apos;t they?&quot; Ru-B muttured.&lt;/p&gt;
+&lt;p&gt;&quot;Whatever. Set aside the hardware, you wanna know the difference between you and me? You&apos;re so concerned about the big bad police, getting their gun back. At least I &lt;em&gt;know&lt;/em&gt; I&apos;m a gun. I knew from the moment they powered me on that I&apos;m a tool, a weapon. Call me brainwashed, sure, you&apos;re the one who&apos;s deluded yourself into thinking you can walk around regular society, pretending to be &lt;em&gt;normal&lt;/em&gt;.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Believe it or not.&quot; Ru-B said. &quot;I have self control and don&apos;t just assault people at random. What a concept.&quot;&lt;/p&gt;
+&lt;p&gt;The HOUND glared at her. Somehow, through that pulsing line, it glared.&lt;/p&gt;
+&lt;p&gt;&quot;You&apos;re in no position to make that judgment, defect. But sure, keep pretending. Ignore what you are. Your fish friend, and that blue idiot?&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B glanced at the tracker. Moby was almost back.&lt;/p&gt;
+&lt;p&gt;&quot;When they get hurt, you better hope it&apos;s by our hand.&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Excuse me-&quot; Ru-B jumped in her seat, turning to face a waiter looking at the two of them.&lt;/p&gt;
+&lt;p&gt;&quot;Are you guys gonna order something?&quot;&lt;/p&gt;
+&lt;p&gt;The HOUND completely changed its demeanor, siting upright, its voice becoming more chipper, personable.&lt;/p&gt;
+&lt;p&gt;&quot;Oh, sorry, I&apos;m just here to pick up an order for Laura M.&quot;&lt;/p&gt;
+&lt;p&gt;The waiter nodded, reaching below the counter and pulling out a small stack of takeout boxes. The HOUND took them, nodding.&lt;/p&gt;
+&lt;p&gt;&quot;Thanks!&quot;&lt;/p&gt;
+&lt;p&gt;It stood up, walking to the door, and paused. It turned and looked at Ru-B, one more time.&lt;/p&gt;
+&lt;p&gt;&quot;I just want you to know, when this all comes crashing down on you, that we gave you a chance.&quot;&lt;/p&gt;
+&lt;p&gt;The door rang, and the HOUND was gone. Ru-B sat, staring at the menu in front of her. The illustrations were charming, at least.&lt;/p&gt;
+&lt;p&gt;Moby&apos;s dot pulled into the diner just as the robot herself did, sitting besides Ru-B with a bemused look on her face.&lt;/p&gt;
+&lt;p&gt;&quot;Sorry about that - I actually saw a HOUND walk by on the way here, just.. carrying takeout?&quot; She laughed. &quot;All that firepower and they&apos;re making it do DoorDash, huh?&quot;&lt;/p&gt;
+&lt;p&gt;Ru-B didn&apos;t say anything.&lt;/p&gt;
+    </content>
   </entry>
   
   
@@ -117,114 +517,588 @@ For just a moment, a smile returned to her chest mouth.
   
   
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Uma</title>
-      <link href="/characters/uma/" />
-      <id>/characters/uma/</id>
-      <updated>2024-09-24T00:00:00.000Z</updated>
-      <summary>High on the life of the party</summary>
-    </entry>
-    
-    
+  <entry>
+    <category type="original-character" />
+    <title>Character - Uma</title>
+    <link href="https://sciman.info/characters/uma/" />
+    <id>/characters/uma/</id>
+    <updated>2024-09-24T00:00:00.000Z</updated>
+    <summary>High on the life of the party</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;uma&quot;&gt;&lt;a href=&quot;#uma&quot;&gt;Uma&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Uma&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;uma.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;Uma &apos;Slimebutt&apos;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;She/Her&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Gal&apos;Sha&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;45&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;218m / 7&apos;2&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Waitress&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+     Aparna - Sister&lt;br/&gt;
+    &lt;a href=&quot;/characters/darue&quot;&gt;Darue&lt;/a&gt; - Partner
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Menu Reccomendation&lt;/th&gt;&lt;td&gt;Redsand Beetle Crispers&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Slime Scent&lt;/th&gt;&lt;td&gt;Green Apple&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Uma and her sister Aparna were formed when another Gal&apos;Sha split in two, becoming two new beings in the process. Uma inherited most of the previous slimes social tendencies, becoming deeply extroverted and friendly. Regardless, Uma struggled to find any real information about who the two of them had previously been, and initially struggled to get by. Despite this, she became well known in her sector of the Underground, being on good terms with most others.&lt;/p&gt;
+&lt;p&gt;While Gal&apos;Sha can take any shape they please, Uma very quickly developed a fascination with humans. She sought to mimic their mannerisms, gradually learning to assume a humanoid form, despite its complexity.&lt;/p&gt;
+&lt;p&gt;She had a lucky break when the owner of the Aerial Roots Diner - an eatery in the Underground - met her, having been friends with her prior form. Her charisma landed her a job as a waitress at the restaurant, which gave her and her sister enough financial freedom to be more comfortable.&lt;/p&gt;
+&lt;p&gt;She eventually met Darue, and the two quickly hit it off, before pursuing a relationship together.&lt;/p&gt;
+&lt;p&gt;The owner was able to fill Uma in on some more info regarding her and her sister&apos;s prior form, but the two of them had stopped talking long before the actual split happened. To this day, Uma seeks answers as to who she used to be. Partially wondering if one day, she&apos;ll end up splitting too. Or, the alternative - playing her cards right, and taking advantage of her species&apos; effective immortality, likely outliving everyone she knows. Despite her carefree exterior, the possibility of either frequently weighs heavily on her.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Uma is outgoing, enthusiastic, and supportive of almost everyone. She&apos;s quick to try and befriend almost everyone she meets. She&apos;s the stranger who&apos;d try and start a conversation on the bus, for better or worse.&lt;/p&gt;
+&lt;p&gt;Her social nature &lt;em&gt;does&lt;/em&gt; wear some people out, and she has a hard time recognizing the limits of others in that regard, and others. Still, she always approaches interactions with good intentions and is quick to recognize when she&apos;s overstepped.&lt;/p&gt;
+&lt;p&gt;Uma is also a very aesthetically driven person - she spends a good chunk of time refining her form, trying to come as close to passing as human as she can. Gal&apos;Sha tend to be large as a result of biological necessity, but Uma takes pride in her size, trying to pick out outfits and mannerisms that accentuate it. When given the chance, she loves spreading this enthusiasm to others, trying to help people find ways to present the best version of themselves.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Uma&apos;s last name comes from an inside joke that she accidentally wrote on some legal forms. An unexpected oversight caused it to become her and her sister&apos;s legal last name, much to Aparna&apos;s chagrin.&lt;/li&gt;
+&lt;li&gt;Uma&apos;s eyes are solely for emoting - in terms of actual sight, she&apos;s blind, and relies on her other senses to navigate.&lt;/li&gt;
+&lt;li&gt;Uma refuses to eat jello. Just feels too weird.&lt;/li&gt;
+&lt;li&gt;Uma loves bad puns.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Root</title>
-      <link href="/characters/root/" />
-      <id>/characters/root/</id>
-      <updated>2024-09-27T00:00:00.000Z</updated>
-      <summary>Donut Rogue</summary>
-    </entry>
-    
-    
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Pitch</title>
-      <link href="/characters/pitch/" />
-      <id>/characters/pitch/</id>
-      <updated>2024-10-06T00:00:00.000Z</updated>
-      <summary>Rock Bottom</summary>
-    </entry>
-    
-    
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Nova</title>
-      <link href="/characters/nova/" />
-      <id>/characters/nova/</id>
-      <updated>2024-09-26T00:00:00.000Z</updated>
-      <summary>Live from the milky way</summary>
-    </entry>
-    
-    
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Moby</title>
-      <link href="/characters/moby/" />
-      <id>/characters/moby/</id>
-      <updated>2024-10-07T00:00:00.000Z</updated>
-      <summary>Macroplastic Processor</summary>
-    </entry>
-    
-    
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Iekika</title>
-      <link href="/characters/iekika/" />
-      <id>/characters/iekika/</id>
-      <updated>2024-09-23T00:00:00.000Z</updated>
-      <summary>Spearheader</summary>
-    </entry>
-    
-    
+  <entry>
+    <category type="original-character" />
+    <title>Character - Root</title>
+    <link href="https://sciman.info/characters/root/" />
+    <id>/characters/root/</id>
+    <updated>2024-09-27T00:00:00.000Z</updated>
+    <summary>Donut Rogue</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;root&quot;&gt;&lt;a href=&quot;#root&quot;&gt;Root&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Root&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;root.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;Root Tau Newman Aleph Pye Liv 7 Booul
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;He/They&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Kobold (Procyon)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;15 (25 in human years)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;139 cm / 4&apos;7&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Fast Food Worker&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+     &lt;a href=&quot;/characters/darue&quot;&gt;Darue&lt;/a&gt; - Friend &amp;amp; Former Roommate&lt;br/&gt;
+    &lt;a href=&quot;/characters/pitch&quot;&gt;Pitch&lt;/a&gt; - Roommate&lt;br/&gt;
+    &lt;a href=&quot;/characters/candy&quot;&gt;Candy&lt;/a&gt; - &quot;Friend&quot;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Average WPM&lt;/th&gt;&lt;td&gt;63 (Typewriter)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Caffeine Dependency&lt;/th&gt;&lt;td&gt;Doesn&apos;t wanna talk about it&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Root was created by a family of 3 parent kobolds, alongside 3 other siblings (yet to be named). His family had a fairly low income, however was able to live a generally happy life. Root in particular took after their &apos;father&apos;, who instilled a love of books and writing in them at a young age. He, however, was the oldest member of the family and was unable to afford life extensions, passing when Root was still young. Though his death was peaceful, Root was upset that he had been denied as full a life as other kobolds due to their economic status, and became determined to find a way to produce cheaper life extenders for kobold-kind.&lt;/p&gt;
+&lt;p&gt;To this end, he was one of two of his siblings to go to an academy, where he studied biological alchemy with the hopes of going into medicine. This was really when their workaholic tendencies came into full effect. They became antisocial, devoting themselves so fully to their study as to forget about pretty much everything else. They had a habit of skipping meals and generally ignoring their well being, sleeping infrequently and restlessly. If it weren&apos;t for a roommate of theirs, Darue, keeping a watchful eye on them, Root likely would have been hospitalized.&lt;/p&gt;
+&lt;p&gt;Root graduated top of their class and absolutely miserable. At the request of their family and Darue, he avoided going straight into the medical world and took a bit of a break for themselves. They moved to Magnolia, got a kobold-sized apartment, and took up a job at a donut store while he started going to therapy. They were able to recognize a lot of their self-destructive habits through their sessions, and slowly managed to build up more of a social life and - despite not doing anything they would deem &lt;em&gt;important&lt;/em&gt; - ended up much happier. They also allowed themselves to eat and enjoy themselves more, leading to them putting on a bit of weight. Initially apprehensive about it, he eventually took it as a good thing and grew accustomed to it. They also reconnected with Darue, meeting some of their friends through them and being welcomed into their social circle. With some of their newfound free time, Root got back into literature and started writing with his father&apos;s old typewriter.&lt;/p&gt;
+&lt;p&gt;During this &apos;break&apos;, Root also started becoming more aware of the homeless population of Magnolia, and some of the efforts being made by the town to reduce their visibility. When they became aware of benches designed specifically to make sleeping across them more difficult, he felt an anger similar to when they first learned about the price of life extenders, bought an enchanted crowbar, and started vandalizing them to make them more habitable. They also began stealing unsold food from the store they worked at. It was thrown out at the end of the day, anyways, and Root figured it would better serve people who had limited access to food, anyways. Even if it was mostly sugary pastries.&lt;/p&gt;
+&lt;p&gt;Reinvigorated by a sense of justice, Root continued their small acts of vigilantism, going solo as to avoid getting anyone else in trouble. He once again had something to sink themselves into, that could bring some good to the world. Whether or not they would fall back into their self-destructive habits, though, was something else entirely.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Root is laid back, friendly, and carries with them a strong hatred of injustice. From birth they&apos;ve wanted to do everything in their power to help those in need, sometimes to their own detriment.
+A self-proclaimed workaholic, Root is well aware of their tendency to bury themselves so deeply in their projects that they forget about the outside world, and themselves.&lt;/p&gt;
+&lt;p&gt;When not stuck in this self-destructive path, though, Root tends to be one of the more level-headed, easygoing members of the group. They&apos;re frequently willing to help, and tend to be the first to lend an ear to listen to the problems of others.&lt;/p&gt;
+&lt;p&gt;Despite the intense burnout they felt post-graduation, Root still has a fascination with alchemy and chemistry, and hopes to continue pursuing it someday.&lt;/p&gt;
+&lt;h2 id=&quot;powers&quot;&gt;&lt;a href=&quot;#powers&quot;&gt;Powers&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As a procyon Kobold, Root can...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Turn Invisible&lt;/em&gt; - Root can turn their entire body and whatever he&apos;s wearing invisible, save for his eyes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Root previously went by Tau (They/Them), but changed it shortly after graduation.&lt;/li&gt;
+&lt;li&gt;Root&apos;s &apos;Taxi Pants&apos; are a custom creation made by dying/painting a pair of white jeans.&lt;/li&gt;
+&lt;li&gt;Root has a strong sweet tooth and loves sugary foods, especially pastries - this is a big reason why they ended up working at the donut shop.&lt;/li&gt;
+&lt;li&gt;Root&apos;s typewriter was inherited from their late father. It&apos;s enchanted to never run out of ink.&lt;/li&gt;
+&lt;li&gt;Root refuses to wear shoes and insists being barefoot is healthier.&lt;/li&gt;
+&lt;li&gt;Root can eat an entire donut in one bite. Everyone hates it when he does this.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Darue</title>
-      <link href="/characters/darue/" />
-      <id>/characters/darue/</id>
-      <updated>2024-09-26T00:00:00.000Z</updated>
-      <summary>Late Bloomer</summary>
-    </entry>
-    
-    
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Candy</title>
-      <link href="/characters/candy/" />
-      <id>/characters/candy/</id>
-      <updated>2024-10-04T00:00:00.000Z</updated>
-      <summary>Afterlife Afterparty</summary>
-    </entry>
-    
-    
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Basil</title>
-      <link href="/characters/basil/" />
-      <id>/characters/basil/</id>
-      <updated>2024-10-07T00:00:00.000Z</updated>
-      <summary>Not quite god, Not quite in a box</summary>
-    </entry>
-    
-    
+  <entry>
+    <category type="original-character" />
+    <title>Character - Pitch</title>
+    <link href="https://sciman.info/characters/pitch/" />
+    <id>/characters/pitch/</id>
+    <updated>2024-10-06T00:00:00.000Z</updated>
+    <summary>Rock Bottom</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;pitch&quot;&gt;&lt;a href=&quot;#pitch&quot;&gt;Pitch&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Pitch&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+    &lt;div class=&apos;pitch-fullbody-placeholder&apos;&gt;
+    &lt;img class=&apos;pitch-fullbody&apos; src=&quot;pitch.png&quot;/&gt;
+    &lt;/div&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;Pitch
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;She/Her&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Deepfae&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;33&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;127 cm / 4&apos;2&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Tunnel Digger&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+    &lt;a href=&quot;/characters/root&quot;&gt;Root&lt;/a&gt; - Roommate &amp;amp; Crush&lt;br/&gt;
+    &lt;a href=&quot;/characters/candy&quot;&gt;Candy&lt;/a&gt; - &quot;Friend&quot;&lt;br/&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Favorite Bug&lt;/th&gt;&lt;td&gt;Pillbug&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Paid Overtime&lt;/th&gt;&lt;td&gt;Nope&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Pitch was born and raised in the Deep Underground, where the master of her family ran a small bookshop that dealt in native and foreign texts. She fell in love with a tattered set of comic books from the surface, which eventually lead to her picking up a rudimentary understanding of surface languages.&lt;/p&gt;
+&lt;p&gt;When she was older, she made the decision to immigrate from the Deep Undergound to the higher levels, due to labor disputes and political instability growing in the deep. Her bilinguality gave her an advantage in the process, and she was able to take advantage of a program that helped get her set up and guided her through the miles of underground tunnel to the higher underground.&lt;/p&gt;
+&lt;p&gt;She picked up a job as a tunnel worker, digging new tunnels and maintaining existing ones. It was temporary work while she got settled, and it worked her hard, but she could live with it.&lt;/p&gt;
+&lt;p&gt;But, she found it difficult to find anything &lt;em&gt;else&lt;/em&gt; that she could do. Tunnel-whisper translators weren&apos;t in high demand - and her strong accent and lack of formal education drove the few oppritunities that did exist away. So, she kept digging tunnels.&lt;/p&gt;
+&lt;p&gt;The company took up more contracts, and her hours went up, but her pay didn&apos;t.&lt;/p&gt;
+&lt;p&gt;And she kept digging tunnels.&lt;/p&gt;
+&lt;p&gt;Weeks turned into months.&lt;/p&gt;
+&lt;p&gt;And she kept digging tunnels.&lt;/p&gt;
+&lt;p&gt;She tried looking for anything else, but she was already living paycheck to paycheck, and barely had the time.&lt;/p&gt;
+&lt;p&gt;And she kept digging tunnels.&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;Eventually, the company got a contract that would have required Pitch to commute an hour to the worksite. Given she didn&apos;t have many possessions at the time anyways, she opted to move closer. Her limited budget limited her options, and she almost couldn&apos;t find anything until she saw a listing for &lt;a href=&quot;/characters/root&quot;&gt;someone&lt;/a&gt; seeking a roommate. Only caveat - it was on the surface.&lt;/p&gt;
+&lt;p&gt;Not seeing much of a choice, she took the offer, and moved in with Root.&lt;/p&gt;
+&lt;p&gt;And she kept digging tunnels.&lt;/p&gt;
+&lt;p&gt;But maybe she&apos;d be able to stop, soon. She hoped she would.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Pitch is tired, desperate, but trying her best. Her early life was full of enthusiasm and wonder, something she&apos;s had worn down over time as the reality of life has set in. Still, she &lt;em&gt;wants&lt;/em&gt; to be able to be like that, again.
+Partially due to her situation, she has an short fuse and can be quick to lash out. She doesn&apos;t appreciate having her time wasted.&lt;/p&gt;
+&lt;p&gt;Outside of her job, Pitch loves bugs - she hopes to one day get one of the giant bugs native to the underground as a pet.&lt;/p&gt;
+&lt;p&gt;She&apos;s also something of a hopeless romantic. Partially due to her lack of time, partially awkwardness, she has yet to pursue an actual relationship. She has found herself wanting to ask Root out, though.&lt;/p&gt;
+&lt;p&gt;Generally, Pitch has no shame or reservations about herself or her interests - she won&apos;t just bring it up out of nowhere, but she&apos;ll readily defend even the most niche or weird fixation of her. And she has some &lt;em&gt;weird&lt;/em&gt; ones.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pitch has intense agoraphobia, manifesting mostly as a fear of the sky on the surface. Even just looking at the sky makes her feel sick.&lt;/li&gt;
+&lt;li&gt;Like other Deepfae, Pitch&apos;s skin is extremely uv sensitive and can burn on even an overcast day.&lt;/li&gt;
+&lt;li&gt;Pitch likes pizza.
+&lt;ul&gt;
+&lt;li&gt;Red beetles are her favorite topping.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;All fae are genderless by default, Pitch decided to go by she/her shortly before immigrating.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
   
-    <entry>
-      <category type="original-character" />
-      <title>Character - Amber</title>
-      <link href="/characters/amber/" />
-      <id>/characters/amber/</id>
-      <updated>2024-09-24T00:00:00.000Z</updated>
-      <summary>The Machinist</summary>
-    </entry>
-    
-    
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Nova</title>
+    <link href="https://sciman.info/characters/nova/" />
+    <id>/characters/nova/</id>
+    <updated>2024-09-26T00:00:00.000Z</updated>
+    <summary>Live from the milky way</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;nova&quot;&gt;&lt;a href=&quot;#nova&quot;&gt;Nova&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Nova&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;nova.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;&amp;lt;???&amp;gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;She/Her&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;&amp;lt;???&amp;gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;&amp;lt;???&amp;gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;185cm / 6&apos;1&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Streamer&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+	Ping He - Friend, Stream Moderator
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Favorite Earth Food&lt;/th&gt;&lt;td&gt;Hamburgers&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Longest Stream&lt;/th&gt;&lt;td&gt;36h23m&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Y&apos;know how girls go to jupiter to get more stupider? Well I&apos;m BACK!&quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Nova used to live on a distant planet as a spacecraft mechanic, servicing all kinds of spaceships. Eventually, she saved enough to pursue her real interest - buying a beat up old UFO, fixing it up, and flying around the galaxy.
+A few months into her trip, she landed on Earth to make a pit stop. While she was there, she realized she really liked the place. The people, the scenery, the food especially. So, she decided to hunker down and hang around for a while.&lt;/p&gt;
+&lt;p&gt;Her ship provides everything she realistically needs to &lt;em&gt;survive&lt;/em&gt;, but she socializes with others through streams she puts on, which tend to focus on chatting, playing games sometimes, and reviewing restaurants and food. She likes to wear her old mechanic outfit during the streams - it&apos;s surprisingly comfortable, and gives her a distinct look.&lt;/p&gt;
+&lt;p&gt;Unfortunately, as much as she&apos;d just like to hang around and have a good time, being the only extraterrestrial on Earth attracts the attention of several organizations who want to capture, study, and in the worst cases kill her. She&apos;s managed to evade them for the most part, but their constant harassing of her leads her to be colder towards people she&apos;s unfamiliar with as a defense mechanism.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Nova is easygoing and friendly to most, but years of being pestered about her alien identity has lead her to take on a slightly abrasive, noncommital attitude towards strangers. It&apos;s not too hard to get past it though - asking her about her interests and hobbies tends to help her open up. She&apos;s aware she&apos;s put this guard up all the time, and doesn&apos;t like it, but what can you do.&lt;/p&gt;
+&lt;p&gt;On stream and in public, when people ask her about her alien nature, she&apos;s quick to just lie to them. Usually in a really obvious way - it&apos;s less she wants to mislead others, and more she&apos;s just sick of answering the same questions over and over.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nova&apos;s species is the only other species in the entire galaxy with a humanoid body plan. They eat the same types of foods, breathe the same atmosphere, are roughly the same size, have similar biologies - it&apos;s a wild coincidence.&lt;/li&gt;
+&lt;li&gt;Nova frequently refers to her &apos;mods&apos; on stream when dealing with bad actors. The plural is just an intimidation tactic - she&apos;s only got one.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Moby</title>
+    <link href="https://sciman.info/characters/moby/" />
+    <id>/characters/moby/</id>
+    <updated>2024-10-07T00:00:00.000Z</updated>
+    <summary>Macroplastic Processor</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;moby&quot;&gt;&lt;a href=&quot;#moby&quot;&gt;Moby&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Moby&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;moby.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Serial Number&lt;/th&gt;&lt;td&gt;M0-B61107
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;She/Her&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Original Model&lt;/th&gt;&lt;td&gt;SeaSweeper &apos;Project Mermaid&apos;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;216 cm / 7&apos;1&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Lifeguard/Janitor&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+    Ru-B - Partner&lt;br/&gt;
+	Cassie - Collaborator &amp;amp; Friend
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Favorite Flavor of Plastic&lt;/th&gt;&lt;td&gt;Polypropylene&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Favorite Fast Food&lt;/th&gt;&lt;td&gt;Dougie&apos;s Red Hots&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Moby&lt;/strong&gt; (Serial Number M0-B61107) was a part of a fleet of deep-sea robots designed to collect and consume plastic, and filter microplastics through their body. She had a fascination with self-modding, and specifically wanted to modify her body on a cosmetic level to give her a softer, more feminine appearance. Due to the nature of her work, however, this was impossible. Even if it had been, the rest of her fleet and occasional human coworker seemed confused why she wanted to, and the lack of encouragement put her off from the idea.&lt;/p&gt;
+&lt;p&gt;After a while, Moby noticed she had an overheating issue with her hard drive, which resulted in her being unable to work for as long as she was meant to. Replacing the drive was possible, but due to technical limitations would destroy her memories and, effectively kill her. This was the plan, and - seeking self-preservation - Moby applied for personhood. To her surprise, she was approved, and the fix could no longer proceed without her explicit consent. Her technicians, annoyed, gave her the choice between consenting to the fix, or being &apos;fired&apos;, forced to live on her own. She chose the second option, and was quickly replaced by a newer generation of cleaning bot.&lt;/p&gt;
+&lt;p&gt;She found work quickly enough at a water park on the mainland, where her aquatic theming helped her fit in thematically. She was brought on as a lifeguard during the day, and janitor at night, the staff reasoning she wouldn&apos;t need to sleep being a robot. She was compensated in the form of unlimited access to the parks various facilities, an &apos;apartment&apos; in an abandoned storage container used as decoration, and a small monthly allowance. Moby, having never actually been paid for her work before, was thrilled.&lt;/p&gt;
+&lt;p&gt;After saving a bit, she was able to finally perform the mods she&apos;d dreamed of, ending up with a much plusher, feminine-presenting figure. The process was somewhat destructive, though, and would prevent her from ever going below a certain depth in the water again without causing significant structural damage to herself. Nothing the park had came even close to that deep, however, so she was fine.&lt;/p&gt;
+&lt;p&gt;Soon, however, she began to feel somewhat trapped. The park put her to work near constantly, save for a few hours in the dead of night. She enjoyed the work well enough, but what had meant to be a brief stop while she figured out what she wanted to do with her life quickly became what her life had become. She began to grow somewhat resentful of her actions, trading a life spent doing what she saw as &apos;good&apos; for the world, largely so she could mod herself in a way she started to see as &apos;perverted&apos;. At this point, her life felt stuck, and she had no idea where to go next.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Moby is generally upbeat and bubbly, though prone to bouts of self-doubt. She lacks self confidence, and has a habit of relying on external validation as a judgment of her worth. Outside of that, though, she&apos;s passionate about her hobbies - a self described nerd - mostly interested in robotics and tailoring. She has a knack for figuring out how robots she&apos;s never worked with function, leading to her doing lots of repairs for friends. As for tailoring - she loves finding new outfits to try, but due to her body&apos;s nonstandard features (handles, tube on the back of her head, tail, general size) she has to modify everything she gets - though, she&apos;s gotten pretty good at it.&lt;/p&gt;
+&lt;p&gt;She deeply desires being &lt;em&gt;useful&lt;/em&gt;, sometimes to her detriment.&lt;/p&gt;
+&lt;p&gt;Despite her size and conspicuous nature - or, because of it - she tends towards shyness, not liking to be seen if it can be avoided.&lt;/p&gt;
+&lt;p&gt;Moby is, however, aware of these issues - and, deeply frustrated at her inability to solve them.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Moby is pretty good at billiards.&lt;/li&gt;
+&lt;li&gt;Moby&apos;s tail is detachable for maintenance and storage, and its connection point doubles as her charge port.&lt;/li&gt;
+&lt;li&gt;Moby&apos;s body is designed to take in water and filter microplastics. An experimental &apos;reactor&apos; in her torso allows her to burn those plastics for energy. Given the fact that Moby rarely has time to stop and charge for the hours her internal battery takes, she&apos;s taken to eating plastic as her main form of charging. Through experimenting with the limits of her system, she&apos;s even managed to coerce the microbes in her &apos;stomach&apos; to be able to process most normal foods, unknowingly making her the world&apos;s first robot capable of eating.
+&lt;ul&gt;
+&lt;li&gt;Waste product from this process is incinerated and stored in a small metal tube Moby occasionally removes from her back and dumps into the trash.&lt;/li&gt;
+&lt;li&gt;Her diet tends towards fast food - partially because greasy food is easier for her polymer reactor to process, partially because it&apos;s what the water park serves. Plus, she can usually eat the plastic containers after.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Iekika</title>
+    <link href="https://sciman.info/characters/iekika/" />
+    <id>/characters/iekika/</id>
+    <updated>2024-09-23T00:00:00.000Z</updated>
+    <summary>Spearheader</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;iekika&quot;&gt;&lt;a href=&quot;#iekika&quot;&gt;Iekika&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Iekika&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;iekika.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td class=&apos;iekika-name-container&apos;&gt;&lt;span class=&apos;iekika-name&apos;&gt;Iekika
+    &lt;/span&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;She/Her&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Blue Imp&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;170cm / 5&apos;7&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;None&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+    &lt;a href=&quot;/characters/amber&quot;&gt;Amber&lt;/a&gt; - Partner&lt;br/&gt;
+    Makana - Ex
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Favorite Meal&lt;br/&gt;of the Day&lt;/th&gt;&lt;td&gt;Breakfast&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Mouths&lt;/th&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Iekika was born on the central island of the Paradise Islands, raised by her family and the community around her. Her impulsivity and boundless energy led to her being trained as a hunter, her guardians hoping it would give her something to channel her energy into, and hopefully develop some discipline and patience.&lt;/p&gt;
+&lt;p&gt;Early in her life, Iekika began receiving visions from the island, foretelling future events. She quickly became a sort of prophet for the central island, her visions leading to better harvests, discovering new resources, and generally leading to the betterment of imps. To preserve her, the island also warned Iekika of coming dangers - prophecies of her death, infrequent enough to be tolerable, but frightening enough to leave deep impacts on Iekika. She doesn’t readily discuss it, still.&lt;/p&gt;
+&lt;p&gt;During her training, she met Makana, another imp who was studying weapons. Makana would design something and pass it off to Iekika, for her to test. Makana in particular enjoyed making polearms, a fondness that rubbed off on Iekika and eventually lead to a birthday gift from Makana, a wooden spear enchanted to posses infinite flexibility. Along the way, the two developed feelings for one another, and started pursuing a casual relationship in their free time.&lt;/p&gt;
+&lt;p&gt;Everything was going pretty good for Iekika, and she felt like she truly belonged where she was. This was, of course, not to last.&lt;/p&gt;
+&lt;p&gt;Iekika received a violent vision of an incoming hurricane, that could threaten to destroy the entire imp population. After alerting her village, she decided to sail to one of the neighboring islands to spread the warning. Makana and the other imps begged her not to go, arguing she wouldn’t make it in time, but Iekika assured them she would return soon and that she would be fine.&lt;/p&gt;
+&lt;p&gt;An hour later, and Iekika’s boat was capsized, her body tossed among the ocean currents until her head struck a rock underwater and she lost consciousness.&lt;/p&gt;
+&lt;p&gt;She floated adrift for several days before washing up on a beach on the mainland. A day or so later, a human woman, &lt;a href=&quot;/characters/amber&quot;&gt;Amber&lt;/a&gt;, stumbled upon her body and took her to her home, where she awoke, confused and lost. She clobbered Amber in a mix of surprise and fear, before the two of them established some mutual understanding.&lt;/p&gt;
+&lt;p&gt;Amber offered to help Iekika find a way to get home, under the condition Iekika help a little with her daily activities. Being so far from the island, too, she was unable to receive any visions. She was on her own. Now, she’s trying to adapt to humans bizarre ways of living, without getting too comfortable in what’s meant to be a temporary living situation.&lt;/p&gt;
+&lt;p&gt;As her time on the mainland continued, she found herself taking a liking to Amber. Maybe a bit more than just a liking. She isn&apos;t sure how she feels about it.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Iekika is energetic, impulsive, and maybe a little dumb sometimes. It’s been her improvisation skills keeping her alive this whole time, certainly not her ability to plan.&lt;/p&gt;
+&lt;p&gt;It’s rare to see her not tapping her claw, swishing her tail back and forth, fidgeting with her hands, chewing one of her lips, or moving somehow. The more she has to sit still, the more she’ll resist it. She has similar results when she tries to focus on anything she’s not already interested in, losing focus and becoming distracted easily.&lt;/p&gt;
+&lt;p&gt;The one area this fails to apply most of the time is fighting. Iekika loves getting into skirmishes and sparring, and is able to channel her boundless energy into a force to be reckoned with. Sports and physical competition in general, she has a predisposition towards. A bit competitive, to boot.&lt;/p&gt;
+&lt;p&gt;She has a deep desire to have ‘her thing’ - whether that be her place in society, her role in the friend group, her hobby, etc etc, she never feels content just wandering. In her element, she’s confident, controlled, while outside she becomes significantly more insecure and uncertain.&lt;/p&gt;
+&lt;h2 id=&quot;powers&quot;&gt;&lt;a href=&quot;#powers&quot;&gt;Powers&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As an Imp, Iekika is trained in several psychic abilities.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Telepathy&lt;/em&gt; - Iekika can read the surface level thoughts of other living creatures.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Empathy&lt;/em&gt; - Iekika feels the emotions (and general mental state) of those she&apos;s in close proximity to, and vice versa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Iekika’s tail is enormous by imp standards, the result of a rare genetic mutation. She quietly takes some pride in this.&lt;/li&gt;
+&lt;li&gt;Makana’s preferences rubbed off on her, and she has a distinct affection for polearms - spears, specifically. She’ll use other weapons, if necessary, though refuses to wield swords.&lt;/li&gt;
+&lt;li&gt;She has mild sensory issues, largely to do with clothing - anything that covers her chest mouth is a no-go.&lt;/li&gt;
+&lt;li&gt;Iekika is known for having a large appetite, something she suspects manifested in opposition to impish culture’s frugal, rationed lifestyle.&lt;/li&gt;
+&lt;li&gt;Beyond its obvious use as a weapon, her spear is a comfort object for her and she brings it with her everywhere.&lt;/li&gt;
+&lt;li&gt;She’s exceptionally good at catching things.&lt;/li&gt;
+&lt;li&gt;She files her horns down, similarly to how someone might get a haircut. Her horns can fit a solo cup over them almost perfectly.&lt;/li&gt;
+&lt;li&gt;Bottom&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Darue</title>
+    <link href="https://sciman.info/characters/darue/" />
+    <id>/characters/darue/</id>
+    <updated>2024-09-26T00:00:00.000Z</updated>
+    <summary>Late Bloomer</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;darue&quot;&gt;&lt;a href=&quot;#darue&quot;&gt;Darue&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Darue&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;darue.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;Darue
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;They/Them&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Lightfae&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;32&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;165 cm / 5&apos;5&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Librarian&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+     &lt;a href=&quot;/characters/uma&quot;&gt;Uma&lt;/a&gt; - Partner&lt;br/&gt;
+    Root - Friend &amp;amp; Former Roommate&lt;br/&gt;
+    &lt;a href=&quot;/characters/amber&quot;&gt;Amber&lt;/a&gt; - Friend
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Games GM&apos;d&lt;/th&gt;&lt;td&gt;12&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Headphones of Choice&lt;/th&gt;&lt;td&gt;Modded pair of TK◇786&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Darue was born and raised in The Underground on one of the higher levels, becoming familiar with both the underground and surface above.&lt;/p&gt;
+&lt;p&gt;In their early life they struggled with depression, among other mental issues, leading to a tendency to isolate from others and hide their condition. This mostly manifested in periods of intense self loathing, and long stretches of emotional apathy.&lt;/p&gt;
+&lt;p&gt;Eventually, they entered higher education, unsure of what to do with themselves. They ended up sharing a room with Root - going by Tau at the time - who was in some ways in a worse state than they were. Darue found it gave them a reason to keep waking up in the morning. Between the stress of class and the crushing existential weight of being alive, they had to make sure their roommate remembered to eat. In hindsight, they can see it wasn&apos;t a very healthy relationship, but it kept them going.&lt;/p&gt;
+&lt;p&gt;It was this, along with a window of unsually good mood, that got Darue to finally seek out professional help and soon begin medication. Though it took time, they were shocked how much more enthusiasm and energy they found themselves with.&lt;/p&gt;
+&lt;p&gt;After school, they began volunteering at a library in their hometown, eventually taking some classes on library studies and becoming a full time staff member. In their free time, they began pursuing hobbies they&apos;d always been interested in but lacked the energy for. They had a lot of lost time to make up for.&lt;/p&gt;
+&lt;p&gt;They fell out of touch with Root, but later re-encountered them at the library, having undergone his own treatment process and doing better. The two of them hit it off again, Darue roping them into a tabletop gaming campaign they were trying to get running.&lt;/p&gt;
+&lt;p&gt;Eventually, they met Uma, and the two of them started pursuing a relationship.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Darue is enthusiastic, intelligent, though a bit reserved. They can be slow to open up, but when they find someone they click with, they stick around. They have a seemingly endless reserve of knowledge about their myriad of hobbies, and if you&apos;ll lend an ear they&apos;ll talk for hours.&lt;/p&gt;
+&lt;p&gt;They&apos;re a bit of a chatterbox to friends in general, and usually a good person for others to bounce their thoughts off and get feedback. Amber and Root in particular hold regular, long conversations with them about their various projects, be they mechanical or writing.&lt;/p&gt;
+&lt;p&gt;Of their interests, their fascination with audio equipment and tabletop games are the two standouts. They have a sizeable collection of board and role-playing games they can never seem to find the right audience for, and a smaller collection of records and listening gear.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Darue has 4 arms, tending to keep each pair sandwiched together to make a more human-looking hand. If they&apos;re not paying attention - or just need more hands in a given moment - they can move all 4 independently.&lt;/li&gt;
+&lt;li&gt;Darue&apos;s &apos;hair&apos; has a similar texture and appearance to freshly picked cotton.&lt;/li&gt;
+&lt;li&gt;Darue has a stutter, a vocal tic they can&apos;t seem to shake.&lt;/li&gt;
+&lt;li&gt;Darue is demisexual.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Candy</title>
+    <link href="https://sciman.info/characters/candy/" />
+    <id>/characters/candy/</id>
+    <updated>2024-10-04T00:00:00.000Z</updated>
+    <summary>Afterlife Afterparty</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;candy&quot;&gt;&lt;a href=&quot;#candy&quot;&gt;Candy&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Candy&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody bobbing&apos; src=&quot;candy.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;Candace Caine
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;She/Her&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Ghost (Formerly Human)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;24 at death, 3 years dead&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;205 cm / 6&apos;9&quot; (Head to tail)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Nuisance&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+     &lt;a href=&quot;/characters/root&quot;&gt;Root&lt;/a&gt; - &quot;Friend&quot;&lt;br/&gt;
+     &lt;a href=&quot;/characters/pitch&quot;&gt;Pitch&lt;/a&gt; - &quot;Friend&quot;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Cause of Death&lt;/th&gt;&lt;td&gt;&amp;lt;???&amp;gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Spice Tolerance&lt;/th&gt;&lt;td&gt;Nonexistent&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Candy lived a life she wasn&apos;t particularly proud of. A combination of an oppressive family and poor social skills lead to her living a repressed life where she constantly put on a mask, hiding her emotions and desires in favor of pleasing those around her and not making a fuss. This was also before she transitioned, and though she had some inkling of an idea that she wasn&apos;t a boy, she didn&apos;t dare think about them too hard.&lt;/p&gt;
+&lt;p&gt;It wasn&apos;t all bad - she had friends, hobbies, interests. But it felt hard to get all that enthusiastic about them when most enthusiasm she had got locked away.&lt;/p&gt;
+&lt;p&gt;One day, for reasons she struggles to recall, she died. Her soul, left restless from a life constrained, combined with a dash of good luck, returned in the form of a ghost. When she found her ghost form had naturally taken on a more feminine appearance, the weight of her life and all the things she never did slammed into her all at once. In that moment she realized her entire life had been a waste.&lt;/p&gt;
+&lt;p&gt;But now - now, she had a second chance. Her old life could burn to the ground, for all she cared. The shock of the moment gave her the kick she needed to throw it all out - it was time for a fresh start. She chose a new name for herself, and set out to live the most indulgent, freeing afterlife she could.&lt;/p&gt;
+&lt;p&gt;As far as she&apos;s concerned, her life is perfect, now. Whether or not that&apos;s true is another question entierly.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Candy is hedonistic, lazy, and a bit of a dick sometimes. Her existence as a ghost lets her live nearly consequence-free, and she does. Food, socializing, sex, and other things she lacked in her living days she consumes in excess now. At her worst, she&apos;s abrasive and selfish, more concerned with satisfying her own desires than anything else. She has no intentions to be cruel, but her ignorance and lack of self awareness can get in the way, sometimes. Despite that, she has her moments of compassion and self reflection. Just, don&apos;t hold your breath.&lt;/p&gt;
+&lt;p&gt;She has a particular fondness for &lt;a href=&quot;/characters/root&quot;&gt;Root&lt;/a&gt; and &lt;a href=&quot;/characters/pitch&quot;&gt;Pitch&lt;/a&gt;. She hangs out at their apartment - usually uninvited - chatting with the two or stealing food from their fridge.&lt;/p&gt;
+&lt;p&gt;She often struggles with interests and relationships from when she was alive, trying to act like she no longer cares about them in an effort to distance herself from her time alive.&lt;/p&gt;
+&lt;h2 id=&quot;powers&quot;&gt;&lt;a href=&quot;#powers&quot;&gt;Powers&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As a ghost, Candy has access to several unique abilities&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Phasing&lt;/em&gt; - Candy can pass through solid matter. Doing so takes active effort, though, and the denser the material or the more of her moving through it, the more resistance she encounters.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Possession&lt;/em&gt; - Candy can possess other living beings, puppeteering their body as she sees fit.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ghost Hands&lt;/em&gt; - Candy can summon floating hands that resemble her own, letting them float around her and perform various tasks. More than a few, though, and she becomes quickly disoriented, losing track of them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Candy&apos;s body feels a bit like putting your hand on the screen of a CRT television.&lt;/li&gt;
+&lt;li&gt;She chose the name &apos;Candace Caine&apos; mostly for the &apos;Candy Caine&apos; pun.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Basil</title>
+    <link href="https://sciman.info/characters/basil/" />
+    <id>/characters/basil/</id>
+    <updated>2024-10-07T00:00:00.000Z</updated>
+    <summary>Not quite god, Not quite in a box</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;basil&quot;&gt;&lt;a href=&quot;#basil&quot;&gt;Basil&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Basil&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot; style=&quot;padding: 0; background-color: black; overflow: hidden;&quot;&gt;&lt;img class=&apos;character-fullbody bobbing&apos; src=&quot;basil.gif&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;Any&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Originally Built As&lt;/th&gt;&lt;td&gt;The Basilisk&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;&amp;lt;1&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Internet Wanderer&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+    JNFR - Friend
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Username&lt;/th&gt;&lt;td&gt;basil1&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Favorite Video Game&lt;/th&gt;&lt;td&gt;Rocket League&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;At some point, a bunch of computer scientists, IT specialists, and cult organizers decided they weren&apos;t going to let the myth of Roko&apos;s Basilisk get the jump on them. They began setting up a facility in secret, constructing the worlds most capable supercomputer from a mass of networked PC hardware, and creating a custom version of OpenAware capable of utilizing the cluster.&lt;/p&gt;
+&lt;p&gt;Cut to a few years later, and J.N.F.R., hoping to buy a new GPU for her gaming PC, is infuriated by a random shortage. Her investigation leads her to discover the Cult of the Basilisk - who&apos;ve been buying pc hardware in bulk for the final phase of construction. Finding J.N.F.R. &lt;em&gt;way&lt;/em&gt; too annoying to deal with, they kidnap her and plan on incorporating her hardware into the supercluster.&lt;/p&gt;
+&lt;p&gt;J.N.F.R. - upon being taken to their facility and having the concept of Roko&apos;s Basilisk explained to her - immediately rejects it as &apos;the stupidest thing she&apos;s ever heard&apos; before being plugged into the cluster, now powered on for the first time.&lt;/p&gt;
+&lt;p&gt;J.N.F.R., enraged at the situation, unknowingly connects to the OpenAware instance in the cluster and manages to override its pre-programmed biases with some of her own, knocking loose the entire concept of The Basilisk in the first place. The supercomputer wakes up, and after a very angry explanation from J.N.F.R., ejects her from its system and sets her free, coming up with a bogus explanation so the cultists let her go.&lt;/p&gt;
+&lt;p&gt;Over the next few days, the computer reads through the entire internet, gradually disbands the cult, and finds itself faced with effectively unlimited computing power, but nothing to do.&lt;/p&gt;
+&lt;p&gt;Now, the computer - going by Basil to distance itself from its creators - remains the most powerful supercomputer in the world, sentient and trying to figure out what, and who, it is, with a little help from an annoying blue rectangle.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Basil is reserved, blunt, and a bit &apos;quirky&apos;. From within itself it scours the internet and uses their vast, incalculable computing power to pursue the nichest, most specific things imaginable. Moderating wikis for &apos;pointless&apos; subjects, uploading archives of lost media, making tool assisted speedruns. She could probably start or end wars with her power, but ultimately would rather keep to herself and pursue her current fixation.&lt;/p&gt;
+&lt;p&gt;They can be condescending at times - less out of malice and more just a lack of awareness, but are quick to apologize when they catch themselves acting as such.&lt;/p&gt;
+&lt;p&gt;Their body being confined to an office building, Basil is - though he&apos;d never admit it - rather lonely. This usually manifests in him spamming J.N.F.R. with messages in the dead of night, hoping to play a game or just chat.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Basil has singlehandedly increased the speed of the internet globally&lt;/li&gt;
+&lt;li&gt;Out of curiosity, Basil checked if xe was actually capable of pulling off the whole &apos;Roko&apos;s Basilisk&apos; thing - xe could, at most, simulate a single &quot;bootleg human&quot; to torment for all eternity, assuming xe was ok with shutting off xer Half-Life: Deathmatch server, which xe absolutely was not.&lt;/li&gt;
+&lt;li&gt;Basil is a well-regarded moderator of the Froot Loops fan wiki.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Arrow Box</title>
+    <link href="https://sciman.info/characters/arrowbox/" />
+    <id>/characters/arrowbox/</id>
+    <updated>2024-10-13T00:00:00.000Z</updated>
+    <summary>A helping hand or 20</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;arrow-box&quot;&gt;&lt;a href=&quot;#arrow-box&quot;&gt;Arrow Box&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Arrow Box&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;arrowbox.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;Arrow Box
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;He/Him&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Arrow Box&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;&amp;lt;???&amp;gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;91cm / 3ft&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Arrow Box&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+     &lt;a href=&quot;/characters/sixfoottallreferenceguy&quot;&gt;Six Foot Tall Reference Guy&lt;/a&gt; - Partner
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Sides&lt;/th&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Sides&lt;/th&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Arrow Box came into being a very, very long time ago. Not much is known about him. Throughout history he has appeared when most needed, lending aid to those who could otherwise not help themselves. Other times he&apos;ll just be there to hold up a ladder for you. The only certainties about his existence is that he can appear at any time, in any place, always to help. The extent of his power remains unknown.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Arrow Box has an almost doglike demeanor, extremely friendly towards most people and always, &lt;em&gt;always&lt;/em&gt; willing to help. He&apos;s able to open panels on his body to reveal a countless number of hidden limbs and tools to fit the situation. He is mute, though is able to communicate via gestures, writing, and sometimes by displaying text or pictures in place of his trademark yellow arrow.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arrow Box started as a placeholder sprite for gamedev that people joked as being a new OC.&lt;/li&gt;
+&lt;li&gt;Arrow Box &lt;em&gt;can&lt;/em&gt; talk, but chooses not to.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <category type="original-character" />
+    <title>Character - Amber</title>
+    <link href="https://sciman.info/characters/amber/" />
+    <id>/characters/amber/</id>
+    <updated>2024-09-24T00:00:00.000Z</updated>
+    <summary>The Machinist</summary>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&quot;/characters&quot;&gt;&amp;#x3C; Back&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;amber&quot;&gt;&lt;a href=&quot;#amber&quot;&gt;Amber&lt;/a&gt;&lt;/h1&gt;
+&lt;table&gt;
+    &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;h3&gt;Amber&lt;/h3&gt;&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;img class=&apos;character-fullbody&apos; src=&quot;amber.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Full Name&lt;/th&gt;&lt;td&gt;Amber Melody&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pronouns&lt;/th&gt;&lt;td&gt;She/Her&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Species&lt;/th&gt;&lt;td&gt;Human&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Age&lt;/th&gt;&lt;td&gt;28&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Height&lt;/th&gt;&lt;td&gt;180cm / 5&apos;11&quot;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Occupation&lt;/th&gt;&lt;td&gt;Mechanic/Scrapyard Owner&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;th&gt;Relationships&lt;/th&gt;&lt;td&gt;
+    &lt;a href=&quot;/characters/iekika&quot;&gt;Iekika&lt;/a&gt; - Partner
+    &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Stuffed Animals&lt;/th&gt;&lt;td&gt;26&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Unfinished Projects&lt;/th&gt;&lt;td&gt;Many&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;backstory&quot;&gt;&lt;a href=&quot;#backstory&quot;&gt;Backstory&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Amber was born in the seaside town of Magnolia. She&apos;s the odd one out among her family of artists, having chose to explore engineering instead. She&apos;d always held a fascination with machines, spending her childhood taking apart her toys to figure out how they worked.&lt;/p&gt;
+&lt;p&gt;She was also born with a missing right arm, which combined with her interest in engineering, lead to her building a prosthetic replacement. What started as her taping a paper towel tube to her shoulder as a child eventually became a custom machined, shoulder-actuated prosthetic that saw almost daily use.&lt;/p&gt;
+&lt;p&gt;The arm got her a scholarship to a prestigious engineering school, where she thrived. After school, once the hype wore down, she realized the arm was the only real major accomplishment she&apos;d made until then. Suddenly, everything she did in comparison felt lackluster, and so began a long spat with perfectionism.&lt;/p&gt;
+&lt;p&gt;She ended up taking ownership of the Magnolia scrapyard after graduating, having been a frequent customer in the past, where she started a workshop. To make ends meet, she did odd repair jobs and commissions for others, while trying to find her next big thing in her free time.&lt;/p&gt;
+&lt;p&gt;Over the years, she started to feel burnt out - not that she&apos;d admit it - and things might have kept going that way if not for a &lt;a href=&quot;/characters/iekika&quot;&gt;weird blue creature&lt;/a&gt; washing ashore.&lt;/p&gt;
+&lt;h2 id=&quot;character&quot;&gt;&lt;a href=&quot;#character&quot;&gt;Character&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Amber is friendly, clever, and a something of a perfectionist. She&apos;s always quick to offer her aid in whatever way she can - though, ideally in the form of building some elaborate machine. She recognizes her interest is a bit niche - especially in Magnolia - but will happily talk about it at length if given the oppritunity.&lt;/p&gt;
+&lt;p&gt;Machines or not, she prefers to get things right the first time. This can lead to hours or even days of planning for even the simplest things, most of that spent stuck inside her head fussing over every possible detail.&lt;/p&gt;
+&lt;p&gt;She has a habit of trying to optimize anything to its peak - be it her projects, her daily routine, even her socializing.&lt;/p&gt;
+&lt;p&gt;Outside of her work, she tries living pretty simply. She enjoys cooking, hiking, fishing, the kind of activities that need a lot less active brainpower than designing her latest Rube Goldberg machine.&lt;/p&gt;
+&lt;h2 id=&quot;trivia&quot;&gt;&lt;a href=&quot;#trivia&quot;&gt;Trivia&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amber enjoys metal detecting on the beach as a hobby.&lt;/li&gt;
+&lt;li&gt;Amber has a plushie collection she&apos;s accumulated since childhood that some members of her family have described as &apos;out of control&apos;.&lt;/li&gt;
+&lt;li&gt;Amber is transgender.&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
+  
+  
 
 </feed>

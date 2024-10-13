@@ -67,6 +67,9 @@ td {
   text-align: center;
   font-weight: 600;
 }
+td:has(a) {
+  margin: 1rem !important;
+}
 table {
   float: right;
   max-width: 40%;

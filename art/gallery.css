@@ -1,0 +1,48 @@
+main {
+  width: 95% !important;
+}
+
+#art-container {
+  margin: 1rem 0;
+  padding: 0;
+  width: 100%;
+
+  position: relative;
+
+  columns: 6 250px;
+  column-gap: 1em;
+  row-gap: 5em;
+}
+
+.art-thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 4px var(--color-text);
+  margin-bottom: 1rem;
+  padding: 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.art-thumb > img {
+  width: 100%;
+  height: auto;
+}
+.art-thumb:hover {
+  box-shadow: 0 0 4px var(--color-text);
+}
+
+.art-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: none;
+  padding: 0.5rem;
+}
+
+.art-thumb:hover > .art-info {
+  display: block;
+}

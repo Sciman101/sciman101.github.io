@@ -34,7 +34,7 @@
 
 <link rel="stylesheet" href="/assets/styles/tag-selector.css" />
 
-<link rel="stylesheet" href="art.css" />
+<link rel="stylesheet" href="gallery.css" />
 
 </head>
 
@@ -69,8 +69,6 @@
 </nav>
     <div id="content">
       <div class="section-header">Art</div>
-Hey, this isn't done yet, how did you get here?
-
 
 
 
@@ -82,14 +80,39 @@ Hey, this isn't done yet, how did you get here?
 <div id="tag-selector">
   <input type="text" placeholder="Search tags..." oninput="handleTagSearch(event)">
   
+  <label class="tag-container" for="Robot World">
+    <input type="checkbox" onchange="handleTagToggled(event)" id="Robot World">
+    <span>Robot World</span>
+  </label>
+  
+  <label class="tag-container" for="JNFR 2">
+    <input type="checkbox" onchange="handleTagToggled(event)" id="JNFR 2">
+    <span>JNFR 2</span>
+  </label>
+  
   <label class="tag-container" for="JNFR">
     <input type="checkbox" onchange="handleTagToggled(event)" id="JNFR">
     <span>JNFR</span>
   </label>
   
-  <label class="tag-container" for="Emoji">
-    <input type="checkbox" onchange="handleTagToggled(event)" id="Emoji">
-    <span>Emoji</span>
+  <label class="tag-container" for="Fantasy World">
+    <input type="checkbox" onchange="handleTagToggled(event)" id="Fantasy World">
+    <span>Fantasy World</span>
+  </label>
+  
+  <label class="tag-container" for="Iekika">
+    <input type="checkbox" onchange="handleTagToggled(event)" id="Iekika">
+    <span>Iekika</span>
+  </label>
+  
+  <label class="tag-container" for="Moby">
+    <input type="checkbox" onchange="handleTagToggled(event)" id="Moby">
+    <span>Moby</span>
+  </label>
+  
+  <label class="tag-container" for="Doodle">
+    <input type="checkbox" onchange="handleTagToggled(event)" id="Doodle">
+    <span>Doodle</span>
   </label>
   
   <span id="no-tags" class="hidden">No matching tags!</span>
@@ -97,138 +120,26 @@ Hey, this isn't done yet, how did you get here?
 
 <div id="art-container">
   
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
+  <a class="art-thumb" data-tags="Robot World,JNFR 2,JNFR" href="/art/i/jnfr-2-drift/">
+    <img loading="lazy" alt="JNFR 2 drifting" src="/art/i/jnfr-2-drift/thumbnail.webp" alt="">
+    <div class="art-info">JNFR 2 drifting</div>
+  </a>
   
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
+  <a class="art-thumb" data-tags="Fantasy World,Iekika" href="/art/i/kiki-beaming/">
+    <img loading="lazy" alt="Beaming!" src="/art/i/kiki-beaming/thumbnail.webp" alt="">
+    <div class="art-info">Beaming!</div>
+  </a>
   
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
-  
-  <div class="art-thumb" data-tags="JNFR,Emoji" onclick="handleLightbox('cursedjnfr.png')">
-    <img loading="lazy" src="thumbs/cursedjnfr.png" alt="Cursed JNFR Emoji">
-  </div>
+  <a class="art-thumb" data-tags="Robot World,Moby,Doodle" href="/art/i/moby-jacket/">
+    <img loading="lazy" alt="Moby in a jacket" src="/art/i/moby-jacket/thumbnail.webp" alt="">
+    <div class="art-info">Moby in a jacket</div>
+  </a>
   
 </div>
-
-<div id="lightbox" class="hidden" onclick="hideLightbox()"><img id="lightbox-image"></div>
-<script src="/scripts/lightbox.js">
     </div>
     <footer>
   <div>Sciman101, 2024</div>
-  <div>This site last updated <a href="/history">Mon Oct 07 2024</a></div>
+  <div>This site last updated <a href="/history">Sun Oct 13 2024</a></div>
 </footer>
   </main>
   <script src="/assets/scripts/splash.js"></script>
